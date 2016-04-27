@@ -1,0 +1,4 @@
+April 5th
+
+So last week was my first time designing an app for the web...it was interesting. I had alwyays looked at apps as primarily phone based, and found it interesting that web apps are so much more common then I thought. 
+We decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don't care about what is displayed on the current home page. For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a portal for their job search. It wasm't as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and oppertunities.
