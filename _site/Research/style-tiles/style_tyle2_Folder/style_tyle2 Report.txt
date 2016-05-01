@@ -1,0 +1,57 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: style_tyle2.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 500 px x 500 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Didact Gothic (TrueType)
+Montserrat Light (OTF)
+Myriad Pro (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/jc/Desktop/brain_illo_news
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 703K, 600 by 400 pixels
+Dimensions: 149.857 by 99.905 points 
+Resolution: 288.275 by 288.275 pixels per inch
+
+
+/Users/jc/Desktop/numberjumble
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 574K, 450 by 436 pixels
+Dimensions: 150.383 by 145.704 points 
+Resolution: 215.45 by 215.45 pixels per inch
