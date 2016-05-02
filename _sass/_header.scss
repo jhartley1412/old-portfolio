@@ -2,8 +2,22 @@
 @import "variables";
 
 
+nav{
+	overflow: hidden;
+
+	h2{
+		margin: 0.5em 1em;
+		text-decoration: none;
+		display: inline-block;
+	}
+}
+
 header{
 	background-color: #fff;
+}
+
+.header-logo{
+	float: left;
 }
 
 .site-nav{
@@ -11,6 +25,16 @@ header{
 	h2{
 		display: inline-block;
 		margin: 0 auto;
+	}
+}
+
+.trigger{
+	float: left;
+	margin: 1.8em 1.5em;
+
+	a{
+		margin-right: 2em;
+		float: right;
 	}
 }
 

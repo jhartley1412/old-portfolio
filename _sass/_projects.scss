@@ -1,0 +1,40 @@
+
+@import "variables";
+
+
+.project-container{
+	box-sizing: border-box;
+	padding: 0 2em;
+	padding-left: 5%;
+}
+
+.project-banner{
+	width: 100%;
+	margin-bottom: 2em;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.project-desc{
+	width: 45%;
+	float: left;
+	margin-right: 2.5%;
+}
+
+.project-image{
+	width: 45%;
+	float: left;
+	height: 200px;
+	background-color: lightblue;
+}
+
+.project-process{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 5%;
+	margin: 5em auto;
+	overflow: hidden;
+	border-left: 1px solid $prime-color;
+}
+
+
