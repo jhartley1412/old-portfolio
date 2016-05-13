@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+    <nav class="sub-nav">
+      
+      <span> Most Recent: </span>
+
+      <a href="/level-up-learning/"> LevelUp Learning </a>
+
+      <a href="/home-slice/"> Home Slice Website </a>
+
+      <a href="#"> RecSports </a>
+
+      <a href="#"> LinkedIn Redesign </a>
+
+      <span> Older than those: </span>
+
+      <a href="#"> HistoryRun </a>
+
+      <a href="#"> Cities Across America </a>
+
+      <a href="#"> SomeThirdOption </a>
+
+    </nav>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
