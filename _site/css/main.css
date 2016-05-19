@@ -170,6 +170,9 @@ footer {
   float: left;
   margin: 0.8em 5%; }
 
+.text-link {
+  text-decoration: underline; }
+
 .sub-nav {
   width: 80%;
   margin: 0.2em 0 1em 5%; }
@@ -189,7 +192,9 @@ footer {
   width: 100%;
   margin-bottom: 2em;
   overflow: hidden;
-  background-color: #fff; }
+  background-color: #fff;
+  border-bottom: 1px solid #e8584e;
+  padding-bottom: 1.6em; }
 
 .project-desc {
   width: 40%;
