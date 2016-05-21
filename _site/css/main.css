@@ -4,6 +4,8 @@ nav {
     margin: 0.5em 1em;
     text-decoration: none;
     display: inline-block; }
+  nav a {
+    text-decoration: none; }
 
 header {
   background-color: #fff; }
@@ -239,7 +241,7 @@ h2 {
   font-weight: 300; }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #272727; }
   a:hover {
     color: #e8584e; }
