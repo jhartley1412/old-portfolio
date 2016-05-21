@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Janina Hartley&#39;s Portfolio</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Janina Hartley’s ui, web, and graphic design portfolio..
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 May 2016 14:44:49 -0500</pubDate>
-    <lastBuildDate>Wed, 18 May 2016 14:44:49 -0500</lastBuildDate>
+    <link>http://janinahartleydesigns.com//</link>
+    <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 May 2016 17:14:22 -0500</pubDate>
+    <lastBuildDate>Sat, 21 May 2016 17:14:22 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -18,8 +18,8 @@
 I’ve had experience working with clients before, and it really is nice (maybe I’ve just been really lucky). You have (in my experience) enough set rules to start a project, but enough freedom to go off in all sorts of different directions. My hurtles usually come in ringing myself back enough so that I don’t go too far off in one direction just to have the client like an entirely different direction. But Working on my portfolio and self brand again is kind of teaching me a little more of that, which is always good.&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Apr 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2016/04/26/client-project.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/04/26/client-project.html</guid>
+        <link>http://janinahartleydesigns.com//2016/04/26/client-project.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/04/26/client-project.html</guid>
         
         
       </item>
@@ -31,8 +31,8 @@ I’ve had experience working with clients before, and it really is nice (maybe 
 &lt;p&gt;In researching different sports related Apps, one thing I find fairly commonplace is the lack of heavy feedback from pressing buttons. A lot of them (a lot of iPhone apps in general it seems) usually have nav bars of some sort on the bottom of the screen. But not all; most that don’t have a bottom nav bar will have some sort of drop down or list page that acts as their main navigation. The main goal of the app seems to be to let the manager/coach or player get in and out as fast as possible (like most apps), without being distracted or delayed by fancy animations or unnecessary effects.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2016/04/12/mobile-apps.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/04/12/mobile-apps.html</guid>
+        <link>http://janinahartleydesigns.com//2016/04/12/mobile-apps.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/04/12/mobile-apps.html</guid>
         
         
       </item>
@@ -45,8 +45,8 @@ I’ve had experience working with clients before, and it really is nice (maybe 
 We decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don’t care about what is displayed on the current home page. For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a portal for their job search. It wasm’t as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and oppertunities.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Apr 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2016/04/05/web-app.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/04/05/web-app.html</guid>
+        <link>http://janinahartleydesigns.com//2016/04/05/web-app.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/04/05/web-app.html</guid>
         
         
       </item>
@@ -76,8 +76,8 @@ Redo CSS Animations;
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 28 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2016/03/28/jquery.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/03/28/jquery.html</guid>
+        <link>http://janinahartleydesigns.com//2016/03/28/jquery.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/28/jquery.html</guid>
         
         
       </item>
@@ -91,8 +91,8 @@ Redo CSS Animations;
 &lt;p&gt;GitHub project URL = https://github.com/jhartley1412/futurism-zen-garden&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2016/03/27/css-zen-garden.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/03/27/css-zen-garden.html</guid>
+        <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden.html</guid>
         
         
       </item>
@@ -130,8 +130,8 @@ Redo CSS Animations;
 	This site (minus the parallax scrolling) is a lot like what I’m trying to do as well. Fill the screen with information and color, but also be toned down enough so that it’s not distracting as much as blended in. I worry though how image heavy these sites are compared to what I’m able to get online.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2016/03/15/restaurant-redesign.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/03/15/restaurant-redesign.html</guid>
+        <link>http://janinahartleydesigns.com//2016/03/15/restaurant-redesign.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/15/restaurant-redesign.html</guid>
         
         
       </item>
