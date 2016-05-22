@@ -198,24 +198,6 @@ footer {
   border-bottom: 1px solid #e8584e;
   padding-bottom: 1.6em; }
 
-.project-desc {
-  width: 40%;
-  float: left;
-  margin-right: 2%; }
-
-.project-image {
-  width: 58%;
-  float: left;
-  margin-top: 1.8em;
-  background-color: lightblue; }
-
-.mini-imgs {
-  width: 48%;
-  margin: 0;
-  float: left; }
-  .mini-imgs:first-child {
-    margin-right: 2%; }
-
 .project-process {
   width: 95%;
   box-sizing: border-box;
@@ -223,6 +205,51 @@ footer {
   margin: 5em auto;
   overflow: hidden;
   border-left: 1px solid #e8584e; }
+
+.project-desc {
+  width: 40%;
+  float: left;
+  margin-right: 2%; }
+  .project-desc img:nth-of-type(1) {
+    margin-right: 2%; }
+  .project-desc p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 1em; }
+
+.project-image {
+  width: 58%;
+  float: left;
+  margin-top: 1.8em;
+  background-color: lightblue; }
+
+.middle-left, .middle-right {
+  width: 48%;
+  margin: 0;
+  float: left; }
+  .middle-left .middle-left, .middle-right .middle-left {
+    margin-right: 2%; }
+
+.middle-desc {
+  width: 96%;
+  margin: 0;
+  padding: 0 3%; }
+
+.mini-imgs {
+  width: 48%;
+  margin: 0;
+  float: left; }
+
+.long-mini-imgs {
+  width: 99%;
+  margin-top: 2em; }
+
+.tall-img {
+  width: 35%;
+  margin-left: 11%; }
+
+.construction {
+  font-size: 1.3em; }
 
 body {
   margin-top: 0;

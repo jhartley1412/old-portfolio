@@ -32,10 +32,29 @@
 	padding-bottom: 1.6em;
 }
 
+.project-process{
+	width: 95%;
+	box-sizing: border-box;
+	padding: 0 3%;
+	margin: 5em auto;
+	overflow: hidden;
+	border-left: 1px solid $prime-color;
+}
+
 .project-desc{
 	width: 40%;
 	float: left;
 	margin-right: 2%;
+
+	img:nth-of-type(1){
+		margin-right: 2%;
+	}
+
+	p{
+		font-size: 1.1em;
+		line-height: 1.5;
+		margin-bottom: 1em;
+	}
 }
 
 .project-image{
@@ -45,23 +64,38 @@
 	background-color: lightblue;
 }
 
-.mini-imgs{
+.middle-left, .middle-right{
 	width: 48%;
 	margin: 0;
 	float: left;
 
-	&:first-child{
+	.middle-left{
 		margin-right: 2%;
 	}
 }
 
-.project-process{
-	width: 95%;
-	box-sizing: border-box;
+.middle-desc{
+	width: 96%;
+	margin: 0;
 	padding: 0 3%;
-	margin: 5em auto;
-	overflow: hidden;
-	border-left: 1px solid $prime-color;
 }
+
+.mini-imgs{
+	width: 48%;
+	margin: 0;
+	float: left;
+}
+
+.long-mini-imgs{
+	width: 99%;
+	margin-top: 2em;
+}
+
+.tall-img{
+	width: 35%;
+	margin-left: 11%;
+}
+
+
 
 
