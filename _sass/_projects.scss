@@ -32,6 +32,15 @@
 	padding-bottom: 1.6em;
 }
 
+.project-process{
+	width: 95%;
+	box-sizing: border-box;
+	padding: 0 3%;
+	margin: 5em auto;
+	overflow: hidden;
+	border-left: 1px solid $prime-color;
+}
+
 .project-desc{
 	width: 40%;
 	float: left;
@@ -55,6 +64,22 @@
 	background-color: lightblue;
 }
 
+.middle-left, .middle-right{
+	width: 48%;
+	margin: 0;
+	float: left;
+
+	.middle-left{
+		margin-right: 2%;
+	}
+}
+
+.middle-desc{
+	width: 96%;
+	margin: 0;
+	padding: 0 3%;
+}
+
 .mini-imgs{
 	width: 48%;
 	margin: 0;
@@ -64,15 +89,6 @@
 .long-mini-imgs{
 	width: 99%;
 	margin-top: 2em;
-}
-
-.project-process{
-	width: 95%;
-	box-sizing: border-box;
-	padding: 0 3%;
-	margin: 5em auto;
-	overflow: hidden;
-	border-left: 1px solid $prime-color;
 }
 
 .tall-img{

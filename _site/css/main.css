@@ -198,6 +198,14 @@ footer {
   border-bottom: 1px solid #e8584e;
   padding-bottom: 1.6em; }
 
+.project-process {
+  width: 95%;
+  box-sizing: border-box;
+  padding: 0 3%;
+  margin: 5em auto;
+  overflow: hidden;
+  border-left: 1px solid #e8584e; }
+
 .project-desc {
   width: 40%;
   float: left;
@@ -215,6 +223,18 @@ footer {
   margin-top: 1.8em;
   background-color: lightblue; }
 
+.middle-left, .middle-right {
+  width: 48%;
+  margin: 0;
+  float: left; }
+  .middle-left .middle-left, .middle-right .middle-left {
+    margin-right: 2%; }
+
+.middle-desc {
+  width: 96%;
+  margin: 0;
+  padding: 0 3%; }
+
 .mini-imgs {
   width: 48%;
   margin: 0;
@@ -224,17 +244,12 @@ footer {
   width: 99%;
   margin-top: 2em; }
 
-.project-process {
-  width: 95%;
-  box-sizing: border-box;
-  padding: 0 3%;
-  margin: 5em auto;
-  overflow: hidden;
-  border-left: 1px solid #e8584e; }
-
 .tall-img {
   width: 35%;
   margin-left: 11%; }
+
+.construction {
+  font-size: 1.3em; }
 
 body {
   margin-top: 0;
