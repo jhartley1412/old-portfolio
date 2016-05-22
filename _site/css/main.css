@@ -232,6 +232,10 @@ footer {
   width: 40%;
   margin: 0 auto; }
 
+.linkedin-menu-img {
+  width: 30%;
+  margin-left: 14%; }
+
 body {
   margin-top: 0;
   font-family: 'Dosis', Verdana, Geneva, sans-serif;
