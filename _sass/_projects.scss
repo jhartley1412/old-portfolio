@@ -40,6 +40,12 @@
 	img:nth-of-type(1){
 		margin-right: 2%;
 	}
+
+	p{
+		font-size: 1.1em;
+		line-height: 1.5;
+		margin-bottom: 1em;
+	}
 }
 
 .project-image{
@@ -63,5 +69,13 @@
 	overflow: hidden;
 	border-left: 1px solid $prime-color;
 }
+
+
+.recsports-img{
+	width: 40%;
+	margin: 0 auto;
+}
+
+
 
 

@@ -204,6 +204,10 @@ footer {
   margin-right: 2%; }
   .project-desc img:nth-of-type(1) {
     margin-right: 2%; }
+  .project-desc p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 1em; }
 
 .project-image {
   width: 58%;
@@ -223,6 +227,10 @@ footer {
   margin: 5em auto;
   overflow: hidden;
   border-left: 1px solid #e8584e; }
+
+.recsports-img {
+  width: 40%;
+  margin: 0 auto; }
 
 body {
   margin-top: 0;
