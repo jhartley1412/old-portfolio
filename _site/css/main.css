@@ -220,6 +220,10 @@ footer {
   margin: 0;
   float: left; }
 
+.long-mini-imgs {
+  width: 99%;
+  margin-top: 2em; }
+
 .project-process {
   width: 95%;
   box-sizing: border-box;
@@ -228,13 +232,9 @@ footer {
   overflow: hidden;
   border-left: 1px solid #e8584e; }
 
-.recsports-img {
-  width: 40%;
-  margin: 0 auto; }
-
-.linkedin-menu-img {
-  width: 30%;
-  margin-left: 14%; }
+.tall-img {
+  width: 35%;
+  margin-left: 11%; }
 
 body {
   margin-top: 0;
