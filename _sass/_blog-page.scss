@@ -1,0 +1,40 @@
+
+@import "variables-grid";
+
+
+.blog-page-title{
+	@extend .col-lg-11;
+
+	box-sizing: border-box;
+	margin: 0 auto 1em auto;
+	padding-left: 2.5%;
+}
+
+.post-list{
+	@extend .col-lg-11;
+
+	margin: 0 auto;
+	padding-left: 0;
+
+	li{
+    	list-style-type: none;
+    	border: 1px solid black;
+    	display: inline-block;
+    	width: 25%;
+    	margin: 0 2.5% 2em 2.5%;
+    	padding: 1.2em 0 1.8em 0;
+    	text-align: center;
+	}
+
+	h2{
+		color: $prime-color;
+		font-family: 'Dosis', Verdana, Geneva, sans-serif;
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+}
+
+
+
+
+
