@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Client Project"
+date: 2016-04-26
+---
+
 Blog Post April 26th
 --------------------
 

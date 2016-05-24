@@ -50,9 +50,35 @@
 	}
 }
 
+.post{
+	@extend .col-lg-6;
+
+	margin: 0 auto;
+}
+
+.post-header{
+	margin: 1em auto;
+	font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	overflow: hidden;
+}
+
+.post-title{
+	margin-bottom: 0;
+}
+
+// post date
 .post-meta{
 	font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3em;
+	margin-top: 0;
 }
+
+.post-content{
+	margin-top: 2em;
+}
+
+
+
 
 
 

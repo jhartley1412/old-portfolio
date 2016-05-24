@@ -6,8 +6,8 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 May 2016 12:16:04 -0500</pubDate>
-    <lastBuildDate>Tue, 24 May 2016 12:16:04 -0500</lastBuildDate>
+    <pubDate>Tue, 24 May 2016 12:39:06 -0500</pubDate>
+    <lastBuildDate>Tue, 24 May 2016 12:39:06 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -80,7 +80,7 @@ We decided to focus on the LinkedIn Home page. A lot of people have trouble trav
       </item>
     
       <item>
-        <title>Jquery</title>
+        <title>jQuery</title>
         <description>&lt;p&gt;March 28, 2016&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This week I (re)learned some of the basics of jQuery. It&#39;s a nice change from the Java Script of last week (although, when I have some more free time..., I&#39;d like to do some more Java Script tutorials. See if I can get a better sense of it, and not have to rely on jQuery so much). Mostly been doing some practices, getting back into the flow of things. I&#39;ve got some new CodePens (super hacky right now) of a few of them. 
@@ -111,7 +111,7 @@ Redo CSS Animations;
       </item>
     
       <item>
-        <title>Css Zen Garden</title>
+        <title>CSS Zen Garden</title>
         <description>&lt;p&gt;March 27, 2016&lt;/p&gt;
 
 &lt;p&gt;Almost done for the weekend on my CSS Zen Garden project. I’m creating a page inspired by the Futurism art movement of the early 1900s. I’m really liking how the header and animations are looking, I’m just a little concerned that it’s all looking too “Dr. Suess-y.” The colors don’t look all that inviting (not that Futurism is necessarily the most “inviting” time in art history). Maybe I’m just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I’m going to be focused on getting the middle sections looking great on the largest breakpoint. Minus that, I’m really happy with how responsive everything is (or seems to be so far on my screen)!&lt;/p&gt;
@@ -126,9 +126,8 @@ Redo CSS Animations;
       </item>
     
       <item>
-        <title>Restaurant Redesign</title>
-        <description>
-&lt;h2 id=&quot;blog-post&quot;&gt;Blog Post&lt;/h2&gt;
+        <title>Restaurant Resdesign</title>
+        <description>&lt;h2 id=&quot;blog-post&quot;&gt;Blog Post&lt;/h2&gt;
 &lt;p&gt;Our first big projects coming up; redesigning a website! I’m excited to be designing from scratch (as opposed to creating webpages that already exist). I mostly just hope that I’m able to follow through with my work until the end. During school, one of my biggest downfalls was getting burned out too early in the design process. Fingers crossed I don’t sprint headfast at the beginning and run out of breath by the end!&lt;/p&gt;
 
 &lt;h2 id=&quot;inspirational-sites&quot;&gt;Inspirational sites&lt;/h2&gt;

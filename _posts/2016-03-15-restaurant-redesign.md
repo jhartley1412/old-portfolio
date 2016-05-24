@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Restaurant Resdesign"
+date: 2016-03-15
+---
+
 
 Blog Post
 -------------

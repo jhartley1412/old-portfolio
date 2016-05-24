@@ -53,7 +53,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device {
+  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -128,7 +128,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device {
+  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -263,7 +263,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device {
+  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -363,7 +363,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device {
+  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -504,7 +504,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device {
+  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -556,8 +556,24 @@
     font-size: 1.3em;
     font-weight: 300; }
 
+.post {
+  margin: 0 auto; }
+
+.post-header {
+  margin: 1em auto;
+  font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  overflow: hidden; }
+
+.post-title {
+  margin-bottom: 0; }
+
 .post-meta {
-  font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+  font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.3em;
+  margin-top: 0; }
+
+.post-content {
+  margin-top: 2em; }
 
 .construction {
   font-size: 1.3em; }
