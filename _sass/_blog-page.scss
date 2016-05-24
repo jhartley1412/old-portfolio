@@ -23,8 +23,8 @@
     	overflow: hidden;
     	width: 25%;
     	margin: 0 3% 2em 3%;
-    	padding: 1.2em 0 1.8em 0;
     	text-align: center;
+    	padding: 1.2em 0 1.8em 0;
     	border: 1px solid $prime-color;
 		
 		&:hover{
@@ -40,6 +40,10 @@
     	a, h2{
     		text-decoration: none;
     	}
+	}
+
+	.post-link{
+		padding: 1.2em 0 1.8em 0;
 	}
 
 	h2{

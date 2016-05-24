@@ -539,8 +539,8 @@
     overflow: hidden;
     width: 25%;
     margin: 0 3% 2em 3%;
-    padding: 1.2em 0 1.8em 0;
     text-align: center;
+    padding: 1.2em 0 1.8em 0;
     border: 1px solid #e8584e; }
     .post-list li:hover {
       cursor: pointer;
@@ -550,6 +550,8 @@
         color: #fff; }
     .post-list li a, .post-list li h2 {
       text-decoration: none; }
+  .post-list .post-link {
+    padding: 1.2em 0 1.8em 0; }
   .post-list h2 {
     font-family: 'Dosis', Verdana, Geneva, sans-serif;
     color: #000;
