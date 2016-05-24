@@ -275,6 +275,8 @@
   height: 500px;
   box-sizing: border-box;
   padding: 0.5em; }
+  .main-banner h1, .main-banner h2 {
+    font-family: 'Dosis', Verdana, Geneva, sans-serif; }
 
 .project-btn {
   margin: 1em 0.8em 0 0;
