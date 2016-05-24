@@ -3,12 +3,10 @@
 ---
 // @charset "utf-8";
 
-@import "variables-grid", 
-		"header",
-		"footer",
+@import "variables-grid",
+		"breakpoints",
 		"home-page",
-		"projects",
-		"breakpoints";
+		"projects";
 
 
 .construction{
@@ -23,15 +21,16 @@ body{
 }
 
 h1{
-	font-size: 2.5em;
-	margin: 0.2em auto;
+	font-family: 'Maven Pro', Verdana, Geneva, sans-serif;
+	font-size: 2.1em;
+	margin: 0.2em auto 0 auto;
 }
 
 h2{
 	color: $prime-color;
+	font-family: 'Maven Pro', Verdana, Geneva, sans-serif;
 	margin: 0 auto;
-	font-size: 1.9em;
-	font-weight: 300;
+	font-size: 1.3em;
 }
 
 a{
@@ -57,5 +56,59 @@ a{
 }
 
 
+
+//HEADER
+
+nav{
+	overflow: hidden;
+
+	h2{
+		margin: 0.5em 1em;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	a{
+		text-decoration: none;
+	}
+}
+
+header{
+	background-color: #fff;
+}
+
+.header-logo{
+	float: left;
+
+	h2{
+		color: $prime-color;
+		font-family: 'Dosis', Verdana, Geneva, sans-serif;
+		margin: 0.5em 0 0.3 1em;
+		font-size: 1.9em;
+		font-weight: 300;
+	}
+}
+
+.site-nav{
+
+	h2{
+		display: inline-block;
+		margin: 0 auto;
+	}
+}
+
+.trigger{
+	float: left;
+}
+
+
+
+//FOOTER
+
+footer{
+	background-color: black;
+	margin-top: 2em;
+	min-height: 50px;
+}
 
 

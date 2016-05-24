@@ -26,13 +26,20 @@
 .project-banner{
 	@extend .col-md-11;
 	@extend .col-lg-12;
-
-
+	
 	margin-bottom: 2em;
 	overflow: hidden;
 	background-color: #fff;
 	border-bottom: 1px solid $prime-color;
 	padding-bottom: 1.6em;
+
+	.project-desc{
+		@extend .col-lg-5;
+	}
+
+	.project-image{
+		@extend .col-lg-7;
+	}
 }
 
 .project-process{
@@ -44,11 +51,19 @@
 	margin: 5em auto;
 	overflow: hidden;
 	border-left: 1px solid $prime-color;
+
+	.project-desc{
+		@extend .col-lg-6;
+	}
+
+	.project-image{
+		@extend .col-lg-6;
+	}
 }
 
 .project-desc{
 	@extend .col-md-12;
-	@extend .col-lg-5;
+// large col sizes underneath project banner and process classes
 
 	float: left;
 	margin-right: $gut-width;
@@ -60,7 +75,7 @@
 	p{
 		font-size: 1.1em;
 		line-height: 1.5;
-		margin-bottom: 1em;
+		margin: 0.8em 0;
 	}
 }
 
@@ -73,7 +88,7 @@
 
 .project-image{
 	@extend .col-md-12;
-	@extend .col-lg-7;
+// large col sizes underneath project banner and process classes
 }
 
 .project-image-tall{
@@ -83,20 +98,11 @@
 	// margining in _breakpoints.scss
 }
 
-.middle-left, .middle-right{
-	width: 48%;
-	margin: 0;
-	float: left;
+.project-image-taller{
+	@extend .col-md-6;
+	@extend .col-lg-3;
 
-	.middle-left{
-		margin-right: 2%;
-	}
-}
-
-.middle-desc{
-	width: 96%;
-	margin: 0;
-	padding: 0 3%;
+	// margining in _breakpoints.scss
 }
 
 .mini-imgs{

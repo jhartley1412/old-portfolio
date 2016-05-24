@@ -7,13 +7,46 @@
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <pubDate>Tue, 24 May 2016 00:19:33 -0500</pubDate>
     <lastBuildDate>Tue, 24 May 2016 00:19:33 -0500</lastBuildDate>
 =======
     <pubDate>Tue, 24 May 2016 00:16:09 -0500</pubDate>
     <lastBuildDate>Tue, 24 May 2016 00:16:09 -0500</lastBuildDate>
 >>>>>>> gh-pages
+=======
+    <pubDate>Tue, 24 May 2016 01:40:03 -0500</pubDate>
+    <lastBuildDate>Tue, 24 May 2016 01:40:03 -0500</lastBuildDate>
+>>>>>>> gh-pages
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Merge Conflicts</title>
+        <description>&lt;p&gt;May 24, 2016&lt;/p&gt;
+
+&lt;p&gt;Alright. So this has happened enough times that I need to write this somewhere so I don’t have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts? Delete them: git rm &lt;file name=&quot;&quot;&gt; (http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch)&lt;/file&gt;&lt;/p&gt;
+
+&lt;p&gt;How about those super fun DS_Store files? Remember the .gitignore stuff. Show those hidden files: defaults write com.apple.finder AppleShowAllFiles YES (http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Then delete the DS_Store files:   find . -name .DS_Store -print0&lt;/td&gt;
+      &lt;td&gt;xargs -0 git rm -f –ignore-unmatch&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;and type “.DS_Store” into the .gitignore file (you may have to create it*): git commit -m ‘.DS_Store banished!’&lt;/p&gt;
+
+&lt;p&gt;*git add .gitignore (http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository)&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 May 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Client Project</title>
