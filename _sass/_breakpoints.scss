@@ -1,0 +1,102 @@
+
+@import "variables-grid";
+
+
+// MOBILE
+
+@media(min-width: 300px){
+	
+	//header nav
+	.trigger{
+		width: 99%;
+		margin: 0 auto;
+
+		a{
+			margin: 0 10%;
+			float: none;
+		}
+	}
+
+
+	//project sub-nav
+	.sub-nav{
+		border-top: 2px solid $prime-color;
+		padding-top: 0.6em;
+
+		a, .sub-nav-title{
+			font-size: 1.3em;
+			display: block;
+		}
+
+		a{
+			padding: 0.6em 0;
+		}
+	}
+
+}
+
+
+
+
+
+// TALBET
+@media(min-width: 420px){
+
+	//header nav
+	.trigger{
+		width: auto;
+		margin: 1.8em 1.5em;
+
+		a{
+			margin: 0 2em 0 0;
+			float: right;
+		}
+	}
+
+
+	//project sub-nav
+	.sub-nav{
+		border-top: none;
+		padding-top: 0;
+
+		a, .sub-nav-title{
+			font-size: 1em;
+			display: inline-block;
+		}
+
+		a{
+			padding: 0;
+		}
+
+	}
+
+
+	//centering project banner children
+	.project-banner{
+		margin: 0 auto;
+	}
+
+	//tall project images margining
+	.project-image-tall{
+		margin-left: 12%;
+	}
+}
+
+
+@media(min-width: 978px){
+
+	//tall project images margining
+	.project-image-tall{
+		margin-left: 7%;
+	}
+}
+
+
+
+
+
+
+
+
+
+

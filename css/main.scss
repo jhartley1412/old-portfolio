@@ -3,12 +3,12 @@
 ---
 // @charset "utf-8";
 
-@import "variables", 
+@import "variables-grid", 
 		"header",
 		"footer",
-		"grid",
 		"home-page",
-		"projects";
+		"projects",
+		"breakpoints";
 
 
 .construction{
