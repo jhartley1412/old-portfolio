@@ -289,7 +289,8 @@
   box-sizing: border-box;
   padding: 0.5em; }
   .main-banner h1, .main-banner h2 {
-    font-family: 'Dosis', "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+    font-family: 'Dosis', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 400; }
 
 .project-btn {
   margin: 1em 0.8em 0 0;
