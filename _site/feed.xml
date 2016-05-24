@@ -8,6 +8,7 @@
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <pubDate>Tue, 24 May 2016 00:19:33 -0500</pubDate>
     <lastBuildDate>Tue, 24 May 2016 00:19:33 -0500</lastBuildDate>
 =======
@@ -17,6 +18,10 @@
 =======
     <pubDate>Tue, 24 May 2016 01:40:03 -0500</pubDate>
     <lastBuildDate>Tue, 24 May 2016 01:40:03 -0500</lastBuildDate>
+>>>>>>> gh-pages
+=======
+    <pubDate>Tue, 24 May 2016 10:33:51 -0500</pubDate>
+    <lastBuildDate>Tue, 24 May 2016 10:33:51 -0500</lastBuildDate>
 >>>>>>> gh-pages
     <generator>Jekyll v3.1.2</generator>
     
