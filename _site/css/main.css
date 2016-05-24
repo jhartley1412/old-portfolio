@@ -53,7 +53,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-image {
+  .col-lg-6, .project-process, .project-image {
     width: 48.5%; }
 
   .col-lg-7, .project-banner .project-image {
@@ -128,7 +128,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-image {
+  .col-lg-6, .project-process, .project-image {
     width: 48.5%; }
 
   .col-lg-7, .project-banner .project-image {
@@ -191,9 +191,10 @@
     margin-left: 26%; } }
 @media (min-width: 978px) {
   .project-image-tall {
-    margin-left: 7%; }
+    margin-left: 5%; }
 
   .project-image-taller {
+    margin-top: 1.5em;
     margin-left: 12%; } }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
@@ -250,7 +251,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-image {
+  .col-lg-6, .project-process, .project-image {
     width: 48.5%; }
 
   .col-lg-7, .project-banner .project-image {
@@ -349,7 +350,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-image {
+  .col-lg-6, .project-process, .project-image {
     width: 48.5%; }
 
   .col-lg-7, .project-banner .project-image {
@@ -419,8 +420,10 @@
 .project-image, .project-image-tall {
   margin-right: 0;
   float: left;
-  margin-top: 1.8em;
-  background-color: lightblue; }
+  margin-top: 1.8em; }
+
+.project-image {
+  margin-bottom: 3em; }
 
 .mini-imgs {
   width: 48%;
@@ -486,7 +489,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-image {
+  .col-lg-6, .project-process, .project-image {
     width: 48.5%; }
 
   .col-lg-7, .project-banner .project-image {
