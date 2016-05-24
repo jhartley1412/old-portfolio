@@ -1,5 +1,5 @@
 
-@import "variables";
+@import "variables-grid";
 
 
 // MOBILE
@@ -17,6 +17,7 @@
 		}
 	}
 
+
 	//project sub-nav
 	.sub-nav{
 		border-top: 2px solid $prime-color;
@@ -32,12 +33,14 @@
 		}
 	}
 
-
-
 }
 
 
-@media(min-width: 560px){
+
+
+
+// TALBET
+@media(min-width: 420px){
 
 	//header nav
 	.trigger{
@@ -49,6 +52,7 @@
 			float: right;
 		}
 	}
+
 
 	//project sub-nav
 	.sub-nav{
@@ -65,7 +69,21 @@
 		}
 
 	}
+
+
+	//centering project banner children
+	.project-banner{
+		margin: 0 auto;
+	}
 }
+
+
+
+
+
+
+
+
 
 
 
