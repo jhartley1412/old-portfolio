@@ -76,18 +76,6 @@ footer {
 
   .col-md-12 {
     width: 100%;
-    margin-right: 3%; }
-
-  .col-md-13 {
-    width: 108.58333%;
-    margin-right: 3%; }
-
-  .col-md-14 {
-    width: 117.16667%;
-    margin-right: 3%; }
-
-  .col-md-15 {
-    width: 125.75%;
     margin-right: 3%; } }
 @media (min-width: 760px) {
   .col-lg-1 {
@@ -136,18 +124,6 @@ footer {
 
   .col-lg-12 {
     width: 100%;
-    margin-right: 3%; }
-
-  .col-lg-13 {
-    width: 108.58333%;
-    margin-right: 3%; }
-
-  .col-lg-14 {
-    width: 117.16667%;
-    margin-right: 3%; }
-
-  .col-lg-15 {
-    width: 125.75%;
     margin-right: 3%; } }
 .main-banner {
   width: 100%;
@@ -187,7 +163,6 @@ footer {
   padding-left: 5%; }
 
 .project-banner {
-  width: 100%;
   margin-bottom: 2em;
   overflow: hidden;
   background-color: #fff;
@@ -203,9 +178,7 @@ footer {
   border-left: 1px solid #e8584e; }
 
 .project-desc {
-  width: 40%;
-  float: left;
-  margin-right: 2%; }
+  float: left; }
   .project-desc img:nth-of-type(1) {
     margin-right: 2%; }
   .project-desc p {
@@ -214,9 +187,9 @@ footer {
     margin-bottom: 1em; }
 
 .project-image {
-  width: 58%;
   float: left;
   margin-top: 1.8em;
+  margin-right: 0;
   background-color: lightblue; }
 
 .middle-left, .middle-right {
@@ -261,9 +234,6 @@ footer {
     .sub-nav a {
       padding: 0.6em 0; } }
 @media (min-width: 560px) {
-  body {
-    min-width: 1130px; }
-
   .trigger {
     width: auto;
     margin: 1.8em 1.5em; }

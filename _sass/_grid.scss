@@ -81,21 +81,6 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
     @include grid(12);
     margin-right: $gut-width;
   }
-
-  .col-md-13{
-    @include grid(13);
-    margin-right: $gut-width;
-  }
-
-  .col-md-14{
-    @include grid(14);
-    margin-right: $gut-width;
-  }
-
-  .col-md-15{
-    @include grid(15);
-    margin-right: $gut-width;
-  }
   
 }
 
@@ -162,21 +147,6 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
   .col-lg-12{
     @include grid(12);
-    margin-right: $gut-width;
-  }
-
-  .col-lg-13{
-    @include grid(13);
-    margin-right: $gut-width;
-  }
-
-  .col-lg-14{
-    @include grid(14);
-    margin-right: $gut-width;
-  }
-
-  .col-lg-15{
-    @include grid(15);
     margin-right: $gut-width;
   }
   
