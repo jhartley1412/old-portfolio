@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Merge Conflicts"
+date: 2016-05-24
+---
+
 May 24, 2016
 
 Alright. So this has happened enough times that I need to write this somewhere so I don't have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts? Delete them: git rm <file name> (http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch)
