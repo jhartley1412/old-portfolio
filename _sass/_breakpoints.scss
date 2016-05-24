@@ -75,8 +75,21 @@
 	.project-banner{
 		margin: 0 auto;
 	}
+
+	//tall project images margining
+	.project-image-tall{
+		margin-left: 12%;
+	}
 }
 
+
+@media(min-width: 978px){
+
+	//tall project images margining
+	.project-image-tall{
+		margin-left: 7%;
+	}
+}
 
 
 

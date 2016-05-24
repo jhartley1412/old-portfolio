@@ -38,7 +38,7 @@
 .project-process{
 	@extend .col-md-12;
 	@extend .col-lg-12;
-	
+
 	box-sizing: border-box;
 	padding: 0 3%;
 	margin: 5em auto;
@@ -64,15 +64,23 @@
 	}
 }
 
-.project-image{
+.project-image, .project-image-tall{
 	margin-right: 0;
-
-	@extend .col-md-12;
-	@extend .col-lg-7;
-
 	float: left;
 	margin-top: 1.8em;
 	background-color: lightblue;
+}
+
+.project-image{
+	@extend .col-md-12;
+	@extend .col-lg-7;
+}
+
+.project-image-tall{
+	@extend .col-md-9;
+	@extend .col-lg-5;
+
+	// margining in _breakpoints.scss
 }
 
 .middle-left, .middle-right{
@@ -100,11 +108,6 @@
 .long-mini-imgs{
 	width: 99%;
 	margin-top: 2em;
-}
-
-.tall-img{
-	width: 35%;
-	margin-left: 11%;
 }
 
 
