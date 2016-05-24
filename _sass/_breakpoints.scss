@@ -33,6 +33,16 @@
 		}
 	}
 
+
+	//showing device version of project images
+	.project-image-device{
+		display: block;
+	}
+
+	.project-image{
+		display: none;
+	}
+
 }
 
 
@@ -89,6 +99,15 @@
 
 
 @media(min-width: 978px){
+	
+	//showing device version of project images
+	.project-image-device{
+		display: none;
+	}
+
+	.project-image{
+		display: block;
+	}
 
 	//tall project images margining
 	.project-image-tall{

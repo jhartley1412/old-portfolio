@@ -36,13 +36,11 @@
 	.project-desc{
 		@extend .col-lg-5;
 
+		margin-bottom: 0.2em;
+
 		p{
 			font-size: 1.1em;
 		}
-	}
-
-	.project-image{
-		@extend .col-lg-7;
 	}
 }
 
@@ -86,17 +84,22 @@
 	}
 }
 
-.project-image, .project-image-tall{
+.project-image, .project-image-tall, .project-image-device{
 	margin-right: 0;
 	float: left;
 	margin-top: 1.8em;
 }
 
-.project-image{
+.project-image, .project-image-device{
 	@extend .col-md-12;
 	@extend .col-lg-6;
 
 	margin-bottom: 3em;
+}
+
+.project-image-banner{
+	@extend .col-md-12;
+	@extend .col-lg-7;
 }
 
 .project-image-tall{
