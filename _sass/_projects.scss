@@ -37,6 +37,7 @@
 		@extend .col-lg-5;
 
 		margin-bottom: 0.2em;
+		padding-right: 1.5em;
 
 		p{
 			font-size: 1.1em;
@@ -114,17 +115,6 @@
 	@extend .col-lg-3;
 
 	// margining in _breakpoints.scss
-}
-
-.mini-imgs{
-	width: 48%;
-	margin: 0;
-	float: left;
-}
-
-.long-mini-imgs{
-	width: 99%;
-	margin-top: 2em;
 }
 
 
