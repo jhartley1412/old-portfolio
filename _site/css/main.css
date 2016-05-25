@@ -405,7 +405,8 @@
   border-bottom: 1px solid #e8584e;
   padding-bottom: 1.6em; }
   .project-banner .project-desc {
-    margin-bottom: 0.2em; }
+    margin-bottom: 0.2em;
+    padding-right: 1.5em; }
     .project-banner .project-desc p {
       font-size: 1.1em; }
 
@@ -439,15 +440,6 @@
 
 .project-image, .project-image-device {
   margin-bottom: 3em; }
-
-.mini-imgs {
-  width: 48%;
-  margin: 0;
-  float: left; }
-
-.long-mini-imgs {
-  width: 99%;
-  margin-top: 2em; }
 
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
