@@ -20,7 +20,7 @@
   .col-md-6, .project-image-taller {
     width: 48.5%; }
 
-  .col-md-7 {
+  .col-md-7, .post {
     width: 57.08333%; }
 
   .col-md-8 {
@@ -32,7 +32,7 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner {
+  .col-md-11, .project-banner, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .project-process, .project-desc, .project-image, .project-image-device, .project-image-banner {
@@ -95,7 +95,7 @@
   .col-md-6, .project-image-taller {
     width: 48.5%; }
 
-  .col-md-7 {
+  .col-md-7, .post {
     width: 57.08333%; }
 
   .col-md-8 {
@@ -107,7 +107,7 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner {
+  .col-md-11, .project-banner, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .project-process, .project-desc, .project-image, .project-image-device, .project-image-banner {
@@ -230,7 +230,7 @@
   .col-md-6, .project-image-taller {
     width: 48.5%; }
 
-  .col-md-7 {
+  .col-md-7, .post {
     width: 57.08333%; }
 
   .col-md-8 {
@@ -242,7 +242,7 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner {
+  .col-md-11, .project-banner, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .project-process, .project-desc, .project-image, .project-image-device, .project-image-banner {
@@ -348,7 +348,7 @@
   .col-md-6, .project-image-taller {
     width: 48.5%; }
 
-  .col-md-7 {
+  .col-md-7, .post {
     width: 57.08333%; }
 
   .col-md-8 {
@@ -360,7 +360,7 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner {
+  .col-md-11, .project-banner, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .project-process, .project-desc, .project-image, .project-image-device, .project-image-banner {
@@ -481,7 +481,7 @@
   .col-md-6, .project-image-taller {
     width: 48.5%; }
 
-  .col-md-7 {
+  .col-md-7, .post {
     width: 57.08333%; }
 
   .col-md-8 {
@@ -493,7 +493,7 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner {
+  .col-md-11, .project-banner, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .project-process, .project-desc, .project-image, .project-image-device, .project-image-banner {
