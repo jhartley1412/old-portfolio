@@ -617,6 +617,9 @@ a {
 .black-text {
   color: black; }
 
+.sec-font {
+  font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
 .wrapper {
   width: 100%;
   max-width: 2000px;
