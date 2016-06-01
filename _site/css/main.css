@@ -621,6 +621,11 @@ a {
 .sec-font {
   font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
 
+.bg-font {
+  background-color: #EBEBEB;
+  padding: 0 0.4em;
+  color: #000; }
+
 .wrapper {
   width: 100%;
   max-width: 2000px;
