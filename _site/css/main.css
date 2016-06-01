@@ -588,6 +588,12 @@
 .post-content {
   margin-top: 2em; }
 
+.blog-video {
+  width: 560px;
+  height: 315px;
+  margin: 0 auto;
+  display: block; }
+
 .construction {
   font-size: 1.3em; }
 

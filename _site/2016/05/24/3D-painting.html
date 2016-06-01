@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Merge Conflicts</title>
+  <meta name="description" content=" It's like, 2am ">
+  
+  <!-- GOOGLEFONTS -->
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Maven+Pro:400' rel='stylesheet' type='text/css'>
+
+  <!-- NORMALIZE -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://janinahartleydesigns.com//2016/05/24/3D-painting.html">
+  <link rel="alternate" type="application/rss+xml" title="Janina Hartley's Portfolio" href="http://janinahartleydesigns.com//feed.xml">
+</head>
+
+
+  <body>
+
+    <header>
+
+  <nav>
+
+  <a href="/index.html" class="header-logo">
+    <h2>janina<span class="black-text">hartley</span> </h2>
+  </a>
+
+    <div class="trigger">
+      
+        
+        <a class="page-link" href="/about-me/">About Me</a>
+        
+      
+        
+        <a class="page-link" href="/blog/">Blog</a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <a class="page-link" href="/level-up-learning/">Projects</a>
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+
+  </nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Merge Conflicts</h1>
+    <p class="post-meta"><time datetime="2016-05-24T00:00:00-07:00" itemprop="datePublished">May 24, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h2> It's like, 2am </h2>
+
+<p>Alright. So this has happened enough times that I need to write this somewhere so I don’t have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts?</p>
+
+<p>Delete them: 
+<span class="sec-font bg-font"> git rm [file name] </span></p>
+
+<p>( <a href="http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch"> http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch </a> )</p>
+
+<p>How about those super fun DS_Store files? Remember the .gitignore stuff.</p>
+
+<p>Show those hidden files: 
+<span class="sec-font bg-font"> defaults write com.apple.finder AppleShowAllFiles YES </span></p>
+
+<p>( <a href="http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/"> http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/ </a> )</p>
+
+<p>Then delete the DS_Store files: <br />
+<span class="sec-font bg-font"> find . -name .DS_Store -print0 | xargs -0 git rm -f –ignore-unmatch </span></p>
+
+<p>and type “.DS_Store” into the .gitignore file (you may have to create it*): 
+<span class="sec-font bg-font"> git commit -m ‘.DS_Store banished! </span></p>
+
+<p>*git add .gitignore ( <a href="http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository"> http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository </a> )</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+
+
+  </body>
+
+</html>
