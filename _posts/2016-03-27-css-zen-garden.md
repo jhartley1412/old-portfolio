@@ -1,11 +1,16 @@
 ---
 layout: post
 title: "CSS Zen Garden"
-date: 2016-03-27
+date: 2016-03-24
 ---
 
-March 27, 2016
+<h2> Futurism </h2>
 
-Almost done for the weekend on my CSS Zen Garden project. I'm creating a page inspired by the Futurism art movement of the early 1900s. I'm really liking how the header and animations are looking, I'm just a little concerned that it's all looking too "Dr. Suess-y." The colors don't look all that inviting (not that Futurism is necessarily the most "inviting" time in art history). Maybe I'm just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I'm going to be focused on getting the middle sections looking great on the largest breakpoint. Minus that, I'm really happy with how responsive everything is (or seems to be so far on my screen)!
+This weekends project is all about CSS animations and styling a website in a theme based off of an art history movement. I chose Futurism, which is something I briefly studied in college. I love the heavy influence of movement and foreground and background melding together that makes up Futurism. For the CSS Zen Garden, I wanted to focus on the blending foreground and background elements, less on the "overpowering technology" side of things. I love paintings that seem to move on the canvas, have majestic colors and dynamic shapes.
 
-GitHub project URL = https://github.com/jhartley1412/futurism-zen-garden
+<br>
+
+<h2> No HTML </h2>
+
+Since we are doing a CSS Zen Garden challenge with this project, there is no touching the HTML (minus adding some Typekit typefaces, and CSS normalize).
+I'm really excited for this project. The idea of only worrying about the styling of a site is a welcome break from the designing of where things should go and how best to present a user centric flow. We get to spend <span class="sec-font"> 3 </span> days to plan out and play around with different styles, fonts, colors, etc. It'll be like coloring in an adult coloring book page, except we get to extend and minimize outlines, shapes, and borders. 

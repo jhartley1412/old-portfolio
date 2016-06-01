@@ -6,8 +6,8 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 17:30:05 -0700</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 17:30:05 -0700</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 22:48:51 -0700</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 22:48:51 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -81,25 +81,28 @@ We decided to focus on the LinkedIn Home page. A lot of people have trouble trav
     
       <item>
         <title>jQuery</title>
-        <description>&lt;p&gt;March 28, 2016&lt;/p&gt;
+        <description>&lt;h2&gt; Re-learning jQuery &lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This week I (re)learned some of the basics of jQuery. It&#39;s a nice change from the Java Script of last week (although, when I have some more free time..., I&#39;d like to do some more Java Script tutorials. See if I can get a better sense of it, and not have to rely on jQuery so much). Mostly been doing some practices, getting back into the flow of things. I&#39;ve got some new CodePens (super hacky right now) of a few of them. 
-I also went back after a few weeks to redo some old CSS Animations on CodePen. I had lost a few of them (forgot I wasn&#39;t in a program that I could &quot;save as,&quot; and forgot to Fork them...), and it&#39;s been weighing over my shoulder to go back and redo them best I can. At least this time I managed to make them prettier! 
+&lt;p&gt;This week I (re)learned some of the basics of jQuery. It’s a nice change from the Javascript of last week (although, when I have some more free time…, I’d like to do some more Javascript tutorials. See if I can get a better sense of it, and not have to rely on jQuery so much). Mostly been doing some practices, getting back into the flow of things. I’ve got some new CodePens (super hacky right now) of a few of them.&lt;/p&gt;
 
-Getting back into jQuery CodePens;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also went back after a few weeks to redo some old CSS Animations on CodePen. I had lost a few of them (forgot I wasn’t in a program that I could “save as,” and forgot to Fork them…), and it’s been weighing over my shoulder to go back and redo them best I can. At least this time I managed to make them prettier!&lt;/p&gt;
+
+&lt;p&gt;Getting back into jQuery CodePens;
 	#1 = http://codepen.io/jhartley/pen/qZjvGK
 	#2 = http://codepen.io/jhartley/pen/eZRoWV
-	#3 = http://codepen.io/jhartley/pen/VaWogw (really more of an extension of #2, but with some bonus content)
+	#3 = http://codepen.io/jhartley/pen/VaWogw (really more of an extension of #2, but with some bonus content)&lt;/p&gt;
 
-Redo CSS Animations;
+&lt;p&gt;Redo CSS Animations;
 	(the redos)
 	#3 = http://codepen.io/jhartley/pen/YqxKrp
-	#4 = http://codepen.io/jhartley/pen/JXyPZG
+	#4 = http://codepen.io/jhartley/pen/JXyPZG&lt;/p&gt;
 
-	(the original)
-	#1 = http://codepen.io/jhartley/pen/EKWdOm
-	#2 = http://codepen.io/jhartley/pen/oxZQqm
-	#5 = http://codepen.io/jhartley/pen/aNJPoP
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(the original)
+#1 = http://codepen.io/jhartley/pen/EKWdOm
+#2 = http://codepen.io/jhartley/pen/oxZQqm
+#5 = http://codepen.io/jhartley/pen/aNJPoP
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
@@ -111,50 +114,76 @@ Redo CSS Animations;
       </item>
     
       <item>
-        <title>CSS Zen Garden</title>
-        <description>&lt;p&gt;March 27, 2016&lt;/p&gt;
+        <title>CSS Zen Garden pt 2</title>
+        <description>&lt;h2&gt; CSS Zen Garden &lt;/h2&gt;
 
-&lt;p&gt;Almost done for the weekend on my CSS Zen Garden project. I’m creating a page inspired by the Futurism art movement of the early 1900s. I’m really liking how the header and animations are looking, I’m just a little concerned that it’s all looking too “Dr. Suess-y.” The colors don’t look all that inviting (not that Futurism is necessarily the most “inviting” time in art history). Maybe I’m just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I’m going to be focused on getting the middle sections looking great on the largest breakpoint. Minus that, I’m really happy with how responsive everything is (or seems to be so far on my screen)!&lt;/p&gt;
-
-&lt;p&gt;GitHub project URL = https://github.com/jhartley1412/futurism-zen-garden&lt;/p&gt;
+&lt;p&gt;Almost done for the weekend on my CSS Zen Garden project. I’m really liking how the header and CSS animations are looking, I’m just a little concerned that it’s all looking too “Dr. Suess-y.” The colors don’t look all that inviting (not that Futurism is necessarily the most “inviting” time in art history). Maybe I’m just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I’m going to be focused on getting the middle sections looking the way I want them to on the largest breakpoint (desktop size). Minus that, I’m really happy with how responsive everything is (or seems to be so far on my screen)!&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Mar 2016 00:00:00 -0700</pubDate>
-        <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden.html</guid>
+        <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</guid>
         
         
       </item>
     
       <item>
-        <title>Restaurant Resdesign</title>
-        <description>&lt;h2 id=&quot;blog-post&quot;&gt;Blog Post&lt;/h2&gt;
-&lt;p&gt;Our first big projects coming up; redesigning a website! I’m excited to be designing from scratch (as opposed to creating webpages that already exist). I mostly just hope that I’m able to follow through with my work until the end. During school, one of my biggest downfalls was getting burned out too early in the design process. Fingers crossed I don’t sprint headfast at the beginning and run out of breath by the end!&lt;/p&gt;
+        <title>CSS Zen Garden</title>
+        <description>&lt;h2&gt; Futurism &lt;/h2&gt;
 
-&lt;h2 id=&quot;inspirational-sites&quot;&gt;Inspirational sites&lt;/h2&gt;
+&lt;p&gt;This weekends project is all about CSS animations and styling a website in a theme based off of an art history movement. I chose Futurism, which is something I briefly studied in college. I love the heavy influence of movement and foreground and background melding together that makes up Futurism. For the CSS Zen Garden, I wanted to focus on the blending foreground and background elements, less on the “overpowering technology” side of things. I love paintings that seem to move on the canvas, have majestic colors and dynamic shapes.&lt;/p&gt;
 
-&lt;p&gt;https://www.dominos.com/en/
-	Not only is it a fellow pizza joint, I’ve always thought Dominos has had a strong graphic design team (both in brand and overall presence). They have a good mix of humor and functionality.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;http://www.yaghisnewyorkpizzeria.com
+&lt;h2&gt; No HTML &lt;/h2&gt;
+
+&lt;p&gt;Since we are doing a CSS Zen Garden challenge with this project, there is no touching the HTML (minus adding some Typekit typefaces, and CSS normalize).
+I’m really excited for this project. The idea of only worrying about the styling of a site is a welcome break from the designing of where things should go and how best to present a user centric flow. We get to spend &lt;span class=&quot;sec-font&quot;&gt; 3 &lt;/span&gt; days to plan out and play around with different styles, fonts, colors, etc. It’ll be like coloring in an adult coloring book page, except we get to extend and minimize outlines, shapes, and borders.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://janinahartleydesigns.com//2016/03/24/css-zen-garden.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/24/css-zen-garden.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Restaurant Redesign</title>
+        <description>&lt;h2&gt; First big project at The Iron Yard &lt;/h2&gt;
+
+&lt;p&gt;It’s the first big weekend project we have at The Iron Yard. It’s our third weekend (the first was basic HTML and CSS practices, the second was recreating an existing site) and we are redesigning an existing website. We each got to pull local Austin restaurants out of a hat, and are redesigning said website as we see fit.&lt;/p&gt;
+
+&lt;p&gt;I’m excited to be designing from scratch. I mostly just hope that I’m able to follow through with my work until the end. During college, one of my biggest downfalls was getting burned out too early in the research (sketching) stage, and not having the energy to put as much effort into finalizing the product. Fingers crossed I don’t sprint headfast at the beginning and run out of breath by the end!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Inspirational sites &lt;/h2&gt;
+
+&lt;p&gt;These are sites that I’m currently looking at to help inspire what my redesign should look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dominos.com/en/&quot;&gt; https://www.dominos.com/en/ &lt;/a&gt; &lt;br /&gt;
+	Not only is it a fellow pizza joint, I’ve always thought Domino’s has had a strong graphic design team (both in brand and overall presence). They have a good mix of humor and functionality.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.yaghisnewyorkpizzeria.com&quot;&gt; http://www.yaghisnewyorkpizzeria.com &lt;/a&gt; &lt;br /&gt;
 	Another pizza site, this one is clean, easy to read, and uses a tantalizing color combo of red and green (that isn’t Christmas-y, but actually makes you kind of hungry), I also like that it’s mostly centered&lt;/p&gt;
 
-&lt;p&gt;https://www.toppers.com
+&lt;p&gt;&lt;a href=&quot;https://www.toppers.com&quot;&gt; https://www.toppers.com &lt;/a&gt; &lt;br /&gt;
 	Yet another pizza place, although I don’t love long pages you have to scroll down to, I do love the grittiness and “streets”-style of the site, and will probably add a sense of “young culture” into Home Slice’s website&lt;/p&gt;
 
-&lt;p&gt;http://www.vertskebap.com/nutrition/
-	Specifically I do like how, on the Nutrition and About pages, they have a banner of their ingredients lain out on white&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.vertskebap.com/nutrition/&quot;&gt; http://www.vertskebap.com/nutrition/ &lt;/a&gt; &lt;br /&gt;
+	Specifically I do like how, on the Nutrition and About pages, they have a banner of their ingredients laid out on white&lt;/p&gt;
 
-&lt;p&gt;http://www.bk.com
+&lt;p&gt;&lt;a href=&quot;http://www.bk.com&quot;&gt; http://www.bk.com &lt;/a&gt; &lt;br /&gt;
 	I like that they have big, in your face font sizes, and, like most of the other sites, big res images of their food&lt;/p&gt;
 
-&lt;p&gt;http://blog.teamtreehouse.com/which-page-layout
+&lt;p&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/which-page-layout&quot;&gt; http://blog.teamtreehouse.com/which-page-layout &lt;/a&gt; &lt;br /&gt;
 	Sites like these, that are centered, always are visually comforting to me. I like the organization, and how easy it is to scroll down the pages.&lt;/p&gt;
 
-&lt;p&gt;http://www.pandora.com
+&lt;p&gt;&lt;a href=&quot;http://www.pandora.com&quot;&gt; http://www.pandora.com &lt;/a&gt; &lt;br /&gt;
 	I like how Pandora has a fixed min-width (isn’t responsive). It’s a simple radio site, and almost reminds me of a control panel for music. I also just noticed that whichever album cover you’re currently listening to is centered to the middle of the screen (roughly). It’s no more complicated than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;https://www.meltshop.com
+&lt;p&gt;&lt;a href=&quot;https://www.meltshop.com&quot;&gt; https://www.meltshop.com &lt;/a&gt; &lt;br /&gt;
 	This site (minus the parallax scrolling) is a lot like what I’m trying to do as well. Fill the screen with information and color, but also be toned down enough so that it’s not distracting as much as blended in. I worry though how image heavy these sites are compared to what I’m able to get online.&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 15 Mar 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/03/15/restaurant-redesign.html</link>

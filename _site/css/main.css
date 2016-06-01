@@ -569,7 +569,8 @@
     font-weight: 300; }
 
 .post {
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 5em; }
 
 .post-header {
   margin: 1em auto;
