@@ -6,8 +6,8 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 22:48:51 -0700</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 22:48:51 -0700</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 23:08:20 -0700</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 23:08:20 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -67,10 +67,19 @@ I’ve had experience working with clients before, and it really is nice (maybe 
     
       <item>
         <title>Web App</title>
-        <description>&lt;p&gt;April 5th&lt;/p&gt;
+        <description>&lt;h2&gt; Designing for an app, not a website &lt;/h2&gt;
 
-&lt;p&gt;So last week was my first time designing an app for the web…it was interesting. I had alwyays looked at apps as primarily phone based, and found it interesting that web apps are so much more common then I thought. 
-We decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don’t care about what is displayed on the current home page. For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a portal for their job search. It wasm’t as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and oppertunities.&lt;/p&gt;
+&lt;p&gt;So last week was my first time designing an app for the web…it was interesting. I had always looked at apps as primarily phone based, and found it interesting that web apps are so much more common then I thought.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Redesigning LinkedIn &lt;/h2&gt;
+
+&lt;p&gt;For this project, we decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don’t care about what is displayed on the current home page. We each got to choose what kind of user we wanted to design for.&lt;/p&gt;
+
+&lt;p&gt;For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a sort of portal dedicated to aide them in their search for a new job. It wasn’t as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and opportunities.&lt;/p&gt;
+
+&lt;p&gt;Thusly, I wanted the most “in your face” options to be about current job listings, instead of “People you may know.” I also wanted to implement the news side of LinkedIn. If someone is serious about the type of career they want, they need to know current events revolving around it. Lastly, their homepage would show how many people are viewing their profile. That’s, in my opinion, one of the best aspects of LinkedIn right now. You get to see how “popular” you are, and how many people are really looking at you, looking at your skills, and for someone who is looking for a job, that’s really useful.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Apr 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/04/05/web-app.html</link>
@@ -89,22 +98,36 @@ We decided to focus on the LinkedIn Home page. A lot of people have trouble trav
 
 &lt;p&gt;I also went back after a few weeks to redo some old CSS Animations on CodePen. I had lost a few of them (forgot I wasn’t in a program that I could “save as,” and forgot to Fork them…), and it’s been weighing over my shoulder to go back and redo them best I can. At least this time I managed to make them prettier!&lt;/p&gt;
 
-&lt;p&gt;Getting back into jQuery CodePens;
-	#1 = http://codepen.io/jhartley/pen/qZjvGK
-	#2 = http://codepen.io/jhartley/pen/eZRoWV
-	#3 = http://codepen.io/jhartley/pen/VaWogw (really more of an extension of #2, but with some bonus content)&lt;/p&gt;
+&lt;h3&gt; Getting back into jQuery CodePens; &lt;/h3&gt;
 
-&lt;p&gt;Redo CSS Animations;
-	(the redos)
-	#3 = http://codepen.io/jhartley/pen/YqxKrp
-	#4 = http://codepen.io/jhartley/pen/JXyPZG&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 1) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/qZjvGK&quot;&gt; http://codepen.io/jhartley/pen/qZjvGK &lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(the original)
-#1 = http://codepen.io/jhartley/pen/EKWdOm
-#2 = http://codepen.io/jhartley/pen/oxZQqm
-#5 = http://codepen.io/jhartley/pen/aNJPoP
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 2) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/eZRoWV&quot;&gt; http://codepen.io/jhartley/pen/eZRoWV &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 3) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/VaWogw &quot;&gt; http://codepen.io/jhartley/pen/VaWogw  &lt;/a&gt; 
+&lt;br /&gt;
+(really more of an extension of #2, but with some bonus content)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt; Redo CSS Animations; &lt;/h3&gt;
+
+&lt;p&gt;(the redos)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 3) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/YqxKrp&quot;&gt; http://codepen.io/jhartley/pen/YqxKrp &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 4) &lt;/span&gt; = &lt;a href=&quot; http://codepen.io/jhartley/pen/JXyPZG&quot;&gt;  http://codepen.io/jhartley/pen/JXyPZG &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;(the original)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 1) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/EKWdOm&quot;&gt; http://codepen.io/jhartley/pen/EKWdOm &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 2) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/oxZQqm&quot;&gt; http://codepen.io/jhartley/pen/oxZQqm &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 5) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/aNJPoP&quot;&gt; http://codepen.io/jhartley/pen/aNJPoP &lt;/a&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Mon, 28 Mar 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/03/28/jquery.html</link>
