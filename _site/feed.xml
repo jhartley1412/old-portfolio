@@ -6,30 +6,36 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 17:30:05 -0700</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 17:30:05 -0700</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 23:24:38 -0700</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 23:24:38 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Merge Conflicts</title>
-        <description>&lt;p&gt;May 24, 2016&lt;/p&gt;
+        <description>&lt;h2&gt; It&#39;s like, 2am &lt;/h2&gt;
 
-&lt;p&gt;Alright. So this has happened enough times that I need to write this somewhere so I don’t have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts? Delete them: git rm &lt;file name=&quot;&quot;&gt; (http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch)&lt;/file&gt;&lt;/p&gt;
+&lt;p&gt;Alright. So this has happened enough times that I need to write this somewhere so I don’t have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts?&lt;/p&gt;
 
-&lt;p&gt;How about those super fun DS_Store files? Remember the .gitignore stuff. Show those hidden files: defaults write com.apple.finder AppleShowAllFiles YES (http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/).&lt;/p&gt;
+&lt;p&gt;Delete them: 
+&lt;span class=&quot;sec-font bg-font&quot;&gt; git rm [file name] &lt;/span&gt;&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Then delete the DS_Store files:   find . -name .DS_Store -print0&lt;/td&gt;
-      &lt;td&gt;xargs -0 git rm -f –ignore-unmatch&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;( &lt;a href=&quot;http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch&quot;&gt; http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch &lt;/a&gt; )&lt;/p&gt;
 
-&lt;p&gt;and type “.DS_Store” into the .gitignore file (you may have to create it*): git commit -m ‘.DS_Store banished!’&lt;/p&gt;
+&lt;p&gt;How about those super fun DS_Store files? Remember the .gitignore stuff.&lt;/p&gt;
 
-&lt;p&gt;*git add .gitignore (http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository)&lt;/p&gt;
+&lt;p&gt;Show those hidden files: 
+&lt;span class=&quot;sec-font bg-font&quot;&gt; defaults write com.apple.finder AppleShowAllFiles YES &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;( &lt;a href=&quot;http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/&quot;&gt; http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/ &lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;Then delete the DS_Store files: &lt;br /&gt;
+&lt;span class=&quot;sec-font bg-font&quot;&gt; find . -name .DS_Store -print0 | xargs -0 git rm -f –ignore-unmatch &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;and type “.DS_Store” into the .gitignore file (you may have to create it*): 
+&lt;span class=&quot;sec-font bg-font&quot;&gt; git commit -m ‘.DS_Store banished! &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;*git add .gitignore ( &lt;a href=&quot;http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository&quot;&gt; http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository &lt;/a&gt; )&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 24 May 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</link>
@@ -40,10 +46,17 @@
     
       <item>
         <title>Client Project</title>
-        <description>&lt;h2 id=&quot;blog-post-april-26th&quot;&gt;Blog Post April 26th&lt;/h2&gt;
+        <description>&lt;h2&gt; RedArena &lt;/h2&gt;
 
-&lt;p&gt;It was nice working with a client for a change. Not that I don’t like personal projects and such, it’s just nice to have someone (who isn’t a designer) look at your work and show you a view you probably wouldn’t have ever saw. Working with another designer was also nice, but it definitely had it’s stresses. I like working with others, but I’m usually worried that I’ll fall behind, or end up having people waiting on me before they can continue. But when someone is better at one thing, and your better at another it makes it easy to split up the workload a bit.
-I’ve had experience working with clients before, and it really is nice (maybe I’ve just been really lucky). You have (in my experience) enough set rules to start a project, but enough freedom to go off in all sorts of different directions. My hurtles usually come in ringing myself back enough so that I don’t go too far off in one direction just to have the client like an entirely different direction. But Working on my portfolio and self brand again is kind of teaching me a little more of that, which is always good.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.redarena.org&quot;&gt; RedArena &lt;/a&gt; is a local Dripping Springs organization that offers physical therapy, and traditional therapy, to children and adults while riding horses. Horseback riding is a specialized therapy option that can be extremely beneficial for children.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Creating an app for a real client &lt;/h2&gt;
+
+&lt;p&gt;It was nice working with a client for a change. Not that I don’t like personal projects and such, it’s just nice to have someone (who isn’t a designer) look at your work and show you a view you probably wouldn’t have ever saw. Working with another designer was also nice, but it definitely had it’s stresses. I like working with others, but I’m usually worried that I’ll fall behind, or end up having people waiting on me before they can continue. But when someone is better at one thing, and your better at another it makes it easy to split up the workload a bit.&lt;/p&gt;
+
+&lt;p&gt;I’ve had experience working with clients before, and it really is nice (maybe I’ve just been really lucky). You have (in my experience) enough set rules to start a project, but enough freedom to go off in all sorts of different directions. My hurtles usually come in reigning myself back enough so that I don’t go too far off in one direction just to have the client like an entirely different direction. But working on my portfolio and self brand again is kind of teaching me a little more of that, which is always good.&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Apr 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/04/26/client-project.html</link>
@@ -53,10 +66,16 @@ I’ve had experience working with clients before, and it really is nice (maybe 
       </item>
     
       <item>
-        <title>Mobile Apps</title>
-        <description>&lt;h2 id=&quot;blog-post&quot;&gt;Blog Post&lt;/h2&gt;
+        <title>Mobile App</title>
+        <description>&lt;h2&gt; Recreational sports app &lt;/h2&gt;
 
-&lt;p&gt;In researching different sports related Apps, one thing I find fairly commonplace is the lack of heavy feedback from pressing buttons. A lot of them (a lot of iPhone apps in general it seems) usually have nav bars of some sort on the bottom of the screen. But not all; most that don’t have a bottom nav bar will have some sort of drop down or list page that acts as their main navigation. The main goal of the app seems to be to let the manager/coach or player get in and out as fast as possible (like most apps), without being distracted or delayed by fancy animations or unnecessary effects.&lt;/p&gt;
+&lt;p&gt;Our next project is to design a strictly mobile app for a recreational sports team. I chose to make an app specifically for a swim team (but one that could be used for any sport).&lt;/p&gt;
+
+&lt;p&gt;In researching different sports related apps, one thing I find fairly commonplace is the lack of heavy feedback from pressing buttons. Unlike with desktop, there isn’t a lot of place to have fancy effects happening when you click, hover, or swipe a button or page.&lt;/p&gt;
+
+&lt;p&gt;A lot of them (a lot of iPhone apps in general it seems) usually have nav bars of some sort on the bottom of the screen. But not all; most that don’t have a bottom nav bar will have some sort of drop down or list page that acts as their main navigation.&lt;/p&gt;
+
+&lt;p&gt;The main goal of the app seems to be to let the manager/coach or player get in and out as fast as possible (like most apps), without being distracted or delayed by fancy animations or unnecessary effects.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/04/12/mobile-apps.html</link>
@@ -67,10 +86,19 @@ I’ve had experience working with clients before, and it really is nice (maybe 
     
       <item>
         <title>Web App</title>
-        <description>&lt;p&gt;April 5th&lt;/p&gt;
+        <description>&lt;h2&gt; Designing for an app, not a website &lt;/h2&gt;
 
-&lt;p&gt;So last week was my first time designing an app for the web…it was interesting. I had alwyays looked at apps as primarily phone based, and found it interesting that web apps are so much more common then I thought. 
-We decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don’t care about what is displayed on the current home page. For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a portal for their job search. It wasm’t as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and oppertunities.&lt;/p&gt;
+&lt;p&gt;So last week was my first time designing an app for the web…it was interesting. I had always looked at apps as primarily phone based, and found it interesting that web apps are so much more common then I thought.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Redesigning LinkedIn &lt;/h2&gt;
+
+&lt;p&gt;For this project, we decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don’t care about what is displayed on the current home page. We each got to choose what kind of user we wanted to design for.&lt;/p&gt;
+
+&lt;p&gt;For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a sort of portal dedicated to aide them in their search for a new job. It wasn’t as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and opportunities.&lt;/p&gt;
+
+&lt;p&gt;Thusly, I wanted the most “in your face” options to be about current job listings, instead of “People you may know.” I also wanted to implement the news side of LinkedIn. If someone is serious about the type of career they want, they need to know current events revolving around it. Lastly, their homepage would show how many people are viewing their profile. That’s, in my opinion, one of the best aspects of LinkedIn right now. You get to see how “popular” you are, and how many people are really looking at you, looking at your skills, and for someone who is looking for a job, that’s really useful.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Apr 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/04/05/web-app.html</link>
@@ -81,27 +109,44 @@ We decided to focus on the LinkedIn Home page. A lot of people have trouble trav
     
       <item>
         <title>jQuery</title>
-        <description>&lt;p&gt;March 28, 2016&lt;/p&gt;
+        <description>&lt;h2&gt; Re-learning jQuery &lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This week I (re)learned some of the basics of jQuery. It&#39;s a nice change from the Java Script of last week (although, when I have some more free time..., I&#39;d like to do some more Java Script tutorials. See if I can get a better sense of it, and not have to rely on jQuery so much). Mostly been doing some practices, getting back into the flow of things. I&#39;ve got some new CodePens (super hacky right now) of a few of them. 
-I also went back after a few weeks to redo some old CSS Animations on CodePen. I had lost a few of them (forgot I wasn&#39;t in a program that I could &quot;save as,&quot; and forgot to Fork them...), and it&#39;s been weighing over my shoulder to go back and redo them best I can. At least this time I managed to make them prettier! 
+&lt;p&gt;This week I (re)learned some of the basics of jQuery. It’s a nice change from the Javascript of last week (although, when I have some more free time…, I’d like to do some more Javascript tutorials. See if I can get a better sense of it, and not have to rely on jQuery so much). Mostly been doing some practices, getting back into the flow of things. I’ve got some new CodePens (super hacky right now) of a few of them.&lt;/p&gt;
 
-Getting back into jQuery CodePens;
-	#1 = http://codepen.io/jhartley/pen/qZjvGK
-	#2 = http://codepen.io/jhartley/pen/eZRoWV
-	#3 = http://codepen.io/jhartley/pen/VaWogw (really more of an extension of #2, but with some bonus content)
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-Redo CSS Animations;
-	(the redos)
-	#3 = http://codepen.io/jhartley/pen/YqxKrp
-	#4 = http://codepen.io/jhartley/pen/JXyPZG
+&lt;p&gt;I also went back after a few weeks to redo some old CSS Animations on CodePen. I had lost a few of them (forgot I wasn’t in a program that I could “save as,” and forgot to Fork them…), and it’s been weighing over my shoulder to go back and redo them best I can. At least this time I managed to make them prettier!&lt;/p&gt;
 
-	(the original)
-	#1 = http://codepen.io/jhartley/pen/EKWdOm
-	#2 = http://codepen.io/jhartley/pen/oxZQqm
-	#5 = http://codepen.io/jhartley/pen/aNJPoP
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h3&gt; Getting back into jQuery CodePens; &lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 1) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/qZjvGK&quot;&gt; http://codepen.io/jhartley/pen/qZjvGK &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 2) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/eZRoWV&quot;&gt; http://codepen.io/jhartley/pen/eZRoWV &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 3) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/VaWogw &quot;&gt; http://codepen.io/jhartley/pen/VaWogw  &lt;/a&gt; 
+&lt;br /&gt;
+(really more of an extension of #2, but with some bonus content)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt; Redo CSS Animations; &lt;/h3&gt;
+
+&lt;p&gt;(the redos)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 3) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/YqxKrp&quot;&gt; http://codepen.io/jhartley/pen/YqxKrp &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 4) &lt;/span&gt; = &lt;a href=&quot; http://codepen.io/jhartley/pen/JXyPZG&quot;&gt;  http://codepen.io/jhartley/pen/JXyPZG &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;(the original)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 1) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/EKWdOm&quot;&gt; http://codepen.io/jhartley/pen/EKWdOm &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 2) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/oxZQqm&quot;&gt; http://codepen.io/jhartley/pen/oxZQqm &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 5) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/aNJPoP&quot;&gt; http://codepen.io/jhartley/pen/aNJPoP &lt;/a&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Mon, 28 Mar 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/03/28/jquery.html</link>
@@ -111,50 +156,76 @@ Redo CSS Animations;
       </item>
     
       <item>
-        <title>CSS Zen Garden</title>
-        <description>&lt;p&gt;March 27, 2016&lt;/p&gt;
+        <title>CSS Zen Garden pt 2</title>
+        <description>&lt;h2&gt; CSS Zen Garden &lt;/h2&gt;
 
-&lt;p&gt;Almost done for the weekend on my CSS Zen Garden project. I’m creating a page inspired by the Futurism art movement of the early 1900s. I’m really liking how the header and animations are looking, I’m just a little concerned that it’s all looking too “Dr. Suess-y.” The colors don’t look all that inviting (not that Futurism is necessarily the most “inviting” time in art history). Maybe I’m just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I’m going to be focused on getting the middle sections looking great on the largest breakpoint. Minus that, I’m really happy with how responsive everything is (or seems to be so far on my screen)!&lt;/p&gt;
-
-&lt;p&gt;GitHub project URL = https://github.com/jhartley1412/futurism-zen-garden&lt;/p&gt;
+&lt;p&gt;Almost done for the weekend on my CSS Zen Garden project. I’m really liking how the header and CSS animations are looking, I’m just a little concerned that it’s all looking too “Dr. Suess-y.” The colors don’t look all that inviting (not that Futurism is necessarily the most “inviting” time in art history). Maybe I’m just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I’m going to be focused on getting the middle sections looking the way I want them to on the largest breakpoint (desktop size). Minus that, I’m really happy with how responsive everything is (or seems to be so far on my screen)!&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Mar 2016 00:00:00 -0700</pubDate>
-        <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden.html</guid>
+        <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</guid>
         
         
       </item>
     
       <item>
-        <title>Restaurant Resdesign</title>
-        <description>&lt;h2 id=&quot;blog-post&quot;&gt;Blog Post&lt;/h2&gt;
-&lt;p&gt;Our first big projects coming up; redesigning a website! I’m excited to be designing from scratch (as opposed to creating webpages that already exist). I mostly just hope that I’m able to follow through with my work until the end. During school, one of my biggest downfalls was getting burned out too early in the design process. Fingers crossed I don’t sprint headfast at the beginning and run out of breath by the end!&lt;/p&gt;
+        <title>CSS Zen Garden</title>
+        <description>&lt;h2&gt; Futurism &lt;/h2&gt;
 
-&lt;h2 id=&quot;inspirational-sites&quot;&gt;Inspirational sites&lt;/h2&gt;
+&lt;p&gt;This weekends project is all about CSS animations and styling a website in a theme based off of an art history movement. I chose Futurism, which is something I briefly studied in college. I love the heavy influence of movement and foreground and background melding together that makes up Futurism. For the CSS Zen Garden, I wanted to focus on the blending foreground and background elements, less on the “overpowering technology” side of things. I love paintings that seem to move on the canvas, have majestic colors and dynamic shapes.&lt;/p&gt;
 
-&lt;p&gt;https://www.dominos.com/en/
-	Not only is it a fellow pizza joint, I’ve always thought Dominos has had a strong graphic design team (both in brand and overall presence). They have a good mix of humor and functionality.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;http://www.yaghisnewyorkpizzeria.com
+&lt;h2&gt; No HTML &lt;/h2&gt;
+
+&lt;p&gt;Since we are doing a CSS Zen Garden challenge with this project, there is no touching the HTML (minus adding some Typekit typefaces, and CSS normalize).
+I’m really excited for this project. The idea of only worrying about the styling of a site is a welcome break from the designing of where things should go and how best to present a user centric flow. We get to spend &lt;span class=&quot;sec-font&quot;&gt; 3 &lt;/span&gt; days to plan out and play around with different styles, fonts, colors, etc. It’ll be like coloring in an adult coloring book page, except we get to extend and minimize outlines, shapes, and borders.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://janinahartleydesigns.com//2016/03/24/css-zen-garden.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/24/css-zen-garden.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Restaurant Redesign</title>
+        <description>&lt;h2&gt; First big project at The Iron Yard &lt;/h2&gt;
+
+&lt;p&gt;It’s the first big weekend project we have at The Iron Yard. It’s our third weekend (the first was basic HTML and CSS practices, the second was recreating an existing site) and we are redesigning an existing website. We each got to pull local Austin restaurants out of a hat, and are redesigning said website as we see fit.&lt;/p&gt;
+
+&lt;p&gt;I’m excited to be designing from scratch. I mostly just hope that I’m able to follow through with my work until the end. During college, one of my biggest downfalls was getting burned out too early in the research (sketching) stage, and not having the energy to put as much effort into finalizing the product. Fingers crossed I don’t sprint headfast at the beginning and run out of breath by the end!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Inspirational sites &lt;/h2&gt;
+
+&lt;p&gt;These are sites that I’m currently looking at to help inspire what my redesign should look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dominos.com/en/&quot;&gt; https://www.dominos.com/en/ &lt;/a&gt; &lt;br /&gt;
+	Not only is it a fellow pizza joint, I’ve always thought Domino’s has had a strong graphic design team (both in brand and overall presence). They have a good mix of humor and functionality.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.yaghisnewyorkpizzeria.com&quot;&gt; http://www.yaghisnewyorkpizzeria.com &lt;/a&gt; &lt;br /&gt;
 	Another pizza site, this one is clean, easy to read, and uses a tantalizing color combo of red and green (that isn’t Christmas-y, but actually makes you kind of hungry), I also like that it’s mostly centered&lt;/p&gt;
 
-&lt;p&gt;https://www.toppers.com
+&lt;p&gt;&lt;a href=&quot;https://www.toppers.com&quot;&gt; https://www.toppers.com &lt;/a&gt; &lt;br /&gt;
 	Yet another pizza place, although I don’t love long pages you have to scroll down to, I do love the grittiness and “streets”-style of the site, and will probably add a sense of “young culture” into Home Slice’s website&lt;/p&gt;
 
-&lt;p&gt;http://www.vertskebap.com/nutrition/
-	Specifically I do like how, on the Nutrition and About pages, they have a banner of their ingredients lain out on white&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.vertskebap.com/nutrition/&quot;&gt; http://www.vertskebap.com/nutrition/ &lt;/a&gt; &lt;br /&gt;
+	Specifically I do like how, on the Nutrition and About pages, they have a banner of their ingredients laid out on white&lt;/p&gt;
 
-&lt;p&gt;http://www.bk.com
+&lt;p&gt;&lt;a href=&quot;http://www.bk.com&quot;&gt; http://www.bk.com &lt;/a&gt; &lt;br /&gt;
 	I like that they have big, in your face font sizes, and, like most of the other sites, big res images of their food&lt;/p&gt;
 
-&lt;p&gt;http://blog.teamtreehouse.com/which-page-layout
+&lt;p&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/which-page-layout&quot;&gt; http://blog.teamtreehouse.com/which-page-layout &lt;/a&gt; &lt;br /&gt;
 	Sites like these, that are centered, always are visually comforting to me. I like the organization, and how easy it is to scroll down the pages.&lt;/p&gt;
 
-&lt;p&gt;http://www.pandora.com
+&lt;p&gt;&lt;a href=&quot;http://www.pandora.com&quot;&gt; http://www.pandora.com &lt;/a&gt; &lt;br /&gt;
 	I like how Pandora has a fixed min-width (isn’t responsive). It’s a simple radio site, and almost reminds me of a control panel for music. I also just noticed that whichever album cover you’re currently listening to is centered to the middle of the screen (roughly). It’s no more complicated than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;https://www.meltshop.com
+&lt;p&gt;&lt;a href=&quot;https://www.meltshop.com&quot;&gt; https://www.meltshop.com &lt;/a&gt; &lt;br /&gt;
 	This site (minus the parallax scrolling) is a lot like what I’m trying to do as well. Fill the screen with information and color, but also be toned down enough so that it’s not distracting as much as blended in. I worry though how image heavy these sites are compared to what I’m able to get online.&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 15 Mar 2016 00:00:00 -0700</pubDate>
         <link>http://janinahartleydesigns.com//2016/03/15/restaurant-redesign.html</link>

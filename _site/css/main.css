@@ -569,7 +569,8 @@
     font-weight: 300; }
 
 .post {
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 5em; }
 
 .post-header {
   margin: 1em auto;
@@ -619,6 +620,11 @@ a {
 
 .sec-font {
   font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+.bg-font {
+  background-color: #EBEBEB;
+  padding: 0 0.4em;
+  color: #000; }
 
 .wrapper {
   width: 100%;
