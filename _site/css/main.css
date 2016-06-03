@@ -406,10 +406,6 @@
   margin: 0.2em 0 1em 5%; }
   .sub-nav a {
     margin-right: 1em; }
-  .sub-nav span {
-    margin-right: 0.5em;
-    color: #e8584e;
-    font-weight: 300; }
 
 .project-container {
   box-sizing: border-box;
@@ -667,6 +663,10 @@ header {
 
 .trigger {
   float: left; }
+
+.active a {
+  color: #e8584e;
+  text-decoration: underline; }
 
 footer {
   background-color: black;
