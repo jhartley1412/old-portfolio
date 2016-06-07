@@ -21,7 +21,8 @@
 	li{
     	list-style-type: none;
     	border: 1px solid black;
-    	display: inline-block;
+    	display: block;
+    	float: left;
     	overflow: hidden;
     	width: 25%;
     	margin: 0 3% 2em 3%;
