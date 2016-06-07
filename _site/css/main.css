@@ -637,6 +637,9 @@ a {
   padding: 0 0.4em;
   color: #000; }
 
+.drop-shadow {
+  box-shadow: 1px 1px 5px #909090; }
+
 .wrapper {
   width: 100%;
   max-width: 2000px;
