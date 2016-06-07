@@ -68,7 +68,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .project-process .project-desc {
@@ -143,7 +143,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .project-process .project-desc {
@@ -278,7 +278,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .project-process .project-desc {
@@ -396,14 +396,14 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .project-process .project-desc {
     width: 100%; } }
 .sub-nav {
-  width: 80%;
-  margin: 0.2em 0 1em 5%; }
+  max-width: 2000px;
+  margin: 0.2em auto 1.5em auto; }
   .sub-nav a {
     margin-right: 1em; }
 
@@ -454,6 +454,9 @@
 
 .project-image, .project-image-device {
   margin-bottom: 3em; }
+
+.project-image-banner {
+  margin-top: 1em; }
 
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
@@ -525,7 +528,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .project-process .project-desc {
@@ -541,7 +544,8 @@
   .post-list li {
     list-style-type: none;
     border: 1px solid black;
-    display: inline-block;
+    display: block;
+    float: left;
     overflow: hidden;
     width: 25%;
     margin: 0 3% 2em 3%;
@@ -592,6 +596,11 @@
 
 .construction {
   font-size: 1.3em; }
+
+.coming-soon {
+  margin: 0 auto;
+  margin-right: 1em;
+  color: #909090; }
 
 body {
   margin-top: 0;

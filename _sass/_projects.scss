@@ -3,8 +3,10 @@
 
 
 .sub-nav{
-	width: 80%;
-	margin: 0.2em 0 1em 5%;
+	@extend .col-lg-11;
+	
+	max-width: 2000px;
+	margin: 0.2em auto 1.5em auto;
 
 	a{
 		margin-right: 1em;
@@ -95,6 +97,8 @@
 .project-image-banner{
 	@extend .col-md-12;
 	@extend .col-lg-7;
+
+	margin-top: 1em;
 }
 
 .project-image-tall{
