@@ -6,9 +6,77 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2016 17:38:53 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2016 17:38:53 -0500</lastBuildDate>
+    <pubDate>Wed, 08 Jun 2016 10:29:58 -0500</pubDate>
+    <lastBuildDate>Wed, 08 Jun 2016 10:29:58 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Fun with colors pt 2</title>
+        <description>&lt;h2&gt; Change in direction &lt;/h2&gt;
+
+&lt;p&gt;So I came back to the wine cellar picture, and was playing with different typefaces, and one of them, Lakeside, stood out to me, and made me think of a majestic harvest moon. I ended up completely scraping the wine cellar idea and wanted to make an illustration of an august moon setting. I ended up making a super stylized happy moon, using the same three colors, in a barren countryside.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/harvest-moon.jpg&quot; alt=&quot;Harvest Moon&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a habit of giving cutesy faces to inanimate objects. I kept playing around with the harvest moon idea, again trying to come up with a setting where I could use this. A promotion for a local moon festival came to mind. Thus I made a little illustration of the moon with a moon festival sign.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/moon-festival.jpg&quot; alt=&quot;Moon Festival&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/04/fun-with-colors-pt-2.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/04/fun-with-colors-pt-2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fun with colors</title>
+        <description>&lt;h2&gt; Color generators &lt;/h2&gt;
+
+&lt;p&gt;So the other day someone from Slack posted a link to one of those websites that generates color combinations. This one, Color Calculator, gives you the option to decide what kind of relationship you want the colors to have with each other (complementary, monochromatic, analogous, etc), and I’ve always wanted to try out one of those create-a-design-based-off-of-limited-colors challenges.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just for fun I tried it out. Using a dark red I generated an analogous color combination and opened a new file in Illustrator. Based off that colors I immediately thought of wine and vineyards. I ended up warming up with a little champagne (or rosé) icon.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image glass-image&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/glass.jpg&quot; alt=&quot;Wine glass&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Trying to think up a more flushed out design, I thought up a scenario where a local restaurant or wine bar was having a special event. I designed a promotional menu with some featured kinds of wine and snacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/wine-poster.jpg&quot; alt=&quot;Wine Poster&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not quite happy with it so far. Looks a little too boxy. I wouldn’t mind some more practice with informational posters and designs. Maybe I’ll make that one of my next side projects…&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/04/fun-with-colors.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/04/fun-with-colors.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Seattle Trip</title>
@@ -220,72 +288,6 @@
         <pubDate>Sun, 27 Mar 2016 00:00:00 -0500</pubDate>
         <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</link>
         <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CSS Zen Garden</title>
-        <description>&lt;h2&gt; Futurism &lt;/h2&gt;
-
-&lt;p&gt;This weekends project is all about CSS animations and styling a website in a theme based off of an art history movement. I chose Futurism, which is something I briefly studied in college. I love the heavy influence of movement and foreground and background melding together that makes up Futurism. For the CSS Zen Garden, I wanted to focus on the blending foreground and background elements, less on the “overpowering technology” side of things. I love paintings that seem to move on the canvas, have majestic colors and dynamic shapes.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2&gt; No HTML &lt;/h2&gt;
-
-&lt;p&gt;Since we are doing a CSS Zen Garden challenge with this project, there is no touching the HTML (minus adding some Typekit typefaces, and CSS normalize).
-I’m really excited for this project. The idea of only worrying about the styling of a site is a welcome break from the designing of where things should go and how best to present a user centric flow. We get to spend &lt;span class=&quot;sec-font&quot;&gt; 3 &lt;/span&gt; days to plan out and play around with different styles, fonts, colors, etc. It’ll be like coloring in an adult coloring book page, except we get to extend and minimize outlines, shapes, and borders.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/03/24/css-zen-garden.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/24/css-zen-garden.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Restaurant Redesign</title>
-        <description>&lt;h2&gt; First big project at The Iron Yard &lt;/h2&gt;
-
-&lt;p&gt;It’s the first big weekend project we have at The Iron Yard. It’s our third weekend (the first was basic HTML and CSS practices, the second was recreating an existing site) and we are redesigning an existing website. We each got to pull local Austin restaurants out of a hat, and are redesigning said website as we see fit.&lt;/p&gt;
-
-&lt;p&gt;I’m excited to be designing from scratch. I mostly just hope that I’m able to follow through with my work until the end. During college, one of my biggest downfalls was getting burned out too early in the research (sketching) stage, and not having the energy to put as much effort into finalizing the product. Fingers crossed I don’t sprint headfast at the beginning and run out of breath by the end!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2&gt; Inspirational sites &lt;/h2&gt;
-
-&lt;p&gt;These are sites that I’m currently looking at to help inspire what my redesign should look like:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.dominos.com/en/&quot;&gt; https://www.dominos.com/en/ &lt;/a&gt; &lt;br /&gt;
-	Not only is it a fellow pizza joint, I’ve always thought Domino’s has had a strong graphic design team (both in brand and overall presence). They have a good mix of humor and functionality.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.yaghisnewyorkpizzeria.com&quot;&gt; http://www.yaghisnewyorkpizzeria.com &lt;/a&gt; &lt;br /&gt;
-	Another pizza site, this one is clean, easy to read, and uses a tantalizing color combo of red and green (that isn’t Christmas-y, but actually makes you kind of hungry), I also like that it’s mostly centered&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.toppers.com&quot;&gt; https://www.toppers.com &lt;/a&gt; &lt;br /&gt;
-	Yet another pizza place, although I don’t love long pages you have to scroll down to, I do love the grittiness and “streets”-style of the site, and will probably add a sense of “young culture” into Home Slice’s website&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.vertskebap.com/nutrition/&quot;&gt; http://www.vertskebap.com/nutrition/ &lt;/a&gt; &lt;br /&gt;
-	Specifically I do like how, on the Nutrition and About pages, they have a banner of their ingredients laid out on white&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.bk.com&quot;&gt; http://www.bk.com &lt;/a&gt; &lt;br /&gt;
-	I like that they have big, in your face font sizes, and, like most of the other sites, big res images of their food&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/which-page-layout&quot;&gt; http://blog.teamtreehouse.com/which-page-layout &lt;/a&gt; &lt;br /&gt;
-	Sites like these, that are centered, always are visually comforting to me. I like the organization, and how easy it is to scroll down the pages.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.pandora.com&quot;&gt; http://www.pandora.com &lt;/a&gt; &lt;br /&gt;
-	I like how Pandora has a fixed min-width (isn’t responsive). It’s a simple radio site, and almost reminds me of a control panel for music. I also just noticed that whichever album cover you’re currently listening to is centered to the middle of the screen (roughly). It’s no more complicated than it needs to be.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.meltshop.com&quot;&gt; https://www.meltshop.com &lt;/a&gt; &lt;br /&gt;
-	This site (minus the parallax scrolling) is a lot like what I’m trying to do as well. Fill the screen with information and color, but also be toned down enough so that it’s not distracting as much as blended in. I worry though how image heavy these sites are compared to what I’m able to get online.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 15 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/03/15/restaurant-redesign.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/15/restaurant-redesign.html</guid>
         
         
       </item>
