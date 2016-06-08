@@ -594,6 +594,14 @@
   margin: 0 auto;
   display: block; }
 
+.blog-image img {
+  width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+.glass-image img {
+  width: 300px; }
+
 .construction {
   font-size: 1.3em; }
 
@@ -639,6 +647,8 @@ a {
 
 .drop-shadow {
   box-shadow: 1px 1px 5px #909090; }
+  .drop-shadow img {
+    box-shadow: 1px 1px 5px #909090; }
 
 .wrapper {
   width: 100%;
