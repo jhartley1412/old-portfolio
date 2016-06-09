@@ -3,6 +3,7 @@
 
 
 .sub-nav{
+	@extend .col-md-10;
 	@extend .col-lg-11;
 	
 	max-width: 2000px;
