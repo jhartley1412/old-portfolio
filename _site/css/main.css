@@ -29,7 +29,7 @@
   .col-md-9, .project-image-tall {
     width: 74.25%; }
 
-  .col-md-10 {
+  .col-md-10, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .blog-page-title, .post-list {
@@ -104,7 +104,7 @@
   .col-md-9, .project-image-tall {
     width: 74.25%; }
 
-  .col-md-10 {
+  .col-md-10, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .blog-page-title, .post-list {
@@ -169,7 +169,12 @@
     display: block; }
 
   .project-image {
-    display: none; } }
+    display: none; }
+
+  .main-banner {
+    background-image: none; }
+    .main-banner:before {
+      background-image: none; } }
 @media (min-width: 420px) {
   .trigger {
     width: auto;
@@ -194,7 +199,12 @@
     margin-left: 12%; }
 
   .project-image-taller {
-    margin-left: 26%; } }
+    margin-left: 26%; }
+
+  .main-banner {
+    background-image: url("../images/two-desktops.jpg"); }
+    .main-banner:before {
+      background-image: linear-gradient(to bottom right, #fff, #000); } }
 @media (min-width: 978px) {
   .project-image-device {
     display: none; }
@@ -239,7 +249,7 @@
   .col-md-9, .project-image-tall {
     width: 74.25%; }
 
-  .col-md-10 {
+  .col-md-10, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .blog-page-title, .post-list {
@@ -288,7 +298,6 @@
   height: 80vh;
   box-sizing: border-box;
   padding: 0.5em;
-  background-image: url("../images/two-desktops.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
@@ -305,7 +314,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to bottom right, #fff, #000);
     opacity: .3; }
 
 .project-btn {
@@ -357,7 +365,7 @@
   .col-md-9, .project-image-tall {
     width: 74.25%; }
 
-  .col-md-10 {
+  .col-md-10, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .blog-page-title, .post-list {
@@ -489,7 +497,7 @@
   .col-md-9, .project-image-tall {
     width: 74.25%; }
 
-  .col-md-10 {
+  .col-md-10, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .blog-page-title, .post-list {

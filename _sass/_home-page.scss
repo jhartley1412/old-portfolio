@@ -6,8 +6,8 @@
 	height: 80vh;
 	box-sizing: border-box;
 	padding: 0.5em;
-
-	background-image: url('../images/two-desktops.jpg');
+	
+	// background image in _breakpoints.scss
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right top;
@@ -28,7 +28,7 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-image: linear-gradient(to bottom right,#fff,#000);
+		// background image in _breakpoints.scss
 		opacity: .3; 
   }
 }

@@ -43,6 +43,17 @@
 		display: none;
 	}
 
+
+	//home page background image
+	.main-banner{
+		background-image: none;
+
+		// gradient overlay
+		&:before {
+			background-image: none;
+	  }
+	}
+
 }
 
 
@@ -94,6 +105,16 @@
 	//taller (than tall) project images margining
 	.project-image-taller{
 		margin-left: 26%;
+	}
+
+	//home page background image
+	.main-banner{
+		background-image: url('../images/two-desktops.jpg');
+
+		// gradient overlay
+		&:before {
+			background-image: linear-gradient(to bottom right,#fff,#000);
+	  }
 	}
 }
 
