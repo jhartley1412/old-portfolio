@@ -17,7 +17,6 @@
 .project-container{
 	box-sizing: border-box;
 	padding: 0 2em;
-	padding-left: 5%;
 }
 
 .project-banner{
@@ -89,6 +88,7 @@
 }
 
 .project-image, .project-image-device{
+	@extend .col-sm-1;
 	@extend .col-md-12;
 	@extend .col-lg-6;
 
@@ -96,6 +96,7 @@
 }
 
 .project-image-banner{
+	@extend .col-sm-1;
 	@extend .col-md-12;
 	@extend .col-lg-7;
 
@@ -103,6 +104,7 @@
 }
 
 .project-image-tall{
+	@extend .col-sm-1;
 	@extend .col-md-9;
 	@extend .col-lg-5;
 
@@ -110,6 +112,7 @@
 }
 
 .project-image-taller{
+	@extend .col-sm-1;
 	@extend .col-md-6;
 	@extend .col-lg-3;
 

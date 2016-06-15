@@ -6,31 +6,68 @@
 
 @media(min-width: 300px){
 	
+	h1{
+		font-size: 1.8em;
+		margin-top: 0.2em;
+	}
+
+
 	//header nav
 	.trigger{
 		width: 99%;
 		margin: 0 auto;
 
 		a{
-			margin: 0 10%;
-			float: none;
+			margin: 0 8% 0 0;
 		}
+	}
+
+	.header-logo{
+		float: none;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	header{
+		border-bottom: 2px solid $prime-color;
+		padding-bottom: 1em;
+	}
+
+
+	//home page background
+	.main-banner{
+		background-position: right top;
+		background-position: 50% 50%;
 	}
 
 
 	//project sub-nav
 	.sub-nav{
-		border-top: 2px solid $prime-color;
 		padding-top: 0.6em;
+		padding-left: 1.5em;
 
 		a, .sub-nav-title{
-			font-size: 1.3em;
+			font-size: 1.2em;
 			display: block;
 		}
 
 		a{
 			padding: 0.6em 0;
 		}
+	}
+
+	.project-a{
+		display: inline-block;
+		float: left;
+		margin-right: 1em;
+		text-decoration: underline;
+	}
+
+
+	.project-container{
+		padding: 0;
+		padding-left: 8%;
 	}
 
 
@@ -42,16 +79,34 @@
 	.project-image{
 		display: none;
 	}
+	
+	//about me page mobile "padding" (also used for blog posts)
+	.aboutme-page-container{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 2em;
+	}
+	
+	//about me title
+	.aboutme-page-title{
+		width: 80%;
+		margin: 1em auto 1em auto;
+		margin-left: 8%;
+	}
 
+	//blog post title
+	.blog-page-title{
+		width: 80%;
+		margin: 1em auto 1em auto;
+	}
 
-	//home page background image
-	.main-banner{
-		background-image: none;
+	//blog posts size and width
+	.post-list{
 
-		// gradient overlay
-		&:before {
-			background-image: none;
-	  }
+		li{
+			width: 70%;
+    		margin: 0 15% 2em 15%;
+		}
 	}
 
 }
@@ -62,6 +117,13 @@
 
 // TALBET
 @media(min-width: 420px){
+	
+
+	h1{
+		font-size: 2.1em;
+		margin: 0.2em auto 0 auto;
+	}
+
 
 	//header nav
 	.trigger{
@@ -70,8 +132,26 @@
 
 		a{
 			margin: 0 2em 0 0;
-			float: right;
 		}
+	}
+
+	.header-logo{
+		float: left;
+		margin: 0 auto;
+		display: inline-block;
+		text-align: left;
+	}
+
+	header{
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+
+	//home page background
+	.main-banner{
+		background-position: right top;
+		background-position: 100% 50%;
 	}
 
 
@@ -79,6 +159,7 @@
 	.sub-nav{
 		border-top: none;
 		padding-top: 0;
+		padding-left: 0;
 
 		a, .sub-nav-title{
 			font-size: 1em;
@@ -89,6 +170,14 @@
 			padding: 0;
 		}
 
+	}
+
+	.project-a{
+		text-decoration: none;
+	}
+
+	.project-container{
+		padding-left: 5%;
 	}
 
 
@@ -107,16 +196,36 @@
 		margin-left: 26%;
 	}
 
-	//home page background image
-	.main-banner{
-		background-image: url('../images/two-desktops.jpg');
 
-		// gradient overlay
-		&:before {
-			background-image: linear-gradient(to bottom right,#fff,#000);
-	  }
+	//about me page mobile "padding" (also used for blog posts)
+	.aboutme-page-container{
+		padding: 0;
 	}
+
+	//about me title
+	.aboutme-page-title{
+		margin: 1em auto 1em 0;
+	}
+
+
+	//blog post title
+	.blog-page-title{
+		width: 100%;
+		margin: 0 auto 1em auto;
+	}
+
+
+	//blog posts size and width
+	.post-list{
+
+		li{
+			width: 40%;
+    		margin: 0 3% 2em 3%;
+		}
+	}
+
 }
+
 
 
 @media(min-width: 978px){
@@ -140,6 +249,17 @@
 		margin-top: 1.5em;
 		margin-left: 12%;
 	}
+
+
+	//blog posts size and width
+	.post-list{
+
+		li{
+			width: 25%;
+    		margin: 0 3% 2em 3%;
+		}
+	}
+
 }
 
 
