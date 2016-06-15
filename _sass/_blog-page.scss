@@ -7,7 +7,7 @@
 	@extend .col-md-11;
 
 	box-sizing: border-box;
-	margin: 0 auto 1em auto;
+	//margin info in _breakpoints.scss
 	padding-left: 3%;
 }
 
@@ -24,8 +24,8 @@
     	display: block;
     	float: left;
     	overflow: hidden;
-    	width: 25%;
-    	margin: 0 3% 2em 3%;
+    	
+    	// project width and margins in _breakpoints.scss
     	text-align: center;
     	padding: 1.2em 0 1.8em 0;
     	border: 1px solid $prime-color;
