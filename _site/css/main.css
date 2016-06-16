@@ -504,7 +504,8 @@
   padding-bottom: 1.6em; }
   .project-banner .project-desc {
     margin-bottom: 0.2em;
-    padding-right: 1.5em; }
+    padding-right: 0.5em;
+    padding-left: 1.5em; }
     .project-banner .project-desc p {
       font-size: 1.1em; }
 
@@ -737,6 +738,11 @@ a {
   margin-top: 1em;
   overflow: hidden; }
 
+.social-icon {
+  width: 40px;
+  float: left;
+  margin: 1.5em 2em 0 0; }
+
 nav {
   overflow: hidden; }
   nav h2 {
@@ -770,6 +776,8 @@ header {
   text-decoration: underline; }
 
 footer {
-  background-color: black;
+  background-color: #000;
   margin-top: 2em;
-  min-height: 50px; }
+  min-height: 40px;
+  box-sizing: border-box;
+  padding-left: 4em; }
