@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fun with colors pt 2"
-date: 2016-06-4
+date: 2016-06-5
 ---
 
 <h2> Change in direction </h2>
