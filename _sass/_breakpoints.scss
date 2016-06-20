@@ -70,14 +70,13 @@
 		padding-left: 8%;
 	}
 
-
-	//showing device version of project images
-	.project-image-device{
-		display: block;
+	.process-row{
+		border-left: none;
+		padding: 0;
 	}
 
-	.project-image{
-		display: none;
+	.desc-image{
+		margin: 2em auto 1em auto;
 	}
 	
 	//about me page mobile "padding" (also used for blog posts)
@@ -186,6 +185,20 @@
 		margin: 0 auto;
 	}
 
+	.process-row{
+		border-left: 1px solid $prime-color;
+		padding: 0 1.5em;
+	}
+
+	.desc-image{
+		margin: 2em auto 1em auto;
+	}
+
+	// very tall images
+	.tall-image{
+		padding-left: 10%;
+	}
+
 	//tall project images margining
 	.project-image-tall{
 		margin-left: 12%;
@@ -228,16 +241,18 @@
 
 
 
+// DESKTOP SIZE
 @media(min-width: 978px){
-	
-	//showing device version of project images
-	.project-image-device{
-		display: none;
+
+	.desc-image{
+		margin: 1.5em auto 0 auto;
 	}
 
-	.project-image{
-		display: block;
+	// very tall images
+	.tall-image{
+		padding-left: 5%;
 	}
+
 
 	//tall project images margining
 	.project-image-tall{

@@ -69,14 +69,15 @@
 .process-row{
 	@extend .col-lg-11;
 
-	margin: 0 auto;
+	margin: 1em auto;
+	box-sizing: border-box;
+	padding-top: 1.5em;
 	overflow: hidden;
 
 	.project-desc{
 		@extend .col-lg-6;
 
-		border-left: 1px solid $prime-color;
-		padding: 0 1.5em;
+		// border and padding in _breakpoints.scss
 	}
 }
 
@@ -86,12 +87,7 @@
 
 	float: left;
 	margin-right: $gut-width;
-	margin-bottom: 5em;
 	box-sizing: border-box;
-
-	img:nth-of-type(1){
-		margin-right: 2%;
-	}
 
 	p{
 		line-height: 1.5;
@@ -99,21 +95,11 @@
 	}
 }
 
-.project-image, .project-image-tall, .project-image-device{
-	margin-right: 0;
-	float: right;
-	// margin-top: 1.8em;
-}
+// PROJECT IMAGES
 
-.project-image, .project-image-device{
-	@extend .col-sm-1;
-	@extend .col-md-12;
-	@extend .col-lg-6;
 
-	margin-bottom: 3em;
-}
-
-.project-image-banner{
+// image within banner
+.banner-image{
 	@extend .col-sm-1;
 	@extend .col-md-12;
 	@extend .col-lg-7;
@@ -121,20 +107,26 @@
 	margin-top: 1em;
 }
 
-.project-image-tall{
-	@extend .col-sm-1;
-	@extend .col-md-9;
-	@extend .col-lg-5;
 
-	// margining in _breakpoints.scss
+// images within description divs (usually wide)
+.desc-image{
+	@extend .col-sm-12;
+	@extend .col-md-10;
+	@extend .col-lg-12;
+
+	// margin in _breakpoints.scss
+	display: block;
 }
 
-.project-image-taller{
-	@extend .col-sm-1;
-	@extend .col-md-6;
-	@extend .col-lg-3;
 
-	// margining in _breakpoints.scss
+// images within process rows (usually tall)
+.project-image, .project-image-device{
+	@extend .col-sm-1;
+	@extend .col-md-10;
+	@extend .col-lg-5;
+
+	margin: 2.8em auto 3em auto;
+	float: left;
 }
 
 
