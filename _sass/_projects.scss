@@ -42,6 +42,9 @@
 	}
 }
 
+
+// PROJECT PROCESS DESCRIPTIONS
+
 .project-process{
 	@extend .col-md-12;
 	@extend .col-lg-6;
@@ -52,7 +55,7 @@
 	float: left;
 
 	.project-desc{
-		@extend .col-lg-12;
+		@extend .col-lg-6;
 		margin: 1.8em $gut-width 2em 0;
 		border-left: 1px solid $prime-color;
 		padding: 0 1.5em;
@@ -60,6 +63,20 @@
 		p{
 			font-size: 1em;
 		}
+	}
+}
+
+.process-row{
+	@extend .col-lg-11;
+
+	margin: 0 auto;
+	overflow: hidden;
+
+	.project-desc{
+		@extend .col-lg-6;
+
+		border-left: 1px solid $prime-color;
+		padding: 0 1.5em;
 	}
 }
 
@@ -84,8 +101,8 @@
 
 .project-image, .project-image-tall, .project-image-device{
 	margin-right: 0;
-	float: left;
-	margin-top: 1.8em;
+	float: right;
+	// margin-top: 1.8em;
 }
 
 .project-image, .project-image-device{

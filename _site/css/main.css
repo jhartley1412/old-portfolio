@@ -53,7 +53,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
+  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -68,10 +68,10 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
-  .col-lg-12, .project-banner, .project-process .project-desc {
+  .col-lg-12, .project-banner {
     width: 100%; } }
 .col-sm-1, .project-image, .project-image-device, .project-image-banner, .project-image-tall, .project-image-taller, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
@@ -128,7 +128,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
+  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -143,10 +143,10 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
-  .col-lg-12, .project-banner, .project-process .project-desc {
+  .col-lg-12, .project-banner {
     width: 100%; } }
 @media (min-width: 300px) {
   h1 {
@@ -350,7 +350,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
+  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -365,10 +365,10 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
-  .col-lg-12, .project-banner, .project-process .project-desc {
+  .col-lg-12, .project-banner {
     width: 100%; } }
 .main-banner {
   width: 100%;
@@ -466,7 +466,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
+  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -481,10 +481,10 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
-  .col-lg-12, .project-banner, .project-process .project-desc {
+  .col-lg-12, .project-banner {
     width: 100%; } }
 .sub-nav {
   max-width: 2000px;
@@ -521,6 +521,13 @@
     .project-process .project-desc p {
       font-size: 1em; }
 
+.process-row {
+  margin: 0 auto;
+  overflow: hidden; }
+  .process-row .project-desc {
+    border-left: 1px solid #e8584e;
+    padding: 0 1.5em; }
+
 .project-desc {
   float: left;
   margin-right: 3%;
@@ -534,8 +541,7 @@
 
 .project-image, .project-image-tall, .project-image-device {
   margin-right: 0;
-  float: left;
-  margin-top: 1.8em; }
+  float: right; }
 
 .project-image, .project-image-device {
   margin-bottom: 3em; }
@@ -598,7 +604,7 @@
   .col-lg-5, .project-banner .project-desc, .project-image-tall {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-image, .project-image-device, .post {
+  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .project-image, .project-image-device, .post {
     width: 48.5%; }
 
   .col-lg-7, .project-image-banner {
@@ -613,10 +619,10 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .blog-page-title, .post-list {
+  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
-  .col-lg-12, .project-banner, .project-process .project-desc {
+  .col-lg-12, .project-banner {
     width: 100%; } }
 .blog-page-title {
   box-sizing: border-box;
