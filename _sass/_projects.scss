@@ -19,7 +19,13 @@
 	padding: 0 2em;
 }
 
+
+
+// PROJECT BANNER
+// ———————————————————————————————————————————
+
 .project-banner{
+	@extend .col-sm-1;
 	@extend .col-md-11;
 	@extend .col-lg-12;
 	
@@ -28,18 +34,25 @@
 	background-color: #fff;
 	border-bottom: 1px solid $prime-color;
 	padding-bottom: 1.6em;
+}
 
-	.project-desc{
-		@extend .col-lg-5;
+.banner-desc{
+	@extend .col-sm-1;
+	@extend .col-md-12;
+	@extend .col-lg-5;
 
-		margin-bottom: 0.2em;
-		padding-right: 0.5em;
-		padding-left: 1.5em;
+	float: left;
+	margin-right: $gut-width;
+	box-sizing: border-box;
+}
 
-		p{
-			font-size: 1.1em;
-		}
-	}
+.banner-image{
+	@extend .col-sm-1;
+	@extend .col-md-12;
+	@extend .col-lg-7;
+
+	margin-top: 1em;
+	float: left;
 }
 
 
@@ -95,17 +108,10 @@
 	}
 }
 
+
+
 // PROJECT IMAGES
-
-
-// image within banner
-.banner-image{
-	@extend .col-sm-1;
-	@extend .col-md-12;
-	@extend .col-lg-7;
-
-	margin-top: 1em;
-}
+// ———————————————————————————————————————————
 
 
 // images within description divs (usually wide)
@@ -120,7 +126,7 @@
 
 
 // images within process rows (usually tall)
-.project-image, .project-image-device{
+.project-image{
 	@extend .col-sm-1;
 	@extend .col-md-10;
 	@extend .col-lg-5;

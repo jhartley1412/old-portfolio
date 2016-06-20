@@ -185,6 +185,10 @@
 		margin: 0 auto;
 	}
 
+	.banner-desc{
+		padding-left: 0;
+	}
+
 	.process-row{
 		border-left: 1px solid $prime-color;
 		padding: 0 1.5em;
@@ -243,6 +247,10 @@
 
 // DESKTOP SIZE
 @media(min-width: 978px){
+	
+	.banner-desc{
+		padding-left: 1.9em;
+	}
 
 	.desc-image{
 		margin: 1.5em auto 0 auto;
