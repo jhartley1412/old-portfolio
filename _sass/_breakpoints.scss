@@ -246,33 +246,30 @@
 
 
 // DESKTOP SIZE
+// ———————————————————————————————————————————
+
 @media(min-width: 978px){
+	
+
+	// PROJECT ELEMENTS
+	// ———————————————————————————————————————————
 	
 	.banner-desc{
 		padding-left: 1.9em;
 	}
 
 	.desc-image{
-		margin: 1.5em auto 0 auto;
+		margin: 2.5em auto 1.5em auto;
 	}
 
 	// very tall images
 	.tall-image{
 		padding-left: 5%;
 	}
+	
 
-
-	//tall project images margining
-	.project-image-tall{
-		margin-left: 5%;
-	}
-
-	//taller (than tall) project images margining
-	.project-image-taller{
-		margin-top: 1.5em;
-		margin-left: 12%;
-	}
-
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 
 	//blog posts size and width
 	.post-list{

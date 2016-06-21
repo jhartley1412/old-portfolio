@@ -1,4 +1,4 @@
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -32,7 +32,7 @@
   .col-md-10, .sub-nav, .desc-image, .project-image {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner, .blog-page-title, .post-list {
+  .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .banner-desc, .banner-image, .project-process, .project-desc {
@@ -53,7 +53,7 @@
   .col-lg-5, .banner-desc, .project-image {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -73,7 +73,7 @@
 
   .col-lg-12, .project-banner, .desc-image {
     width: 100%; } }
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -107,7 +107,7 @@
   .col-md-10, .sub-nav, .desc-image, .project-image {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner, .blog-page-title, .post-list {
+  .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .banner-desc, .banner-image, .project-process, .project-desc {
@@ -128,7 +128,7 @@
   .col-lg-5, .banner-desc, .project-image {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -297,22 +297,15 @@
     padding-left: 1.9em; }
 
   .desc-image {
-    margin: 1.5em auto 0 auto; }
+    margin: 2.5em auto 1.5em auto; }
 
   .tall-image {
     padding-left: 5%; }
 
-  .project-image-tall {
-    margin-left: 5%; }
-
-  .project-image-taller {
-    margin-top: 1.5em;
-    margin-left: 12%; }
-
   .post-list li {
     width: 25%;
     margin: 0 3% 2em 3%; } }
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -346,7 +339,7 @@
   .col-md-10, .sub-nav, .desc-image, .project-image {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner, .blog-page-title, .post-list {
+  .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .banner-desc, .banner-image, .project-process, .project-desc {
@@ -367,7 +360,7 @@
   .col-lg-5, .banner-desc, .project-image {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -428,7 +421,7 @@
 .text-link {
   text-decoration: underline; }
 
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -462,7 +455,7 @@
   .col-md-10, .sub-nav, .desc-image, .project-image {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner, .blog-page-title, .post-list {
+  .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .banner-desc, .banner-image, .project-process, .project-desc {
@@ -483,7 +476,7 @@
   .col-lg-5, .banner-desc, .project-image {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -514,7 +507,7 @@
   padding: 0 2em; }
 
 .project-banner {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   overflow: hidden;
   background-color: #fff;
   border-bottom: 1px solid #e8584e;
@@ -534,25 +527,20 @@
   padding: 0 3%;
   overflow: hidden;
   float: left; }
-  .project-process .project-desc {
-    margin: 1.8em 3% 2em 0;
-    border-left: 1px solid #e8584e;
-    padding: 0 1.5em; }
-    .project-process .project-desc p {
-      font-size: 1em; }
 
 .process-row {
-  margin: 1em auto;
+  margin: 2em auto;
   box-sizing: border-box;
-  padding-top: 1.5em;
   overflow: hidden; }
 
 .project-desc {
   float: left;
-  margin-right: 3%;
-  box-sizing: border-box; }
+  margin: 0 3% 2em 0;
+  box-sizing: border-box;
+  padding: 0 1em; }
   .project-desc p {
     line-height: 1.5;
+    font-size: 1rem;
     margin: 0.8em 0; }
 
 .desc-image {
@@ -562,7 +550,7 @@
   margin: 2.8em auto 3em auto;
   float: left; }
 
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -596,7 +584,7 @@
   .col-md-10, .sub-nav, .desc-image, .project-image {
     width: 82.83333%; }
 
-  .col-md-11, .project-banner, .blog-page-title, .post-list {
+  .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
     width: 91.41667%; }
 
   .col-md-12, .banner-desc, .banner-image, .project-process, .project-desc {
@@ -617,7 +605,7 @@
   .col-lg-5, .banner-desc, .project-image {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-process .project-desc, .process-row .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {

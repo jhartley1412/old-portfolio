@@ -29,7 +29,7 @@
 	@extend .col-md-11;
 	@extend .col-lg-12;
 	
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	overflow: hidden;
 	background-color: #fff;
 	border-bottom: 1px solid $prime-color;
@@ -56,9 +56,12 @@
 }
 
 
+
 // PROJECT PROCESS DESCRIPTIONS
+// ———————————————————————————————————————————
 
 .project-process{
+	@extend .col-sm-12;
 	@extend .col-md-12;
 	@extend .col-lg-6;
 
@@ -66,44 +69,31 @@
 	padding: 0 3%;
 	overflow: hidden;
 	float: left;
-
-	.project-desc{
-		@extend .col-lg-6;
-		margin: 1.8em $gut-width 2em 0;
-		border-left: 1px solid $prime-color;
-		padding: 0 1.5em;
-
-		p{
-			font-size: 1em;
-		}
-	}
 }
 
 .process-row{
+	@extend .col-sm-12;
+	@extend .col-md-11;
 	@extend .col-lg-11;
 
-	margin: 1em auto;
+	margin: 2em auto;
 	box-sizing: border-box;
-	padding-top: 1.5em;
 	overflow: hidden;
-
-	.project-desc{
-		@extend .col-lg-6;
-
-		// border and padding in _breakpoints.scss
-	}
 }
 
 .project-desc{
+	@extend .col-sm-12;
 	@extend .col-md-12;
-// large col sizes underneath project banner and process classes
+	@extend .col-lg-6;
 
 	float: left;
-	margin-right: $gut-width;
+	margin: 0 $gut-width 2em 0;
 	box-sizing: border-box;
+	padding: 0 1em;
 
 	p{
 		line-height: 1.5;
+		font-size: 1rem;
 		margin: 0.8em 0;
 	}
 }
