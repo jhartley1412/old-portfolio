@@ -78,8 +78,16 @@
 		padding: 0;
 	}
 
+	.project-desc{
+		margin: 0 $gut-width 1em 0;
+	}
+
 	.desc-image{
 		margin: 2em auto 1em auto;
+	}
+
+	.tall-image{
+		padding: 0;
 	}
 
 
@@ -199,13 +207,16 @@
 		padding: 0 1.5em;
 	}
 
+	.project-desc{
+		margin: 0 $gut-width 2em 0;
+	}
+
 	.desc-image{
 		margin: 2em auto 1em auto;
 	}
 
-	// very tall images
 	.tall-image{
-		padding-left: 10%;
+		padding: 0 5em;
 	}
 
 
@@ -258,15 +269,14 @@
 		padding-left: 1.9em;
 	}
 
+	.project-desc{
+		margin: 0 $gut-width 0 0;
+	}
+
 	.desc-image{
 		margin: 2.5em auto 1.5em auto;
 	}
 
-	// very tall images
-	.tall-image{
-		padding-left: 5%;
-	}
-	
 
 	// BLOG POST ELEMENTS
 	// ———————————————————————————————————————————
