@@ -3,6 +3,7 @@
 
 
 // MOBILE
+// ———————————————————————————————————————————
 
 @media(min-width: 300px){
 	
@@ -42,7 +43,9 @@
 	}
 
 
-	//project sub-nav
+	// PROJECT ELEMENTS
+	// ———————————————————————————————————————————
+
 	.sub-nav{
 		padding-top: 0.6em;
 		padding-left: 1.5em;
@@ -78,6 +81,10 @@
 	.desc-image{
 		margin: 2em auto 1em auto;
 	}
+
+
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 	
 	//about me page mobile "padding" (also used for blog posts)
 	.aboutme-page-container{
@@ -191,10 +198,6 @@
 		border-left: 1px solid $prime-color;
 		padding: 0 1.5em;
 	}
-
-
-	// BLOG POST ELEMENTS
-	// ———————————————————————————————————————————
 
 	.desc-image{
 		margin: 2em auto 1em auto;
