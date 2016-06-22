@@ -50,10 +50,10 @@
   .col-lg-4, .banner-message {
     width: 31.33333%; }
 
-  .col-lg-5, .banner-desc, .project-image {
+  .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .project-image, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -125,10 +125,10 @@
   .col-lg-4, .banner-message {
     width: 31.33333%; }
 
-  .col-lg-5, .banner-desc, .project-image {
+  .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .project-image, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -357,10 +357,10 @@
   .col-lg-4, .banner-message {
     width: 31.33333%; }
 
-  .col-lg-5, .banner-desc, .project-image {
+  .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .project-image, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -473,10 +473,10 @@
   .col-lg-4, .banner-message {
     width: 31.33333%; }
 
-  .col-lg-5, .banner-desc, .project-image {
+  .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .project-image, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -602,10 +602,10 @@
   .col-lg-4, .banner-message {
     width: 31.33333%; }
 
-  .col-lg-5, .banner-desc, .project-image {
+  .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .project-desc, .post {
+  .col-lg-6, .project-process, .project-desc, .project-image, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
