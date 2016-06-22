@@ -257,9 +257,6 @@
   .project-container {
     padding-left: 5%; }
 
-  .project-banner {
-    margin: 0 auto; }
-
   .banner-desc {
     padding-left: 0; }
 
@@ -272,12 +269,6 @@
 
   .tall-image {
     padding-left: 10%; }
-
-  .project-image-tall {
-    margin-left: 12%; }
-
-  .project-image-taller {
-    margin-left: 26%; }
 
   .aboutme-page-container {
     padding: 0; }
@@ -507,6 +498,7 @@
   padding: 0 2em; }
 
 .project-banner {
+  margin: 0 auto;
   margin-bottom: 4em;
   overflow: hidden;
   background-color: #fff;
@@ -547,8 +539,8 @@
   display: block; }
 
 .project-image {
-  margin: 2.8em auto 3em auto;
-  float: left; }
+  margin: 2.8em auto 1em auto;
+  display: block; }
 
 .col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }

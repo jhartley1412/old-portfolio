@@ -115,6 +115,8 @@
 
 
 // TALBET
+// ———————————————————————————————————————————
+
 @media(min-width: 420px){
 	
 
@@ -154,7 +156,9 @@
 	}
 
 
-	//project sub-nav
+	// PROJECT ELEMENTS
+	// ———————————————————————————————————————————
+
 	.sub-nav{
 		border-top: none;
 		padding-top: 0;
@@ -179,12 +183,6 @@
 		padding-left: 5%;
 	}
 
-
-	//centering project banner children
-	.project-banner{
-		margin: 0 auto;
-	}
-
 	.banner-desc{
 		padding-left: 0;
 	}
@@ -193,6 +191,10 @@
 		border-left: 1px solid $prime-color;
 		padding: 0 1.5em;
 	}
+
+
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 
 	.desc-image{
 		margin: 2em auto 1em auto;
@@ -203,21 +205,16 @@
 		padding-left: 10%;
 	}
 
-	//tall project images margining
-	.project-image-tall{
-		margin-left: 12%;
-	}
 
-	//taller (than tall) project images margining
-	.project-image-taller{
-		margin-left: 26%;
-	}
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 
 
 	//about me page mobile "padding" (also used for blog posts)
 	.aboutme-page-container{
 		padding: 0;
 	}
+
 
 	//about me title
 	.aboutme-page-title{
