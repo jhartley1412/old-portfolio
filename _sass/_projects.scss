@@ -78,6 +78,7 @@
 	@extend .col-lg-11;
 
 	margin: 2em auto;
+	margin-bottom: 5em;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -85,10 +86,10 @@
 .project-desc{
 	@extend .col-sm-12;
 	@extend .col-md-12;
-	@extend .col-lg-6;
+	@extend .col-lg-5;
 
 	float: left;
-	margin: 0 $gut-width 2em 0;
+	margin: 0 $gut-width 0 0;
 	box-sizing: border-box;
 	padding: 0 1em;
 
@@ -120,11 +121,17 @@
 .project-image{
 	@extend .col-sm-1;
 	@extend .col-md-10;
-	@extend .col-lg-6;
+	@extend .col-lg-7;
 
 	margin: 2.8em auto 1em auto;
 	display: block;
 }
+
+.tall-image{
+	box-sizing: border-box;
+	padding: 0 5em;
+}
+
 
 
 
