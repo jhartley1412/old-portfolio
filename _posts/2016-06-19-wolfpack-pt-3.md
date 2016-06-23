@@ -11,7 +11,7 @@ So full disclosure. I had to look up exactly what a user flow consisted of. It's
 <br>
 
 <span class="blog-image drop-shadow">
-    ![fmf site map](/images/blog-post-images/fmf-sitemap.png)
+    ![fmf site map](/images/blog-post-images/fmf-sitemap1.png)
 </span>
 
 I tried to organize the site map best I could by color coating it. I gave purple to the static pages that would just hold basic information or navigational links, green was given to pages which involved form and submit functions where a user would input information, and yellow to pages that were just made up of search results. 
