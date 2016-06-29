@@ -102,6 +102,16 @@
 	}
 }
 
+.double-image{
+
+	img{
+		// margin and width in _breakpoints.scss
+		display: block;
+		float: left;
+		margin-bottom: 2em;
+	}
+}
+
 .glass-image{
 
 	img{
