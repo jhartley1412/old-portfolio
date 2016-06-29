@@ -6,9 +6,41 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jun 2016 11:59:52 -0500</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2016 11:59:52 -0500</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2016 12:45:55 -0500</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2016 12:45:55 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Wolfpack pt 6</title>
+        <description>&lt;h2&gt; Back and forth and back and forth &lt;/h2&gt;
+
+&lt;p&gt;Since going back and reorganizing everything, it’s been mostly wireframes for the last few days. I’ve gone through a few iterations so far, tweaking bits here and there based on the teams feedback. We had our weekly agile meeting today and my next sprint is finishing up wireframes and (hopefully) starting on building some of the HTML. I’ve felt bad about my back-end and front-end teammates waiting on me to finish up my end of  the work.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Some pretty new wireframes to gaze upon &lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;double-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-wireframe1.png&quot; alt=&quot;fmf wireframes&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;double-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-wireframe2.png&quot; alt=&quot;fmf wireframes&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketch is so great. Not perfect, but close. Creating wireframes has made this project more conceptual in my mind, and I’m able to organize the navigation and pages much more easily. We’ve gone back and forth with a few features. The profile page is always a struggle for me. At least with side projects like this, I never know what information to add apart from contact information and an avatar. Luckily, consolidating means more information to add. I’ve thought up adding a sort of mini navigation on the bottom of the profile page for the account settings and messaging and such. I do better with a lot of information. It’s something to organize :3&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/28/wolfpack-pt-6.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/28/wolfpack-pt-6.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Wolfpack pt 5</title>
@@ -204,40 +236,6 @@
         <pubDate>Tue, 31 May 2016 00:00:00 -0500</pubDate>
         <link>http://janinahartleydesigns.com//2016/05/31/seattle-trip.html</link>
         <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/31/seattle-trip.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Merge Conflicts</title>
-        <description>&lt;h2&gt; It&#39;s like, 2am &lt;/h2&gt;
-
-&lt;p&gt;Alright. So this has happened enough times that I need to write this somewhere so I don’t have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts?&lt;/p&gt;
-
-&lt;p&gt;Delete them: 
-&lt;span class=&quot;sec-font bg-font&quot;&gt; git rm [file name] &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;( &lt;a href=&quot;http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch&quot;&gt; http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch &lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;How about those super fun DS_Store files? Remember the .gitignore stuff.&lt;/p&gt;
-
-&lt;p&gt;Show those hidden files: 
-&lt;span class=&quot;sec-font bg-font&quot;&gt; defaults write com.apple.finder AppleShowAllFiles YES &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;( &lt;a href=&quot;http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/&quot;&gt; http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/ &lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;Then delete the DS_Store files: &lt;br /&gt;
-&lt;span class=&quot;sec-font bg-font&quot;&gt; find . -name .DS_Store -print0 | xargs -0 git rm -f –ignore-unmatch &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;and type “.DS_Store” into the .gitignore file (you may have to create it*): 
-&lt;span class=&quot;sec-font bg-font&quot;&gt; git commit -m ‘.DS_Store banished! &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;*git add .gitignore ( &lt;a href=&quot;http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository&quot;&gt; http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository &lt;/a&gt; )&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 24 May 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</guid>
         
         
       </item>

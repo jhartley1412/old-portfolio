@@ -214,7 +214,11 @@
 
   .post-list li {
     width: 70%;
-    margin: 0 15% 2em 15%; } }
+    margin: 0 15% 2em 15%; }
+
+  .double-image img {
+    width: 100%;
+    margin: 0 auto; } }
 @media (min-width: 420px) {
   h1 {
     font-size: 2.1em;
@@ -294,7 +298,12 @@
 
   .post-list li {
     width: 25%;
-    margin: 0 3% 2em 3%; } }
+    margin: 0 3% 2em 3%; }
+
+  .double-image img {
+    width: 45%;
+    margin: 0 2.5%;
+    margin-bottom: 2em; } }
 .col-sm-1, .project-image, .project-image-device, .project-image-banner, .project-image-tall, .project-image-taller, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
@@ -680,6 +689,11 @@
   width: 100%;
   display: block;
   margin: 0 auto; }
+
+.double-image img {
+  display: block;
+  float: left;
+  margin-bottom: 2em; }
 
 .glass-image img {
   width: 300px; }
