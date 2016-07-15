@@ -25,9 +25,9 @@ But I’ll be excited to get to the styling. After this page, and our meeting to
 
 <h2> What’s the deal with tables though? </h2>
 
-I’ve heard a lot of bad things about using tables in HTML. But I feel like this is a situation where it’s a little more needed. For one of the pages the user will be able to look at their current and past entries, and each entry will have a bunch of pet information describing the pet. Of course just using <span> tags can accomplish this easy, but to make it look aligned and even, I feel tables are more practical. Now that I think of it, I’ll probably want to go back to a few other pages and incorporate tables on those as well (shoot). 
+I’ve heard a lot of bad things about using tables in HTML. But I feel like this is a situation where it’s a little more needed. For one of the pages the user will be able to look at their current and past entries, and each entry will have a bunch of pet information describing the pet. Of course just using <span class="sec-font bg-font"> < span > </span> tags can accomplish this easy, but to make it look aligned and even, I feel tables are more practical. Now that I think of it, I’ll probably want to go back to a few other pages and incorporate tables on those as well (shoot). 
 
-Of course you learn something every day. Oddly enough, I never knew about the indicator last-of-type for CSS. I’ve always gone the hard way, trying really hacky methods of using :last-child and :nth-child(x) that wouldn’t be much use in real world applications. Makes the little things a heck of a lot easier. 
+Of course you learn something every day. Oddly enough, I never knew about the indicator <span class="sec-font bg-font"> last-of-type </span> for CSS. I’ve always gone the hard way, trying really hacky methods of using <span class="sec-font bg-font"> last-child </span>  and  <span class="sec-font bg-font"> nth-child(x) </span> that wouldn’t be much use in real world applications. Makes the little things a heck of a lot easier. 
 
 I’ve really been enjoying coding HTML and CSS/Sass again, but it’ll make for a nice break to just be in Illustrator messing around with colors and fonts and picking the best look for a design. This will also be the first project 
 
