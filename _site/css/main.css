@@ -661,7 +661,8 @@
 
 .post {
   margin: 0 auto;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  font-size: 1.1em; }
 
 .post-header {
   margin: 1em auto;
@@ -697,6 +698,9 @@
 
 .glass-image img {
   width: 300px; }
+
+.fmf-wireframe3 img {
+  max-width: 500px; }
 
 .construction {
   font-size: 1.3em; }
