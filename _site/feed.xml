@@ -6,9 +6,75 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jun 2016 12:45:55 -0500</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2016 12:45:55 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <pubDate>Thu, 14 Jul 2016 19:45:05 -0500</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2016 19:45:05 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Wolfpack pt 7</title>
+        <description>&lt;h2&gt; Back to the grindstone &lt;/h2&gt;
+
+&lt;p&gt;OK, now that the hype of Pokemon Go has died down a little (not really, more like my legs have given out from all the walking), and I’ve settled back into my part-time job, it’s time to get back to Find My Furball. I was making good progress on coding out the basic HTML for my front-enders to work with a week ago. Unfortunately we weren’t able to meet last week because of illness, and this week we’re meeting tomorrow, which is later than originally planned. I’ve only got one more page to finish up for my sprint, and I’m getting close. It’s a more complicated page than the others. For the benefit of the user, and to condense similar information together, the profile page will have a mini navigation for account settings, messages and their pet entries all while being able to look at their personal information on the top.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image fmf-wireframe3 drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-wireframe3.png&quot; alt=&quot;fmf wireframe&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve gotten 2/3 of the mini pages done, and hope to finish up the full page by tonight. Of course it’s a little bit jarring looking at basic CSS/Sass. Since we haven’t really discussed the kind of styling we want to aim for (fonts, colors, images, etc), I’ve just been using a mix of baby blue, pink and grey to distinguish between buttons and would-be images and borders and such. Every time I preview the pages in Chrome it looks like a cotton candy site. Makes me hungry.&lt;/p&gt;
+
+&lt;p&gt;But I’ll be excited to get to the styling. After this page, and our meeting tomorrow, I’m hoping to get a good list of the rest of the pages they need done (as well as fix some webpack server issues I’ve been dealing with on my laptop) and then I can move into styling and figuring out the best look and feel for the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; What’s the deal with tables though? &lt;/h2&gt;
+
+&lt;p&gt;I’ve heard a lot of bad things about using tables in HTML. But I feel like this is a situation where it’s a little more needed. For one of the pages the user will be able to look at their current and past entries, and each entry will have a bunch of pet information describing the pet. Of course just using &lt;span class=&quot;sec-font bg-font&quot;&gt; &amp;lt; span &amp;gt; &lt;/span&gt; tags can accomplish this easy, but to make it look aligned and even, I feel tables are more practical. Now that I think of it, I’ll probably want to go back to a few other pages and incorporate tables on those as well (shoot).&lt;/p&gt;
+
+&lt;p&gt;Of course you learn something every day. Oddly enough, I never knew about the indicator &lt;span class=&quot;sec-font bg-font&quot;&gt; last-of-type &lt;/span&gt; for CSS. I’ve always gone the hard way, trying really hacky methods of using &lt;span class=&quot;sec-font bg-font&quot;&gt; last-child &lt;/span&gt;  and  &lt;span class=&quot;sec-font bg-font&quot;&gt; nth-child(x) &lt;/span&gt; that wouldn’t be much use in real world applications. Makes the little things a heck of a lot easier.&lt;/p&gt;
+
+&lt;p&gt;I’ve really been enjoying coding HTML and CSS/Sass again, but it’ll make for a nice break to just be in Illustrator messing around with colors and fonts and picking the best look for a design. This will also be the first project&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Not only of sight and sound, but of mind… &lt;/h2&gt;
+
+&lt;p&gt;Every few months I get new background material to work by. I’ve gone back and forth between songs and TV shows the last year or so, each usually lasting a few weeks (or however long it takes to marathon a series). During the Iron Yard it was a good mix of Game Grumps remixes and Fallout radio playlists. I work best (music wise) with songs that either don’t have “normal lyrics” and are repetitive. Best to work when you don’t have to pay too much attention to what you’re listening to. Although will Fallout it was more that I had heard those songs so much while exploring the Wasteland that they’re now perfect background ambience.&lt;/p&gt;
+
+&lt;p&gt;TV shows can sometimes be a good background source too. At least when I’ve seen whatever it is that’s playing. Lately I’ve been watching (re-watching technically) The Twilight Zone. My mom and I watched it all one summer when I was a kid, and with it on Netflix now, I’m loving re-watching the old episodes. I love oldies. I wish there were more black and white movies and TV shows on Netflix that I could just watch endlessly (not that my Watchlist isn’t long enough). Anyway, back to work!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 14 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/07/14/wolfpack-pt-7.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/07/14/wolfpack-pt-7.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pokemon Go!</title>
+        <description>&lt;h2&gt; pokemon-mon-mon-mon &lt;/h2&gt;
+
+&lt;p&gt;So Pokemon Go came out earlier this week and…that has taken up a bigger chunk of my time than I was planning on. I think the first day I got it I ended up walking around the neighborhood early in the morning to catch wild pokemon, went to work, and immediately went back outside. I probably looked like a weirdo, aiming my phone at random spots in front me me, but it was great. I felt like a kid again. Every time I caught a new pokemon or leveled up I felt a little more giddy.&lt;/p&gt;
+
+&lt;p&gt;I had been hearing about the release for months and wasn’t that huge on the idea, but it really surprised me. Especially how much walking I ended up doing that day. I’ve seen a lot of amateur reviews about how people actually want to go outside now, and how much more motivated everyone is going to be to get some exercise, and they’re all pretty on the mark. I’m not a big walker, I don’t like to run. I’ve been trying to be more active in my daily life whenever I can (you know, taking the stairs instead of the elevator, walking to work and HEB, small stuff). But now, every time I’m inside I’m wishing I was in the sun, collecting pokemon.&lt;/p&gt;
+
+&lt;p&gt;I’m amazed at the social aspect too. A few of us were exploring our neighborhood the other night, and we kept running into other people playing Go. I was able to catch a few people with their eyes glued to their phones that didn’t say hi, but the ones who did were super friendly. Not that that’s much of a surprise, but it’s kind of great seeing strangers just come up and join in the fun, sharing tips and swapping stories. It’s a fuzzy feeling covered in cheese. Pokemon Go has also swept through my workplace. I think every one of my co-workers at this point has played the app.&lt;/p&gt;
+
+&lt;p&gt;Not to mention the fact that we’re actually visiting some pretty cool places that we otherwise wouldn’t have given a second glance at. I feel like I’ve seen more of this neighborhood in three days than I did in three months. I’m so glad it’s summer. It makes for a perfect break from work to go outside and get some fresh air and exercise (even if it is in short bursts). It’s better then sitting inside all day and going stir crazy.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/07/08/pokemon.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/07/08/pokemon.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Wolfpack pt 6</title>
@@ -176,66 +242,6 @@
         <pubDate>Sun, 05 Jun 2016 00:00:00 -0500</pubDate>
         <link>http://janinahartleydesigns.com//2016/06/05/fun-with-colors-pt-2.html</link>
         <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/05/fun-with-colors-pt-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fun with colors</title>
-        <description>&lt;h2&gt; Color generators &lt;/h2&gt;
-
-&lt;p&gt;So the other day someone from Slack posted a link to one of those websites that generates color combinations. This one, Color Calculator, gives you the option to decide what kind of relationship you want the colors to have with each other (complementary, monochromatic, analogous, etc), and I’ve always wanted to try out one of those create-a-design-based-off-of-limited-colors challenges.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just for fun I tried it out. Using a dark red I generated an analogous color combination and opened a new file in Illustrator. Based off that colors I immediately thought of wine and vineyards. I ended up warming up with a little champagne (or rosé) icon.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;blog-image glass-image&quot;&gt;
-    &lt;img src=&quot;/images/blog-post-images/glass.jpg&quot; alt=&quot;Wine glass&quot; /&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Trying to think up a more flushed out design, I thought up a scenario where a local restaurant or wine bar was having a special event. I designed a promotional menu with some featured kinds of wine and snacks.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;blog-image drop-shadow&quot;&gt;
-    &lt;img src=&quot;/images/blog-post-images/wine-poster.jpg&quot; alt=&quot;Wine Poster&quot; /&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m not quite happy with it so far. Looks a little too boxy. I wouldn’t mind some more practice with informational posters and designs. Maybe I’ll make that one of my next side projects…&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 04 Jun 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/06/04/fun-with-colors.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/04/fun-with-colors.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Seattle Trip</title>
-        <description>&lt;h2&gt; Visiting the Bellevue office &lt;/h2&gt;
-
-&lt;p&gt;Today I got to take a brief, private tour of a local office in Bellevue. Thanks to family connections, I got to see real world UI and UX designers and PMs in action. I also got to see a few wireframes, flowcharts, and mockups of the teams current project.&lt;/p&gt;
-
-&lt;p&gt;It was nice being able to see exactly what a UX or UI job would entail in the “real world.” Thanks to The Iron Yard, I have a pretty good level of foundation knowledge for a junior UI or UX job (at this point I”m looking more for UI, possible UI - development). But it’s nice to get a realistic sense of what I might actually be doing in a UI/UX job. It also helps me better prepare for questions that I would want to ask in a interview.&lt;/p&gt;
-
-&lt;p&gt;The company, Agilysys, is a leading provider of hospitality software solutions (they design and market POS and PMS systems, as well as many others). The team I got to shadow was working on a new product for kiosk machines that would stand in Grab n Go outlets. Basically, they are creating an interaction that would happen when a customer wants to buy anything from a meal, to a quick snack.&lt;/p&gt;
-
-&lt;p&gt;I got to talk with one of the head UX designers, who talked about how one of their biggest challenges is creating a product that would work for a business that has one simple, strict menu, as well as for a business with multiple menus, multiple choices (a burger that has choices of lettuce, cheeses, etc), and combinations. It’s really interesting seeing a team work through different designs, different user stories, and workflows that lead to working prototypes and Beta systems.&lt;/p&gt;
-
-&lt;p&gt;I’m grateful for being able to see some real world offices, and meet some great designers and developers.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 31 May 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/05/31/seattle-trip.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/31/seattle-trip.html</guid>
         
         
       </item>
