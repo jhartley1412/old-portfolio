@@ -80,6 +80,11 @@
 	float: left;
 	box-sizing: border-box;
 	padding: 1em 0;
+
+	img{
+		display: block;
+		margin-bottom: 1em;
+	}
 }
 
 
@@ -87,6 +92,29 @@
 // PROJECT IMAGES
 // ———————————————————————————————————————————
 
+
+// lone images that take up full row
+.image-one{
+	width: 100%;
+	margin: 0 auto;
+}
+
+// images that are one of a trio
+.image-third{
+	float: left;
+
+	// width and right margin in _breakpoints.scss
+
+	&:last-of-type{
+		margin-right: 0;
+	}
+}
+
+// images without clear borders
+.image-border{
+	border: 0.8px solid $accent-color;
+	padding: 5px;
+}
 
 // images within description divs (usually wide)
 .desc-image{

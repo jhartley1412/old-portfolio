@@ -87,6 +87,12 @@
 		padding: 0;
 	}
 
+	.image-third{
+		width: 88%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+
 	.desc-image{
 		margin: 2em auto 1em auto;
 	}
@@ -214,6 +220,11 @@
 
 	.project-desc{
 		margin: 0 $gut-width 2em 0;
+	}
+
+	.image-third{
+		width: 25%;
+		margin-right: 8%;
 	}
 
 	.desc-image{
