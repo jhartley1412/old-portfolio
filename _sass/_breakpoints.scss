@@ -20,6 +20,7 @@
 
 		a{
 			margin: 0 8% 0 0;
+			display: inline-block;
 		}
 	}
 
@@ -47,11 +48,10 @@
 	// ———————————————————————————————————————————
 
 	.sub-nav{
-		padding-top: 0.6em;
-		padding-left: 1.5em;
+		padding: 0.6em 1.5em 0 1.5em;
 
 		a, .sub-nav-title{
-			font-size: 1.2em;
+			font-size: 0.8em;
 			display: block;
 		}
 
@@ -60,6 +60,7 @@
 		}
 	}
 
+	// sub navigation a tags
 	.project-a{
 		display: inline-block;
 		float: left;
