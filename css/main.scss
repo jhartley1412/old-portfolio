@@ -27,12 +27,13 @@ body{
 	line-height: 1.5;
 
 	p{
+		margin-top: 0.3em;
 		margin-bottom: 1.5em;
 	}
 }
 
 h1{
-	font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Exo+2', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-weight: 400;
 	//font weight and such in _breakpoints.scss
 }
@@ -41,7 +42,7 @@ h2{
 	color: $prime-color;
 	font-family: 'Exo+2', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin: 0 auto;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: 700;
 }
 
