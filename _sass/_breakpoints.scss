@@ -67,19 +67,24 @@
 		text-decoration: underline;
 	}
 
+	.project-banner{
+		margin-bottom: 0;
+	}
+
 
 	.project-container{
-		padding: 0;
-		padding-left: 8%;
+		padding: 1.5em;
 	}
 
 	.process-row{
 		border-left: none;
 		padding: 0;
+		margin: 2em auto;
+		margin-bottom: 2em;
 	}
 
 	.project-desc{
-		margin: 0 $gut-width 1em 0;
+		padding: 0;
 	}
 
 	.desc-image{
@@ -195,7 +200,7 @@
 	}
 
 	.project-container{
-		padding-left: 5%;
+		padding: 0 2em;
 	}
 
 	.banner-desc{

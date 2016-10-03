@@ -1,4 +1,4 @@
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -29,7 +29,7 @@
   .col-md-9, .project-image {
     width: 74.25%; }
 
-  .col-md-10, .sub-nav, .desc-image {
+  .col-md-10, .desc-image, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
@@ -68,12 +68,12 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
+  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .desc-image {
     width: 100%; } }
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -104,7 +104,7 @@
   .col-md-9, .project-image {
     width: 74.25%; }
 
-  .col-md-10, .sub-nav, .desc-image {
+  .col-md-10, .desc-image, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
@@ -143,7 +143,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
+  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .desc-image {
@@ -188,16 +188,20 @@
     margin-right: 1em;
     text-decoration: underline; }
 
+  .project-banner {
+    margin-bottom: 0; }
+
   .project-container {
-    padding: 0;
-    padding-left: 8%; }
+    padding: 1.5em; }
 
   .process-row {
     border-left: none;
-    padding: 0; }
+    padding: 0;
+    margin: 2em auto;
+    margin-bottom: 2em; }
 
   .project-desc {
-    margin: 0 3% 1em 0; }
+    padding: 0; }
 
   .desc-image {
     margin: 2em auto 1em auto; }
@@ -261,7 +265,7 @@
     text-decoration: none; }
 
   .project-container {
-    padding-left: 5%; }
+    padding: 0 2em; }
 
   .banner-desc {
     padding-left: 0; }
@@ -305,7 +309,7 @@
   .post-list li {
     width: 25%;
     margin: 0 3% 2em 3%; } }
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -336,7 +340,7 @@
   .col-md-9, .project-image {
     width: 74.25%; }
 
-  .col-md-10, .sub-nav, .desc-image {
+  .col-md-10, .desc-image, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
@@ -375,7 +379,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
+  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .desc-image {
@@ -421,7 +425,7 @@
 .text-link {
   text-decoration: underline; }
 
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -452,7 +456,7 @@
   .col-md-9, .project-image {
     width: 74.25%; }
 
-  .col-md-10, .sub-nav, .desc-image {
+  .col-md-10, .desc-image, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
@@ -491,24 +495,17 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
+  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .desc-image {
     width: 100%; } }
-.sub-nav {
-  max-width: 2000px;
-  margin: 0.2em auto 1.5em auto; }
-  .sub-nav a {
-    margin-right: 1em; }
-
 .project-container {
   box-sizing: border-box;
-  padding: 0 2em; }
+  overflow: hidden; }
 
 .project-banner {
   margin: 0 auto;
-  margin-bottom: 4em;
   overflow: hidden;
   background-color: #fff;
   border-bottom: 1px solid #e8584e;
@@ -530,19 +527,12 @@
   float: left; }
 
 .process-row {
-  margin: 2em auto;
-  margin-bottom: 5em;
   box-sizing: border-box;
   overflow: hidden; }
 
 .project-desc {
   float: left;
-  box-sizing: border-box;
-  padding: 0 1em; }
-  .project-desc p {
-    line-height: 1.5;
-    font-size: 1rem;
-    margin: 0.8em 0; }
+  box-sizing: border-box; }
 
 .desc-image {
   display: block; }
@@ -554,7 +544,7 @@
 .tall-image {
   box-sizing: border-box; }
 
-.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .project-banner, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-process, .process-row, .project-desc, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -585,7 +575,7 @@
   .col-md-9, .project-image {
     width: 74.25%; }
 
-  .col-md-10, .sub-nav, .desc-image {
+  .col-md-10, .desc-image, .sub-nav {
     width: 82.83333%; }
 
   .col-md-11, .project-banner, .process-row, .blog-page-title, .post-list {
@@ -624,7 +614,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .sub-nav, .process-row, .blog-page-title, .post-list {
+  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12, .project-banner, .desc-image {
@@ -705,9 +695,11 @@
 
 body {
   margin-top: 0;
-  font-family: 'Dosis', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: 'Roboto', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #272727;
   line-height: 1.5; }
+  body p {
+    margin-bottom: 1.5em; }
 
 h1 {
   font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -715,9 +707,10 @@ h1 {
 
 h2 {
   color: #e8584e;
-  font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: 'Exo+2', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0 auto;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  font-weight: 700; }
 
 a {
   text-decoration: underline;
@@ -762,6 +755,12 @@ nav {
     display: inline-block; }
   nav a {
     text-decoration: none; }
+
+.sub-nav {
+  max-width: 2000px;
+  margin: 0.2em auto 1.5em auto; }
+  .sub-nav a {
+    margin-right: 1em; }
 
 header {
   background-color: #fff; }

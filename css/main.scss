@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-// @charset "utf-8";
+@charset "utf-8";
 
 @import "variables-grid",
 		"breakpoints",
@@ -19,11 +19,16 @@
 	margin-right: 1em;
 	color: #909090;
 }
+
 body{
 	margin-top: 0;
-	font-family: 'Dosis', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Roboto', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: $text-color;
 	line-height: 1.5;
+
+	p{
+		margin-bottom: 1.5em;
+	}
 }
 
 h1{
@@ -34,9 +39,10 @@ h1{
 
 h2{
 	color: $prime-color;
-	font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Exo+2', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin: 0 auto;
 	font-size: 1.3em;
+	font-weight: 700;
 }
 
 a{
@@ -87,7 +93,7 @@ a{
 
 
 
-//HEADER
+// NAVIGATION
 
 nav{
 	overflow: hidden;
@@ -102,6 +108,22 @@ nav{
 		text-decoration: none;
 	}
 }
+
+.sub-nav{
+	@extend .col-sm-12;
+	@extend .col-md-10;
+	@extend .col-lg-11;
+	
+	max-width: 2000px;
+	margin: 0.2em auto 1.5em auto;
+
+	a{
+		margin-right: 1em;
+	}
+}
+
+
+//HEADER
 
 header{
 	background-color: #fff;
