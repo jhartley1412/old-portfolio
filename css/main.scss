@@ -149,12 +149,15 @@ header{
 }
 
 .trigger{
-	float: left;
 	box-sizing: border-box;
 	overflow: hidden;
 
-	a{
-		float: right;
+	// a{
+	// 	float: left;
+	// }
+
+	.navi-one{
+		text-align: center;
 	}
 }
 
