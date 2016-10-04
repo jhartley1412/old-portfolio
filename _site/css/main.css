@@ -191,7 +191,8 @@
     text-decoration: underline; }
 
   .project-banner {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    padding-top: 0; }
 
   .project-container {
     padding: 1.5em; }
@@ -204,6 +205,17 @@
 
   .project-desc {
     padding: 0; }
+
+  .desk-float {
+    float: none; }
+
+  .desk-center {
+    clear: both;
+    margin: 0 auto; }
+
+  .image-one {
+    float: none;
+    margin: 0 auto; }
 
   .image-third {
     width: 88%;
@@ -309,11 +321,18 @@
     width: 40%;
     margin: 0 3% 2em 3%; } }
 @media (min-width: 978px) {
-  .banner-desc {
-    padding-left: 1.9em; }
+  .project-banner {
+    padding-top: 2em; }
 
   .project-desc {
     margin: 0 3% 0 0; }
+    .project-desc img {
+      margin-top: 1em;
+      margin-bottom: 1em; }
+
+  .desk-float {
+    float: left;
+    margin: 0 25px 0 0; }
 
   .desc-image {
     margin: 2.5em auto 1.5em auto; }
@@ -545,23 +564,33 @@
 
 .project-desc {
   width: 99%;
-  float: left;
+  max-width: 1000px;
+  margin: 0 auto;
   box-sizing: border-box;
   padding: 1em 0; }
+  .project-desc h2 {
+    margin-top: 3.5em; }
+    .project-desc h2:first-of-type {
+      margin-top: 0; }
   .project-desc img {
     display: block;
     margin-bottom: 1em; }
 
 .image-one {
   width: 100%;
-  margin: 0 auto;
-  max-width: 500px; }
+  max-width: 700px; }
+
+.image-two {
+  width: 100%;
+  max-width: 460px; }
 
 .image-third {
   float: left; }
 
-.trio-container img:last-of-type {
-  margin-right: 0; }
+.trio-container {
+  clear: both; }
+  .trio-container img:last-of-type {
+    margin-right: 0; }
 
 .image-border {
   border: 0.8px solid #E6E6E6;
@@ -727,6 +756,8 @@
   color: #909090; }
 
 body {
+  max-width: 1300px;
+  margin: 0 auto;
   margin-top: 0;
   font-family: 'Roboto', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #272727;
@@ -768,9 +799,11 @@ a {
   .drop-shadow img {
     box-shadow: 1px 1px 5px #909090; }
 
+.clear {
+  clear: both; }
+
 .wrapper {
   width: 100%;
-  max-width: 2000px;
   box-sizing: border-box;
   margin: 0 auto;
   overflow: hidden; }
@@ -779,6 +812,9 @@ a {
   width: 40px;
   float: left;
   margin: 1.5em 2em 0 0; }
+
+.special-container {
+  overflow: hidden; }
 
 nav {
   overflow: hidden; }

@@ -21,6 +21,8 @@
 }
 
 body{
+	max-width: 1300px;
+	margin: 0 auto;
 	margin-top: 0;
 	font-family: 'Roboto', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: $text-color;
@@ -77,9 +79,12 @@ a{
 	}
 }
 
+.clear{
+	clear: both;
+}
+
 .wrapper{
 	width: 100%;
-	max-width: 2000px;
 	box-sizing: border-box;
 	margin: 0 auto;
 	overflow: hidden;
@@ -89,6 +94,10 @@ a{
 	width: 40px;
 	float: left;
 	margin: 1.5em 2em 0 0;
+}
+
+.special-container{
+	overflow: hidden;
 }
 
 

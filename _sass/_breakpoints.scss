@@ -72,6 +72,7 @@
 
 	.project-banner{
 		margin-bottom: 0;
+		padding-top: 0;
 	}
 
 
@@ -88,6 +89,20 @@
 
 	.project-desc{
 		padding: 0;
+	}
+
+	.desk-float{
+		float: none;
+	}
+
+	.desk-center{
+		clear: both;
+		margin: 0 auto;
+	}
+
+	.image-one{
+		float: none;
+		margin: 0 auto;
 	}
 
 	.image-third{
@@ -285,12 +300,22 @@
 	// PROJECT ELEMENTS
 	// ———————————————————————————————————————————
 	
-	.banner-desc{
-		padding-left: 1.9em;
+	.project-banner{
+		padding-top: 2em;
 	}
 
 	.project-desc{
 		margin: 0 $gut-width 0 0;
+
+		img{
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+	}
+
+	.desk-float{
+		float: left;
+		margin: 0 25px 0 0;
 	}
 
 	.desc-image{
