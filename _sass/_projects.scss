@@ -3,6 +3,9 @@
 
 
 .project-container{
+	@extend .col-sm-12;
+	@extend .col-md-12;
+
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -13,9 +16,7 @@
 // ———————————————————————————————————————————
 
 .project-banner{
-	@extend .col-sm-1;
-	@extend .col-md-11;
-	@extend .col-lg-12;
+	width: 99%;
 	
 	margin: 0 auto;
 	// margin-bottom: 4em;
@@ -72,9 +73,7 @@
 }
 
 .project-desc{
-	@extend .col-sm-12;
-	@extend .col-md-12;
-	@extend .col-lg-5;
+	width: 99%;
 
 	// margin in _breakpoints.scss
 	float: left;
@@ -97,6 +96,8 @@
 .image-one{
 	width: 100%;
 	margin: 0 auto;
+
+	max-width: 500px;
 }
 
 // images that are one of a trio
@@ -104,8 +105,12 @@
 	float: left;
 
 	// width and right margin in _breakpoints.scss
+}
 
-	&:last-of-type{
+// container of trio sets of images
+.trio-container{
+
+	img:last-of-type{
 		margin-right: 0;
 	}
 }

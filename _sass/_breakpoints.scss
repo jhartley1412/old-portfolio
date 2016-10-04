@@ -49,6 +49,7 @@
 	// ———————————————————————————————————————————
 
 	.sub-nav{
+		width: 95%;
 		padding: 0.6em 1.5em 0 1.5em;
 
 		a, .sub-nav-title{
@@ -188,9 +189,10 @@
 	// ———————————————————————————————————————————
 
 	.sub-nav{
+		width: auto;
 		border-top: none;
 		padding-top: 0;
-		padding-left: 0;
+		padding-left: 2.2em;
 
 		a, .sub-nav-title{
 			font-size: 1em;

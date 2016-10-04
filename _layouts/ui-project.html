@@ -7,12 +7,16 @@
 
     {% include header.html %}
 
-    {% include ui-sub-nav.html %}
-
     <div class="page-content">
+
       <div class="wrapper">
+        
+        {% include ui-sub-nav.html %}
+
         {{ content }}
+
       </div>
+
     </div>
 
     {% include footer.html %}

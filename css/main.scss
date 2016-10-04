@@ -111,11 +111,10 @@ nav{
 
 .sub-nav{
 	@extend .col-sm-12;
-	@extend .col-md-10;
+	@extend .col-md-11;
 	@extend .col-lg-11;
 	
-	width: 98%;
-	max-width: 2000px;
+	box-sizing: border-box;
 
 	a{
 		margin-right: 1.2em;
@@ -152,10 +151,6 @@ header{
 	box-sizing: border-box;
 	overflow: hidden;
 
-	// a{
-	// 	float: left;
-	// }
-
 	.navi-one{
 		text-align: center;
 	}
@@ -176,7 +171,7 @@ header{
 footer{
 	background-color: #000;
 	margin-top: 2em;
-	min-height: 40px;
+	min-height: 15px;
 	box-sizing: border-box;
 	padding-left: 4em;
 }
