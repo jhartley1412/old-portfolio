@@ -1,4 +1,4 @@
-.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -32,10 +32,10 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-md-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-md-12, .project-container, .banner-desc, .banner-image, .project-process {
+  .col-md-12, .project-container, .banner-desc, .banner-image {
     width: 100%; } }
 @media (min-width: 978px) {
   .col-lg-1 {
@@ -53,7 +53,7 @@
   .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .post {
+  .col-lg-6, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -68,12 +68,12 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-lg-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12 {
     width: 100%; } }
-.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -107,10 +107,10 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-md-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-md-12, .project-container, .banner-desc, .banner-image, .project-process {
+  .col-md-12, .project-container, .banner-desc, .banner-image {
     width: 100%; } }
 @media (min-width: 978px) {
   .col-lg-1 {
@@ -128,7 +128,7 @@
   .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .post {
+  .col-lg-6, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -143,7 +143,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-lg-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12 {
@@ -295,10 +295,6 @@
   .banner-desc {
     padding-left: 0; }
 
-  .process-row {
-    border-left: 1px solid #e8584e;
-    padding: 0 1.5em; }
-
   .project-desc {
     margin: 0 3% 2em 0; }
 
@@ -358,7 +354,7 @@
   .post-list li {
     width: 25%;
     margin: 0 3% 2em 3%; } }
-.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -392,10 +388,10 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-md-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-md-12, .project-container, .banner-desc, .banner-image, .project-process {
+  .col-md-12, .project-container, .banner-desc, .banner-image {
     width: 100%; } }
 @media (min-width: 978px) {
   .col-lg-1 {
@@ -413,7 +409,7 @@
   .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .post {
+  .col-lg-6, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -428,7 +424,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-lg-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12 {
@@ -474,7 +470,7 @@
 .text-link {
   text-decoration: underline; }
 
-.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -508,10 +504,10 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-md-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-md-12, .project-container, .banner-desc, .banner-image, .project-process {
+  .col-md-12, .project-container, .banner-desc, .banner-image {
     width: 100%; } }
 @media (min-width: 978px) {
   .col-lg-1 {
@@ -529,7 +525,7 @@
   .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .post {
+  .col-lg-6, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -544,7 +540,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-lg-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12 {
@@ -570,16 +566,6 @@
   margin-top: 1em;
   float: left; }
 
-.project-process {
-  box-sizing: border-box;
-  padding: 0 3%;
-  overflow: hidden;
-  float: left; }
-
-.process-row {
-  box-sizing: border-box;
-  overflow: hidden; }
-
 .project-desc {
   width: 99%;
   max-width: 1000px;
@@ -602,7 +588,10 @@
   float: left; }
 
 .trio-container {
-  clear: both; }
+  clear: both;
+  margin: 1.5em auto;
+  overflow: hidden;
+  float: left; }
   .trio-container a:last-of-type img {
     margin-right: 0; }
 
@@ -610,7 +599,7 @@
   border: 0.8px solid #E6E6E6;
   padding: 5px; }
 
-.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -644,10 +633,10 @@
   .col-md-10 {
     width: 82.83333%; }
 
-  .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-md-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-md-12, .project-container, .banner-desc, .banner-image, .project-process {
+  .col-md-12, .project-container, .banner-desc, .banner-image {
     width: 100%; } }
 @media (min-width: 978px) {
   .col-lg-1 {
@@ -665,7 +654,7 @@
   .col-lg-5, .banner-desc {
     width: 39.91667%; }
 
-  .col-lg-6, .project-process, .post {
+  .col-lg-6, .post {
     width: 48.5%; }
 
   .col-lg-7, .banner-image {
@@ -680,7 +669,7 @@
   .col-lg-10 {
     width: 82.83333%; }
 
-  .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
+  .col-lg-11, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
   .col-lg-12 {
@@ -766,7 +755,7 @@ body {
   line-height: 1.5; }
   body p {
     margin-top: 0.3em;
-    margin-bottom: 1.5em; }
+    margin-bottom: 0.7em; }
   body header, body .page-content {
     max-width: 1300px;
     margin: 0 auto; }
@@ -817,9 +806,6 @@ a {
   width: 40px;
   float: left;
   margin: 1.5em 2em 0 0; }
-
-.special-container {
-  overflow: hidden; }
 
 nav {
   overflow: hidden; }
