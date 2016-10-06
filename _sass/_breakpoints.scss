@@ -115,8 +115,14 @@
 		margin: 2em auto 1em auto;
 	}
 
-	.tall-image{
-		padding: 0;
+	.portrait{
+		margin: 6% auto;
+		max-width: 600px;
+	}
+
+	.landscape{
+		margin: 10% auto;
+		max-width: 900px;
 	}
 
 
@@ -250,8 +256,14 @@
 		margin: 2em auto 1em auto;
 	}
 
-	.tall-image{
-		padding: 0 5em;
+	.portrait{
+		margin: 6% auto;
+		max-width: 600px;
+	}
+
+	.landscape{
+		margin: 10% auto;
+		max-width: 900px;
 	}
 
 
@@ -321,15 +333,6 @@
 	.desc-image{
 		margin: 2.5em auto 1.5em auto;
 	}
-
-	// .lightbox{
-
-	// 	img{
-	// 		margin: 6% auto;
-	// 		max-width: 600px;
-	// 	}
-		
-	// }
 
 	.portrait{
 		margin: 6% auto;
