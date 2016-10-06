@@ -1,4 +1,4 @@
-.col-sm-1, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -26,10 +26,10 @@
   .col-md-8 {
     width: 65.66667%; }
 
-  .col-md-9, .project-image {
+  .col-md-9 {
     width: 74.25%; }
 
-  .col-md-10, .desc-image {
+  .col-md-10 {
     width: 82.83333%; }
 
   .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
@@ -56,7 +56,7 @@
   .col-lg-6, .project-process, .post {
     width: 48.5%; }
 
-  .col-lg-7, .banner-image, .project-image {
+  .col-lg-7, .banner-image {
     width: 57.08333%; }
 
   .col-lg-8 {
@@ -71,9 +71,9 @@
   .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-lg-12, .desc-image {
+  .col-lg-12 {
     width: 100%; } }
-.col-sm-1, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -101,10 +101,10 @@
   .col-md-8 {
     width: 65.66667%; }
 
-  .col-md-9, .project-image {
+  .col-md-9 {
     width: 74.25%; }
 
-  .col-md-10, .desc-image {
+  .col-md-10 {
     width: 82.83333%; }
 
   .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
@@ -131,7 +131,7 @@
   .col-lg-6, .project-process, .post {
     width: 48.5%; }
 
-  .col-lg-7, .banner-image, .project-image {
+  .col-lg-7, .banner-image {
     width: 57.08333%; }
 
   .col-lg-8 {
@@ -146,7 +146,7 @@
   .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-lg-12, .desc-image {
+  .col-lg-12 {
     width: 100%; } }
 @media (min-width: 300px) {
   h1 {
@@ -337,13 +337,18 @@
   .desc-image {
     margin: 2.5em auto 1.5em auto; }
 
-  .lightbox img {
-    max-height: 700px; }
+  .portrait {
+    margin: 6% auto;
+    max-width: 600px; }
+
+  .landscape {
+    margin: 10% auto;
+    max-width: 900px; }
 
   .post-list li {
     width: 25%;
     margin: 0 3% 2em 3%; } }
-.col-sm-1, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -371,10 +376,10 @@
   .col-md-8 {
     width: 65.66667%; }
 
-  .col-md-9, .project-image {
+  .col-md-9 {
     width: 74.25%; }
 
-  .col-md-10, .desc-image {
+  .col-md-10 {
     width: 82.83333%; }
 
   .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
@@ -401,7 +406,7 @@
   .col-lg-6, .project-process, .post {
     width: 48.5%; }
 
-  .col-lg-7, .banner-image, .project-image {
+  .col-lg-7, .banner-image {
     width: 57.08333%; }
 
   .col-lg-8 {
@@ -416,7 +421,7 @@
   .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-lg-12, .desc-image {
+  .col-lg-12 {
     width: 100%; } }
 .main-banner {
   width: 100%;
@@ -459,7 +464,7 @@
 .text-link {
   text-decoration: underline; }
 
-.col-sm-1, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -487,10 +492,10 @@
   .col-md-8 {
     width: 65.66667%; }
 
-  .col-md-9, .project-image {
+  .col-md-9 {
     width: 74.25%; }
 
-  .col-md-10, .desc-image {
+  .col-md-10 {
     width: 82.83333%; }
 
   .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
@@ -517,7 +522,7 @@
   .col-lg-6, .project-process, .post {
     width: 48.5%; }
 
-  .col-lg-7, .banner-image, .project-image {
+  .col-lg-7, .banner-image {
     width: 57.08333%; }
 
   .col-lg-8 {
@@ -532,7 +537,7 @@
   .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-lg-12, .desc-image {
+  .col-lg-12 {
     width: 100%; } }
 .project-container {
   box-sizing: border-box;
@@ -583,10 +588,6 @@
   width: 100%;
   max-width: 700px; }
 
-.image-two {
-  width: 100%;
-  max-width: 460px; }
-
 .image-third {
   float: left; }
 
@@ -599,17 +600,7 @@
   border: 0.8px solid #E6E6E6;
   padding: 5px; }
 
-.desc-image {
-  display: block; }
-
-.project-image {
-  margin: 2.8em auto 1em auto;
-  display: block; }
-
-.tall-image {
-  box-sizing: border-box; }
-
-.col-sm-1, .banner-desc, .banner-image, .project-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .desc-image, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1, .banner-desc, .banner-image, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .project-container, .project-process, .process-row, .sub-nav, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -637,10 +628,10 @@
   .col-md-8 {
     width: 65.66667%; }
 
-  .col-md-9, .project-image {
+  .col-md-9 {
     width: 74.25%; }
 
-  .col-md-10, .desc-image {
+  .col-md-10 {
     width: 82.83333%; }
 
   .col-md-11, .process-row, .blog-page-title, .post-list, .sub-nav {
@@ -667,7 +658,7 @@
   .col-lg-6, .project-process, .post {
     width: 48.5%; }
 
-  .col-lg-7, .banner-image, .project-image {
+  .col-lg-7, .banner-image {
     width: 57.08333%; }
 
   .col-lg-8 {
@@ -682,7 +673,7 @@
   .col-lg-11, .process-row, .blog-page-title, .post-list, .sub-nav {
     width: 91.41667%; }
 
-  .col-lg-12, .desc-image {
+  .col-lg-12 {
     width: 100%; } }
 .blog-page-title {
   box-sizing: border-box;
@@ -869,7 +860,6 @@ header {
   overflow: scroll; }
   .lightbox img {
     width: 80%;
-    margin: 0 auto;
     display: block; }
 
 footer {

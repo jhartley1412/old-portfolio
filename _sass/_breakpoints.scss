@@ -322,11 +322,23 @@
 		margin: 2.5em auto 1.5em auto;
 	}
 
-	.lightbox{
+	// .lightbox{
 
-		img{
-			max-height: 700px;
-		}
+	// 	img{
+	// 		margin: 6% auto;
+	// 		max-width: 600px;
+	// 	}
+		
+	// }
+
+	.portrait{
+		margin: 6% auto;
+		max-width: 600px;
+	}
+
+	.landscape{
+		margin: 10% auto;
+		max-width: 900px;
 	}
 
 

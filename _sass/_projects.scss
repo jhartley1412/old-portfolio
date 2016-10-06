@@ -109,12 +109,6 @@
 // lone image container in _breakpoints.scss
 
 
-// images that are in a pair
-.image-two{
-	width: 100%;
-	max-width: 460px;
-}
-
 // images that are one of a trio
 .image-third{
 	float: left;
@@ -138,31 +132,6 @@
 .image-border{
 	border: 0.8px solid $accent-color;
 	padding: 5px;
-}
-
-// images within description divs (usually wide)
-.desc-image{
-	@extend .col-sm-12;
-	@extend .col-md-10;
-	@extend .col-lg-12;
-
-	// margin in _breakpoints.scss
-	display: block;
-}
-
-
-// images within process rows (usually tall)
-.project-image{
-	@extend .col-sm-1;
-	@extend .col-md-9;
-	@extend .col-lg-7;
-
-	margin: 2.8em auto 1em auto;
-	display: block;
-}
-
-.tall-image{
-	box-sizing: border-box;
 }
 
 

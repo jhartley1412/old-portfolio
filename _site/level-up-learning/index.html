@@ -186,7 +186,7 @@
 
           <div class="lightbox-content">
 
-            <img src="#"/>
+            <img class="#" src="#"/>
 
           </div>
 
@@ -223,15 +223,15 @@
 
 		<div class="trio-container">
 
-			<a href="../images/levelup/style-tiles-01.jpg" class="lightbox-trigger">
+			<a href="../images/levelup/style-tiles-01.jpg" class="lightbox-trigger landscape">
 				<img class="image-third image-border" src="../images/levelup/style-tiles-01.jpg">
 			</a>
 
-			<a href="../images/levelup/style-tiles-02.jpg" class="lightbox-trigger">
+			<a href="../images/levelup/style-tiles-02.jpg" class="lightbox-trigger landscape">
 				<img class="image-third image-border" src="../images/levelup/style-tiles-02.jpg">
 			</a>
 
-			<a href="../images/levelup/style-tiles-03.jpg" class="lightbox-trigger">
+			<a href="../images/levelup/style-tiles-03.jpg" class="lightbox-trigger landscape">
 				<img class="image-third image-border" src="../images/levelup/style-tiles-03.jpg"> 
 			</a>
 
@@ -246,15 +246,15 @@
 
 		<div class="trio-container">
 
-			<a href="../images/levelup/levelup-sketches.jpg" class="lightbox-trigger">
+			<a href="../images/levelup/levelup-sketches.jpg" class="lightbox-trigger portrait">
 				<img class="image-third" src="../images/levelup/levelup-sketches.jpg">
 			</a>
 
-			<a href="../images/levelup/tablet-wireframe.png" class="lightbox-trigger">
+			<a href="../images/levelup/tablet-wireframe.png" class="lightbox-trigger portrait">
 				<img class="image-third image-border" src="../images/levelup/tablet-wireframe.png"> 
 			</a>
 
-			<a href="../images/levelup/tablet-wireframe.png" class="lightbox-trigger">
+			<a href="../images/levelup/tablet-wireframe.png" class="lightbox-trigger portrait">
 				<img class="image-third image-border" src="../images/levelup/tablet-wireframe.png"> 
 			</a>
 
@@ -293,49 +293,70 @@
     <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
 
   <script>
-
+ 
     jQuery(document).ready(function($){
-
+ 
       $('.lightbox-trigger').click(function(e){
-
+ 
         e.preventDefault();
-
+ 
         var image_href = $(this).attr("href");
-        
-        //if the lightbox class exists (is greater than zero)
+        var image_class = $(this).attr("class");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        // if the lightbox class exists (is greater than zero)
         if ($('.lightbox').length > 0){ 
 
-          $('.lightbox-content').html('<img src="' + image_href +'"/>');
 
-          $('.lightbox').show();
+          // if the lightbox shares the class of landscape, give it landscape
+          if ($('.lightbox-trigger').hasClass("landscape")){
 
-        }
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
 
-        else{
-
-          var lightbox = 
-            '<div class="lightbox">' +
-              '<p> Click to close </p>' +
-              '<div class="lightbox-content">' +
-                '<img src="' + image_href + '"/>' +
-              '</div>' +
-            '</div>';
-
-            $('body').append(lightbox);
-        }
+          } // string code if end
 
 
+          // if the lightbox shares the class of portrait, give it portrait
+          if ($('.lightbox-trigger').hasClass("portrait")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if else end
+          
+          else{
+
+            var lightbox = 
+              '<div class="lightbox">' +
+                '<p> Click to close </p>' +
+                  '<div class="lightbox-content">' +
+                    '<img src="' + image_href + '"/>' +
+                  '</div>' +
+              '</div>';
+
+             $('body').append(lightbox);
+
+          } // string code else end
+
+        } // overall if statement end
+ 
+ 
         $('.lightbox').live('click', function(){
-
+ 
           $('.lightbox').hide();
-
+ 
         });
-
-      });
+        // LIGHTBOX LIVE END
+ 
+       });
+      // LIGHTBOX-TRIGGER END  
 
     });
-
-  </script>
+    // WHOLE WRAPPER END
+ 
+   </script>
 
   </body>
 
