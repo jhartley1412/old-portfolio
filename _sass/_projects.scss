@@ -126,8 +126,11 @@
 .trio-container{
 	clear: both;
 
-	img:last-of-type{
-		margin-right: 0;
+	a:last-of-type{
+		
+		img{
+			margin-right: 0;
+		}
 	}
 }
 

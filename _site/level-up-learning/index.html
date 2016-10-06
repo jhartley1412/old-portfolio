@@ -22,6 +22,7 @@
   <!-- NORMALIZE -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
 
+
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://janinahartleydesigns.com//level-up-learning/">
   <link rel="alternate" type="application/rss+xml" title="Janina Hartley's Portfolio" href="http://janinahartleydesigns.com//feed.xml">
@@ -180,6 +181,17 @@
 
 
 
+        <!-- LIGHTBOX -->
+        <div class="lightbox">
+
+          <div class="lightbox-content">
+
+            <img src="#"/>
+
+          </div>
+
+        </div>
+
         <div class="project-container">
 	
 	<div class="project-banner">
@@ -211,11 +223,17 @@
 
 		<div class="trio-container">
 
-			<img class="image-third image-border" src="../images/levelup/style-tiles-01.jpg">
+			<a href="../images/levelup/style-tiles-01.jpg" class="lightbox-trigger">
+				<img class="image-third image-border" src="../images/levelup/style-tiles-01.jpg">
+			</a>
 
-			<img class="image-third image-border" src="../images/levelup/style-tiles-02.jpg">
+			<a href="../images/levelup/style-tiles-02.jpg" class="lightbox-trigger">
+				<img class="image-third image-border" src="../images/levelup/style-tiles-02.jpg">
+			</a>
 
-			<img class="image-third image-border" src="../images/levelup/style-tiles-03.jpg"> 
+			<a href="../images/levelup/style-tiles-03.jpg" class="lightbox-trigger">
+				<img class="image-third image-border" src="../images/levelup/style-tiles-03.jpg"> 
+			</a>
 
 		</div>
 
@@ -226,9 +244,21 @@
 
 		<p class="desk-float"> Seeing as how my main audience would be children, I needed to make sure that the usability was as simple as possible, and included a lot of feedback. Starting from mobile and working up, I kept thinking of interactive lessons that all seemed very stale. I ended up changing my thinking and started focusing on the idea of the user exploring and learning through experience. The concept was unfortunately not as doable in the timeframe I had, but I was able to design and build an MVP that translated my idea to other people. </p>
 
-		<img class="image-two desk-float" src="../images/levelup/levelup-sketch.jpg">
+		<div class="trio-container">
 
-		<img class="image-two image-border desk-float" src="../images/levelup/tablet-wireframe.png"> 
+			<a href="../images/levelup/levelup-sketches.jpg" class="lightbox-trigger">
+				<img class="image-third" src="../images/levelup/levelup-sketches.jpg">
+			</a>
+
+			<a href="../images/levelup/tablet-wireframe.png" class="lightbox-trigger">
+				<img class="image-third image-border" src="../images/levelup/tablet-wireframe.png"> 
+			</a>
+
+			<a href="../images/levelup/tablet-wireframe.png" class="lightbox-trigger">
+				<img class="image-third image-border" src="../images/levelup/tablet-wireframe.png"> 
+			</a>
+
+		</div>
 
 
 		<h2 class="clear">  Challenges </h2>
@@ -253,14 +283,60 @@
 
     </div>
 
-    
-
-  </body>
-
-<footer class="site-footer">
+    <footer class="site-footer">
 
 
 </footer>
 
+
+    <!-- LIGHTBOX -->
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+  <script>
+
+    jQuery(document).ready(function($){
+
+      $('.lightbox-trigger').click(function(e){
+
+        e.preventDefault();
+
+        var image_href = $(this).attr("href");
+        
+        //if the lightbox class exists (is greater than zero)
+        if ($('.lightbox').length > 0){ 
+
+          $('.lightbox-content').html('<img src="' + image_href +'"/>');
+
+          $('.lightbox').show();
+
+        }
+
+        else{
+
+          var lightbox = 
+            '<div class="lightbox">' +
+              '<p> Click to close </p>' +
+              '<div class="lightbox-content">' +
+                '<img src="' + image_href + '"/>' +
+              '</div>' +
+            '</div>';
+
+            $('body').append(lightbox);
+        }
+
+
+        $('.lightbox').live('click', function(){
+
+          $('.lightbox').hide();
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+  </body>
 
 </html>

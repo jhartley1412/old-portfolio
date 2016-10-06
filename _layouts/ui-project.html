@@ -13,16 +13,73 @@
         
         {% include ui-sub-nav.html %}
 
+        <!-- LIGHTBOX -->
+        <div class="lightbox">
+
+          <div class="lightbox-content">
+
+            <img src="#"/>
+
+          </div>
+
+        </div>
+
         {{ content }}
 
       </div>
 
     </div>
 
-    
+    {% include footer.html %}
+
+    <!-- LIGHTBOX -->
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+  <script>
+
+    jQuery(document).ready(function($){
+
+      $('.lightbox-trigger').click(function(e){
+
+        e.preventDefault();
+
+        var image_href = $(this).attr("href");
+        
+        //if the lightbox class exists (is greater than zero)
+        if ($('.lightbox').length > 0){ 
+
+          $('.lightbox-content').html('<img src="' + image_href +'"/>');
+
+          $('.lightbox').show();
+
+        }
+
+        else{
+
+          var lightbox = 
+            '<div class="lightbox">' +
+              '<p> Click to close </p>' +
+              '<div class="lightbox-content">' +
+                '<img src="' + image_href + '"/>' +
+              '</div>' +
+            '</div>';
+
+            $('body').append(lightbox);
+        }
+
+
+        $('.lightbox').live('click', function(){
+
+          $('.lightbox').hide();
+
+        });
+
+      });
+
+    });
+
+  </script>
 
   </body>
-
-{% include footer.html %}
 
 </html>
