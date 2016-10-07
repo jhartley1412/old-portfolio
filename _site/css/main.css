@@ -564,7 +564,8 @@
 
 .banner-image {
   margin-top: 1em;
-  float: left; }
+  float: left;
+  box-sizing: border-box; }
 
 .project-desc {
   width: 99%;
