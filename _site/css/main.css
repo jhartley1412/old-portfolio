@@ -217,6 +217,11 @@
     float: none;
     margin: 0 auto; }
 
+  .image-double {
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 1em; }
+
   .image-third {
     width: 88%;
     margin: 0 auto;
@@ -298,6 +303,10 @@
   .project-desc {
     margin: 0 3% 2em 0; }
 
+  .image-double {
+    width: 40%;
+    margin-right: 15%; }
+
   .image-third {
     width: 25%;
     margin-right: 8%; }
@@ -350,6 +359,9 @@
   .landscape {
     margin: 8% auto;
     max-width: 900px; }
+
+  .desk-tall {
+    max-width: 400px; }
 
   .post-list li {
     width: 25%;
@@ -584,6 +596,18 @@
 .image-one {
   width: 100%;
   max-width: 700px; }
+
+.image-double {
+  float: left;
+  box-sizing: border-box; }
+
+.double-container {
+  clear: both;
+  margin: 1.5em auto;
+  overflow: hidden;
+  float: left; }
+  .double-container a:last-of-type img {
+    margin-right: 0; }
 
 .image-third {
   float: left;

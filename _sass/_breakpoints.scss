@@ -105,6 +105,12 @@
 		margin: 0 auto;
 	}
 
+	.image-double{
+		width: 88%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+
 	.image-third{
 		width: 88%;
 		margin: 0 auto;
@@ -242,6 +248,11 @@
 		margin: 0 $gut-width 2em 0;
 	}
 
+	.image-double{
+		width: 40%;
+		margin-right: 15%;
+	}
+
 	.image-third{
 		width: 25%;
 		margin-right: 8%;
@@ -337,6 +348,10 @@
 	.landscape{
 		margin: 8% auto;
 		max-width: 900px;
+	}
+
+	.desk-tall{
+		max-width: 400px;
 	}
 
 

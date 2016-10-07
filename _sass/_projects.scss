@@ -88,6 +88,29 @@
 // lone image container in _breakpoints.scss
 
 
+.image-double{
+	float: left;
+	box-sizing: border-box;
+
+	// width and right margin in _breakpoints.scss
+}
+
+// container of two images
+.double-container{
+	clear: both;
+	margin: 1.5em auto;
+	overflow: hidden;
+	float: left;
+
+	a:last-of-type{
+		
+		img{
+			margin-right: 0;
+		}
+	}
+}
+
+
 // images that are one of a trio
 .image-third{
 	float: left;
