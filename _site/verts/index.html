@@ -63,7 +63,7 @@
 
       
 
-        <a href="/#/"> Graphic Design </a>
+        <a href="/cities/"> Graphic Design </a>
       </span>
 
 
@@ -101,7 +101,11 @@
 </header>
 
 
-    
+    <div class="page-content">
+
+      <div class="wrapper">
+        
+        
 <nav class="sub-nav">
 	
 	<!-- CITIES ACROSS AMERICA -->
@@ -150,8 +154,17 @@
 
 
 
-    <div class="page-content">
-      <div class="wrapper">
+        <!-- LIGHTBOX -->
+        <div class="lightbox">
+
+          <div class="lightbox-content">
+
+            <img class="#" src="#"/>
+
+          </div>
+
+        </div>
+
         <div class="project-container">
 	
 	<div class="project-banner">
@@ -205,7 +218,9 @@
 
 
 
+
       </div>
+
     </div>
 
     <footer class="site-footer">
@@ -213,6 +228,74 @@
 
 </footer>
 
+
+    <!-- LIGHTBOX -->
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+  <script>
+ 
+    jQuery(document).ready(function($){
+ 
+      $('.lightbox-trigger').click(function(e){
+ 
+        e.preventDefault();
+ 
+        var image_href = $(this).attr("href");
+        var image_class = $(this).attr("class");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        // if the lightbox class exists (is greater than zero)
+        if ($('.lightbox').length > 0){ 
+
+
+          // if the lightbox shares the class of landscape, give it landscape
+          if ($('.lightbox-trigger').hasClass("landscape")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if end
+
+
+          // if the lightbox shares the class of portrait, give it portrait
+          if ($('.lightbox-trigger').hasClass("portrait")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if else end
+          
+          else{
+
+            var lightbox = 
+              '<div class="lightbox">' +
+                  '<div class="lightbox-content">' +
+                    '<img src="' + image_href + '"/>' +
+                  '</div>' +
+              '</div>';
+
+             $('body').append(lightbox);
+
+          } // string code else end
+
+        } // overall if statement end
+ 
+ 
+        $('.lightbox').live('click', function(){
+ 
+          $('.lightbox').hide();
+ 
+        });
+        // LIGHTBOX LIVE END
+ 
+       });
+      // LIGHTBOX-TRIGGER END  
+
+    });
+    // WHOLE WRAPPER END
+ 
+   </script>
 
   </body>
 
