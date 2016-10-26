@@ -17,10 +17,11 @@
   <link rel="shortcut icon" type="image/png" href="/images/logo-favicon.png">
   
   <!-- GOOGLEFONTS -->
-  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Maven+Pro:400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Exo+2:700|Roboto' rel='stylesheet' type='text/css'>
 
   <!-- NORMALIZE -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://janinahartleydesigns.com//linkedin/">
@@ -47,48 +48,65 @@
 
   <nav>
 
-  <a href="/index.html" class="header-logo">
-    <h2>janina<span class="black-text">hartley</span> </h2>
-  </a>
+    <a href="/index.html" class="header-logo">
+      <h2>janina<span class="black-text">hartley</span> </h2>
+    </a>
 
     <div class="trigger">
+
+      <!-- UI DESIGN -->
+
       
-        
-        <a class="page-link" href="/about-me/">About Me</a>
-        
+
+        <span>
+
       
-        
-        <a class="page-link" href="/blog/">Blog</a>
-        
+
+        <a href="/level-up-learning/"> UI Design </a>
+      </span>
+
+
+
+
+      <!-- GRAPHIC DESIGN -->
+
       
-        
-        <a class="page-link" href="/cities/">Graphic Design</a>
-        
+
+        <span>
+
       
-        
+
+        <a href="/cities/"> Graphic Design </a>
+      </span>
+
+
+
+
+      <!-- BLOG -->
+
       
-        
+
+        <span>
+
       
-        
+
+        <a href="/blog/"> Blog </a>
+      </span>
+
+
+
+
+      <!-- ABOUT ME -->
+
       
-        
+
+        <span>
+
       
-        
-        <a class="page-link" href="/level-up-learning/">UI Design</a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+
+        <a href="/about-me/"> About Me </a>
+      </span>
+
     </div>
     
   </nav>
@@ -96,7 +114,11 @@
 </header>
 
 
-    
+    <div class="page-content">
+
+      <div class="wrapper">
+        
+        
 <nav class="sub-nav">
 	
 	<!-- LEVEL UP LEARNING -->
@@ -173,59 +195,95 @@
 
 
 
-    <div class="page-content">
-      <div class="wrapper">
+        <!-- LIGHTBOX -->
+        <div class="lightbox">
+
+          <div class="lightbox-content">
+
+            <img class="#" src="#"/>
+
+          </div>
+
+        </div>
+
         <div class="project-container">
 	
 	<div class="project-banner">
-		<div class="project-desc">
-			<h1> LinkedIn Home Page Redesign </h1>
 
-			<p> The LinkedIn homepage is one of those sites where there is a lot going on. One project we got was to take the LinkedIn homepage and redesign it based on a specific type of user. Since this is what I mostly use LinkedIn for, I wanted to create a homepage design based for a user using LinkedIn specifically for finding a job.  </p>
+		<div class="banner-desc">
+
+			<h1> LevelUpLearning </h1>
+
+			<p> The LinkedIn homepage is one of those sites where there is a lot going on. One project we got was to take the LinkedIn homepage and redesign it based on a specific type of user. Since this is what I mostly use LinkedIn for, I wanted to create a homepage design based for a user using LinkedIn specifically for finding a job. </p>
+
 		</div>
 
-		<img class="project-image-banner" src="../images/linkedin/mockup_large.png">
+		<a href="../images/linkedin/mockup_large.png" class="lightbox-trigger landscape">
+			<img class="banner-image image-border" src="../images/linkedin/mockup_large.png">
+		</a>
+
 	</div>
 
 
-	<div class="project-process">
+	<div class="project-desc">
 
-		<div class="project-desc">
-			<h2> The First Steps </h2>
+		<h2> Programs/Languages Used </h2>
+		<p> Illustrator, Photoshop, HTML, CSS/SASS, jQuery, Jekyll </p>
 
-			<p> Since I was focusing on someone using LinkedIn as a job search tool, I wanted the homepage to act like a portal that would provide a little information about all the types of information the user would care about; current job opportunities, how popular their profile has been lately, and current news catered towards their career. I added a tab menu on the right side where, by default, the user would see current job listings based off of their interested fields. The user would be able to switch between job listing, people they may know (since LinkedIn is, at the end of the day, about connecting the world of business), education opportunities (local classes or courses in their area) and favorites, which would consist of articles and people that the user would be able to save for later. </p>
+
+		<h2> Wireframing and Early Concepts </h2>
+
+		<p> The biggest gripe I’ve heard from LinkedIn users who are using it to network and find a job (myself included) has always been that there is a lot of information taking up the screen that is either deemed “unimportant” or “useless.” The current homepage looks more like a Facebook dashboard than something used for networking. When redesigning the home page, I liked the idea having a little bit of everything useful to the user. The home page would act like a portal of sorts, where the user would get to check on the things that mattered to them most to them; whose viewed their profile, local job offers, and news articles about subjects they are interested in. </p>
+
+		<div class="trio-container">
+
+			<a href="../images/linkedin/sketch1_large.jpg" class="lightbox-trigger landscape">
+				<img class="image-third" src="../images/linkedin/sketch1_large.jpg">
+			</a>
+
+			<a href="../images/linkedin/sketch2_large.jpg" class="lightbox-trigger landscape">
+				<img class="image-third" src="../images/linkedin/sketch2_large.jpg">
+			</a>
+
+			<a href="../images/linkedin/linkedin-wireframe.png" class="lightbox-trigger landscape">
+				<img class="image-third image-border" src="../images/linkedin/linkedin-wireframe.png"> 
+			</a>
 
 		</div>
 
-		<img class="project-image-device" src="../images/linkedin/sketch1_large.jpg">
+		<p> I thought that the look of widgets worked best, with a toggle menu side bar to the right. The center widgets were made big and easy to see since that’s what most people (looking for a job) would most likely be interested in. The side menu’s would consist of local jobs (based off the users input) as well as the toggle menus for people they may know, local education options (crash courses, bootcamps, for students, local colleges to earn certain degrees), and lastly a favorites section. That would be for if a user comes across an article, a job offer or even a person on LinkedIn and wants to “save them for later.” They’d be able to store them all in their favorites, and come back to them whenever they wanted. </p>
 
-		<div class="project-desc">
-			<h2> The Challenges </h2>
+		<div class="trio-container">
 
-			<p> The goal of this project was not just to redesign a homepage based on a specific type of user, but also to stay within a predetermined style guide. I chose to use the style guide from <a href="https://www.lightningdesignsystem.com/design/typography/"> Salesforce Design System </a>. Like LinkedIn, it uses different shades of blue, but type wise is readable and professional. Using a pre-made style guide was something I’ve worked with before, but not in a code setting. I’ve worked with style guides when working on graphic design projects. Style guides are a whole other thing when dealing with code. Paying attention to the little details was interesting, and I ended up tweaking some small design elements to better fit to the guide, but it was a rewarding experience.  </p>
+			<a href="../images/linkedin/small-sketch.jpg" class="lightbox-trigger portrait">
+				<img class="image-third" src="../images/linkedin/small-sketch.jpg">
+			</a>
+
+			<a href="../images/linkedin/small-wireframe.png" class="lightbox-trigger portrait">
+				<img class="image-third image-border" src="../images/linkedin/small-wireframe.png">
+			</a>
+
+			<a href="../images/linkedin/side-menu.gif" class="lightbox-trigger portrait">
+				<img class="image-third" src="../images/linkedin/side-menu.gif"> 
+			</a>
 
 		</div>
 
 
-		<div class="project-desc">
-			<h2> The Final Moments </h2>
-
-			<p> Redesigning a site is something that, by this time, I had done a few times. But building a site, based off of a style guide that I haven’t created was something else. In the past, I would loosely pick a style tile, and finalize the end style guide as I created mockups and coded the site out. Working with a pre-made style guide was both restraining, as well as a breath of fresh air. It had been a while since I didn’t have to worry about creating a homemade style guide, and having one made for me was a nice change of pace. </p>
-
-		</div>
+		<h2 class="clear">  Challenges </h2>
+		<p> Originally this project was to follow a certain style, and work from a predetermined style guide. Unfortunately out of two I chose, I was only able to complete one in the given time limit (the one I used was from <a href="https://www.lightningdesignsystem.com/guidelines/typography/">Salesforce</a>). I got stuck up on some jQuery (the side menu and mobile screen) and wasn’t able to start the second style guide. Working from a style guide was interesting, especially working with one for code. I’ve worked within style guides for graphic design before with no problem, but matching code is a whole other task. </p>
 
 	</div>
 
-	<img class="project-image" src="../images/linkedin/sketch1_large.jpg">
-
-	<img class="project-image-taller" src="../images/linkedin/side-menu.gif">
-
+		
 </div>
 
 
 
 
+
       </div>
+
     </div>
 
     <footer class="site-footer">
@@ -233,6 +291,74 @@
 
 </footer>
 
+
+    <!-- LIGHTBOX -->
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+  <script>
+ 
+    jQuery(document).ready(function($){
+ 
+      $('.lightbox-trigger').click(function(e){
+ 
+        e.preventDefault();
+ 
+        var image_href = $(this).attr("href");
+        var image_class = $(this).attr("class");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        // if the lightbox class exists (is greater than zero)
+        if ($('.lightbox').length > 0){ 
+
+
+          // if the lightbox shares the class of landscape, give it landscape
+          if ($('.lightbox-trigger').hasClass("landscape")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if end
+
+
+          // if the lightbox shares the class of portrait, give it portrait
+          if ($('.lightbox-trigger').hasClass("portrait")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if else end
+          
+          else{
+
+            var lightbox = 
+              '<div class="lightbox">' +
+                  '<div class="lightbox-content">' +
+                    '<img src="' + image_href + '"/>' +
+                  '</div>' +
+              '</div>';
+
+             $('body').append(lightbox);
+
+          } // string code else end
+
+        } // overall if statement end
+ 
+ 
+        $('.lightbox').live('click', function(){
+ 
+          $('.lightbox').hide();
+ 
+        });
+        // LIGHTBOX LIVE END
+ 
+       });
+      // LIGHTBOX-TRIGGER END  
+
+    });
+    // WHOLE WRAPPER END
+ 
+   </script>
 
   </body>
 

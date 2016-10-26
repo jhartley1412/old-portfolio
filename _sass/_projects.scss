@@ -2,123 +2,144 @@
 @import "variables-grid";
 
 
-.sub-nav{
-	@extend .col-md-10;
-	@extend .col-lg-11;
-	
-	max-width: 2000px;
-	margin: 0.2em auto 1.5em auto;
-
-	a{
-		margin-right: 1em;
-	}
-}
-
 .project-container{
+	@extend .col-sm-12;
+	@extend .col-md-12;
+
 	box-sizing: border-box;
-	padding: 0 2em;
+	overflow: hidden;
 }
+
+
+
+// PROJECT BANNER
+// ———————————————————————————————————————————
 
 .project-banner{
-	@extend .col-md-11;
-	@extend .col-lg-12;
+	width: 99%;
 	
-	margin-bottom: 2em;
+	margin: 0 auto;
+	// margin-bottom: 4em;
 	overflow: hidden;
 	background-color: #fff;
 	border-bottom: 1px solid $prime-color;
 	padding-bottom: 1.6em;
-
-	.project-desc{
-		@extend .col-lg-5;
-
-		margin-bottom: 0.2em;
-		padding-right: 0.5em;
-		padding-left: 1.5em;
-
-		p{
-			font-size: 1.1em;
-		}
-	}
 }
 
-.project-process{
+.banner-desc{
+	@extend .col-sm-1;
 	@extend .col-md-12;
-	@extend .col-lg-6;
-
-	box-sizing: border-box;
-	padding: 0 3%;
-	overflow: hidden;
-	float: left;
-
-	.project-desc{
-		@extend .col-lg-12;
-		margin: 1.8em $gut-width 2em 0;
-		border-left: 1px solid $prime-color;
-		padding: 0 1.5em;
-
-		p{
-			font-size: 1em;
-		}
-	}
-}
-
-.project-desc{
-	@extend .col-md-12;
-// large col sizes underneath project banner and process classes
+	@extend .col-lg-5;
 
 	float: left;
 	margin-right: $gut-width;
-	margin-bottom: 5em;
 	box-sizing: border-box;
-
-	img:nth-of-type(1){
-		margin-right: 2%;
-	}
-
-	p{
-		line-height: 1.5;
-		margin: 0.8em 0;
-	}
 }
 
-.project-image, .project-image-tall, .project-image-device{
-	margin-right: 0;
-	float: left;
-	margin-top: 1.8em;
-}
-
-.project-image, .project-image-device{
-	@extend .col-sm-1;
-	@extend .col-md-12;
-	@extend .col-lg-6;
-
-	margin-bottom: 3em;
-}
-
-.project-image-banner{
+.banner-image{
 	@extend .col-sm-1;
 	@extend .col-md-12;
 	@extend .col-lg-7;
 
 	margin-top: 1em;
+	float: left;
+	box-sizing: border-box;
 }
 
-.project-image-tall{
-	@extend .col-sm-1;
-	@extend .col-md-9;
-	@extend .col-lg-5;
 
-	// margining in _breakpoints.scss
+
+// PROJECT PROCESS DESCRIPTIONS
+// ———————————————————————————————————————————
+
+.project-desc{
+	width: 99%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	// margin in _breakpoints.scss
+	box-sizing: border-box;
+	padding: 1em 0;
+
+	h2{
+		margin-top: 3.5em;
+
+		&:first-of-type{
+			margin-top: 0;
+		}
+	}
+
+	img{
+		display: block;
+		margin-bottom: 1em;
+	}
 }
 
-.project-image-taller{
-	@extend .col-sm-1;
-	@extend .col-md-6;
-	@extend .col-lg-3;
 
-	// margining in _breakpoints.scss
+
+// PROJECT IMAGES
+// ———————————————————————————————————————————
+
+
+// lone images that take up full row
+.image-one{
+	width: 100%;
+	max-width: 700px;
 }
+// lone image container in _breakpoints.scss
+
+
+.image-double{
+	float: left;
+	box-sizing: border-box;
+
+	// width and right margin in _breakpoints.scss
+}
+
+// container of two images
+.double-container{
+	clear: both;
+	margin: 1.5em auto;
+	overflow: hidden;
+	float: left;
+
+	a:last-of-type{
+		
+		img{
+			margin-right: 0;
+		}
+	}
+}
+
+
+// images that are one of a trio
+.image-third{
+	float: left;
+	box-sizing: border-box;
+
+	// width and right margin in _breakpoints.scss
+}
+
+// container of trio sets of images
+.trio-container{
+	clear: both;
+	margin: 1.5em auto;
+	overflow: hidden;
+	float: left;
+
+	a:last-of-type{
+		
+		img{
+			margin-right: 0;
+		}
+	}
+}
+
+// images without clear borders
+.image-border{
+	border: 0.8px solid $accent-color;
+	padding: 5px;
+}
+
 
 
 

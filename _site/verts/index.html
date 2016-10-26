@@ -17,10 +17,11 @@
   <link rel="shortcut icon" type="image/png" href="/images/logo-favicon.png">
   
   <!-- GOOGLEFONTS -->
-  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Maven+Pro:400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Exo+2:700|Roboto' rel='stylesheet' type='text/css'>
 
   <!-- NORMALIZE -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://janinahartleydesigns.com//verts/">
@@ -47,48 +48,65 @@
 
   <nav>
 
-  <a href="/index.html" class="header-logo">
-    <h2>janina<span class="black-text">hartley</span> </h2>
-  </a>
+    <a href="/index.html" class="header-logo">
+      <h2>janina<span class="black-text">hartley</span> </h2>
+    </a>
 
     <div class="trigger">
+
+      <!-- UI DESIGN -->
+
       
-        
-        <a class="page-link" href="/about-me/">About Me</a>
-        
+
+        <span>
+
       
-        
-        <a class="page-link" href="/blog/">Blog</a>
-        
+
+        <a href="/level-up-learning/"> UI Design </a>
+      </span>
+
+
+
+
+      <!-- GRAPHIC DESIGN -->
+
       
-        
-        <a class="page-link" href="/cities/">Graphic Design</a>
-        
+
+        <span>
+
       
-        
+
+        <a href="/cities/"> Graphic Design </a>
+      </span>
+
+
+
+
+      <!-- BLOG -->
+
       
-        
+
+        <span>
+
       
-        
+
+        <a href="/blog/"> Blog </a>
+      </span>
+
+
+
+
+      <!-- ABOUT ME -->
+
       
-        
+
+        <span>
+
       
-        
-        <a class="page-link" href="/level-up-learning/">UI Design</a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+
+        <a href="/about-me/"> About Me </a>
+      </span>
+
     </div>
     
   </nav>
@@ -96,7 +114,11 @@
 </header>
 
 
-    
+    <div class="page-content">
+
+      <div class="wrapper">
+        
+        
 <nav class="sub-nav">
 	
 	<!-- CITIES ACROSS AMERICA -->
@@ -145,8 +167,17 @@
 
 
 
-    <div class="page-content">
-      <div class="wrapper">
+        <!-- LIGHTBOX -->
+        <div class="lightbox">
+
+          <div class="lightbox-content">
+
+            <img class="#" src="#"/>
+
+          </div>
+
+        </div>
+
         <div class="project-container">
 	
 	<div class="project-banner">
@@ -200,7 +231,9 @@
 
 
 
+
       </div>
+
     </div>
 
     <footer class="site-footer">
@@ -208,6 +241,74 @@
 
 </footer>
 
+
+    <!-- LIGHTBOX -->
+    <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+  <script>
+ 
+    jQuery(document).ready(function($){
+ 
+      $('.lightbox-trigger').click(function(e){
+ 
+        e.preventDefault();
+ 
+        var image_href = $(this).attr("href");
+        var image_class = $(this).attr("class");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        // if the lightbox class exists (is greater than zero)
+        if ($('.lightbox').length > 0){ 
+
+
+          // if the lightbox shares the class of landscape, give it landscape
+          if ($('.lightbox-trigger').hasClass("landscape")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if end
+
+
+          // if the lightbox shares the class of portrait, give it portrait
+          if ($('.lightbox-trigger').hasClass("portrait")){
+
+            $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+   
+            $('.lightbox').show();
+
+          } // string code if else end
+          
+          else{
+
+            var lightbox = 
+              '<div class="lightbox">' +
+                  '<div class="lightbox-content">' +
+                    '<img src="' + image_href + '"/>' +
+                  '</div>' +
+              '</div>';
+
+             $('body').append(lightbox);
+
+          } // string code else end
+
+        } // overall if statement end
+ 
+ 
+        $('.lightbox').live('click', function(){
+ 
+          $('.lightbox').hide();
+ 
+        });
+        // LIGHTBOX LIVE END
+ 
+       });
+      // LIGHTBOX-TRIGGER END  
+
+    });
+    // WHOLE WRAPPER END
+ 
+   </script>
 
   </body>
 
