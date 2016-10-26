@@ -3,6 +3,7 @@
 
 
 // MOBILE
+// ———————————————————————————————————————————
 
 @media(min-width: 300px){
 	
@@ -14,11 +15,13 @@
 
 	//header nav
 	.trigger{
-		width: 99%;
+		width: 98%;
 		margin: 0 auto;
+		padding: 0 0 0 1em;
 
 		a{
-			margin: 0 8% 0 0;
+			margin: 0 3%;
+			display: inline-block;
 		}
 	}
 
@@ -42,13 +45,15 @@
 	}
 
 
-	//project sub-nav
+	// PROJECT ELEMENTS
+	// ———————————————————————————————————————————
+
 	.sub-nav{
-		padding-top: 0.6em;
-		padding-left: 1.5em;
+		width: 95%;
+		padding: 0.6em 1.5em 0 1.5em;
 
 		a, .sub-nav-title{
-			font-size: 1.2em;
+			font-size: 0.8em;
 			display: block;
 		}
 
@@ -57,6 +62,7 @@
 		}
 	}
 
+	// sub navigation a tags
 	.project-a{
 		display: inline-block;
 		float: left;
@@ -64,21 +70,70 @@
 		text-decoration: underline;
 	}
 
+	.project-banner{
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
 
 	.project-container{
+		padding: 1.5em;
+	}
+
+	.process-row{
+		border-left: none;
 		padding: 0;
-		padding-left: 8%;
+		margin: 2em auto;
+		margin-bottom: 2em;
+	}
+
+	.project-desc{
+		padding: 0;
+	}
+
+	.desk-float{
+		float: none;
+	}
+
+	.desk-center{
+		clear: both;
+		margin: 0 auto;
+	}
+
+	.image-one{
+		float: none;
+		margin: 0 auto;
+	}
+
+	.image-double{
+		width: 88%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+
+	.image-third{
+		width: 88%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+
+	.desc-image{
+		margin: 2em auto 1em auto;
+	}
+
+	.portrait{
+		margin: 6% auto;
+		max-width: 600px;
+	}
+
+	.landscape{
+		margin: 10% auto;
+		max-width: 900px;
 	}
 
 
-	//showing device version of project images
-	.project-image-device{
-		display: block;
-	}
-
-	.project-image{
-		display: none;
-	}
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 	
 	//about me page mobile "padding" (also used for blog posts)
 	.aboutme-page-container{
@@ -124,6 +179,8 @@
 
 
 // TALBET
+// ———————————————————————————————————————————
+
 @media(min-width: 420px){
 	
 
@@ -163,11 +220,14 @@
 	}
 
 
-	//project sub-nav
+	// PROJECT ELEMENTS
+	// ———————————————————————————————————————————
+
 	.sub-nav{
+		width: auto;
 		border-top: none;
 		padding-top: 0;
-		padding-left: 0;
+		padding-left: 2.2em;
 
 		a, .sub-nav-title{
 			font-size: 1em;
@@ -185,30 +245,51 @@
 	}
 
 	.project-container{
-		padding-left: 5%;
+		padding: 0 2em;
+	}
+
+	.banner-desc{
+		padding-left: 0;
+	}
+
+	.project-desc{
+		margin: 0 $gut-width 2em 0;
+	}
+
+	.image-double{
+		width: 40%;
+		margin-right: 15%;
+	}
+
+	.image-third{
+		width: 25%;
+		margin-right: 8%;
+	}
+
+	.desc-image{
+		margin: 2em auto 1em auto;
+	}
+
+	.portrait{
+		margin: 6% auto;
+		max-width: 600px;
+	}
+
+	.landscape{
+		margin: 10% auto;
+		max-width: 900px;
 	}
 
 
-	//centering project banner children
-	.project-banner{
-		margin: 0 auto;
-	}
-
-	//tall project images margining
-	.project-image-tall{
-		margin-left: 12%;
-	}
-
-	//taller (than tall) project images margining
-	.project-image-taller{
-		margin-left: 26%;
-	}
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 
 
 	//about me page mobile "padding" (also used for blog posts)
 	.aboutme-page-container{
 		padding: 0;
 	}
+
 
 	//about me title
 	.aboutme-page-title{
@@ -236,28 +317,54 @@
 
 
 
+// DESKTOP SIZE
+// ———————————————————————————————————————————
+
 @media(min-width: 978px){
 	
-	//showing device version of project images
-	.project-image-device{
-		display: none;
+
+	// PROJECT ELEMENTS
+	// ———————————————————————————————————————————
+	
+	.project-banner{
+		padding-top: 2em;
 	}
 
-	.project-image{
-		display: block;
+	.project-desc{
+		margin: 0 $gut-width 0 0;
+
+		img{
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
 	}
 
-	//tall project images margining
-	.project-image-tall{
-		margin-left: 5%;
+	.desk-float{
+		float: left;
+		margin: 0 25px 0 0;
 	}
 
-	//taller (than tall) project images margining
-	.project-image-taller{
-		margin-top: 1.5em;
-		margin-left: 12%;
+	.desc-image{
+		margin: 2.5em auto 1.5em auto;
 	}
 
+	.portrait{
+		margin: 5% auto;
+		max-width: 600px;
+	}
+
+	.landscape{
+		margin: 8% auto;
+		max-width: 900px;
+	}
+
+	.desk-tall{
+		max-width: 400px;
+	}
+
+
+	// BLOG POST ELEMENTS
+	// ———————————————————————————————————————————
 
 	//blog posts size and width
 	.post-list{

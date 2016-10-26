@@ -2,16 +2,77 @@
 
   <nav>
 
-  <a href="/index.html" class="header-logo">
-    <h2>janina<span class="black-text">hartley</span> </h2>
-  </a>
+    <a href="/index.html" class="header-logo">
+      <h2>janina<span class="black-text">hartley</span> </h2>
+    </a>
 
     <div class="trigger">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        {% endif %}
-      {% endfor %}
+
+      <!-- UI DESIGN -->
+
+      {% if page.url == '/level-up-learning/' %} 
+        <span>
+
+      {% else %}
+
+        <span>
+
+      {% endif %}
+
+        <a href="/level-up-learning/"> UI Design </a>
+      </span>
+
+
+
+
+      <!-- GRAPHIC DESIGN -->
+
+      {% if page.url == '/cities/' %} 
+        <span>
+
+      {% else %}
+
+        <span>
+
+      {% endif %}
+
+        <a href="/cities/"> Graphic Design </a>
+      </span>
+
+
+
+
+      <!-- BLOG -->
+
+      {% if page.url == '/PROJECT TITLE/' %} 
+        <span>
+
+      {% else %}
+
+        <span>
+
+      {% endif %}
+
+        <a href="/blog/"> Blog </a>
+      </span>
+
+
+
+
+      <!-- ABOUT ME -->
+
+      {% if page.url == '/PROJECT TITLE/' %} 
+        <span>
+
+      {% else %}
+
+        <span>
+
+      {% endif %}
+
+        <a href="/about-me/"> About Me </a>
+      </span>
+
     </div>
     
   </nav>
