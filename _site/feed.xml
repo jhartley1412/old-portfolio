@@ -6,9 +6,220 @@
 </description>
     <link>http://janinahartleydesigns.com//</link>
     <atom:link href="http://janinahartleydesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Tue, 25 Oct 2016 19:40:29 -0500</pubDate>
     <lastBuildDate>Tue, 25 Oct 2016 19:40:29 -0500</lastBuildDate>
+=======
+    <pubDate>Tue, 25 Oct 2016 19:43:26 -0500</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 19:43:26 -0500</lastBuildDate>
+>>>>>>> master
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Wolfpack pt 7</title>
+        <description>&lt;h2&gt; Back to the grindstone &lt;/h2&gt;
+
+&lt;p&gt;OK, now that the hype of Pokemon Go has died down a little (not really, more like my legs have given out from all the walking), and I’ve settled back into my part-time job, it’s time to get back to Find My Furball. I was making good progress on coding out the basic HTML for my front-enders to work with a week ago. Unfortunately we weren’t able to meet last week because of illness, and this week we’re meeting tomorrow, which is later than originally planned. I’ve only got one more page to finish up for my sprint, and I’m getting close. It’s a more complicated page than the others. For the benefit of the user, and to condense similar information together, the profile page will have a mini navigation for account settings, messages and their pet entries all while being able to look at their personal information on the top.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image fmf-wireframe3 drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-wireframe3.png&quot; alt=&quot;fmf wireframe&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve gotten 2/3 of the mini pages done, and hope to finish up the full page by tonight. Of course it’s a little bit jarring looking at basic CSS/Sass. Since we haven’t really discussed the kind of styling we want to aim for (fonts, colors, images, etc), I’ve just been using a mix of baby blue, pink and grey to distinguish between buttons and would-be images and borders and such. Every time I preview the pages in Chrome it looks like a cotton candy site. Makes me hungry.&lt;/p&gt;
+
+&lt;p&gt;But I’ll be excited to get to the styling. After this page, and our meeting tomorrow, I’m hoping to get a good list of the rest of the pages they need done (as well as fix some webpack server issues I’ve been dealing with on my laptop) and then I can move into styling and figuring out the best look and feel for the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; What’s the deal with tables though? &lt;/h2&gt;
+
+&lt;p&gt;I’ve heard a lot of bad things about using tables in HTML. But I feel like this is a situation where it’s a little more needed. For one of the pages the user will be able to look at their current and past entries, and each entry will have a bunch of pet information describing the pet. Of course just using &lt;span class=&quot;sec-font bg-font&quot;&gt; &amp;lt; span &amp;gt; &lt;/span&gt; tags can accomplish this easy, but to make it look aligned and even, I feel tables are more practical. Now that I think of it, I’ll probably want to go back to a few other pages and incorporate tables on those as well (shoot).&lt;/p&gt;
+
+&lt;p&gt;Of course you learn something every day. Oddly enough, I never knew about the indicator &lt;span class=&quot;sec-font bg-font&quot;&gt; last-of-type &lt;/span&gt; for CSS. I’ve always gone the hard way, trying really hacky methods of using &lt;span class=&quot;sec-font bg-font&quot;&gt; last-child &lt;/span&gt;  and  &lt;span class=&quot;sec-font bg-font&quot;&gt; nth-child(x) &lt;/span&gt; that wouldn’t be much use in real world applications. Makes the little things a heck of a lot easier.&lt;/p&gt;
+
+&lt;p&gt;I’ve really been enjoying coding HTML and CSS/Sass again, but it’ll make for a nice break to just be in Illustrator messing around with colors and fonts and picking the best look for a design. This will also be the first project&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Not only of sight and sound, but of mind… &lt;/h2&gt;
+
+&lt;p&gt;Every few months I get new background material to work by. I’ve gone back and forth between songs and TV shows the last year or so, each usually lasting a few weeks (or however long it takes to marathon a series). During the Iron Yard it was a good mix of Game Grumps remixes and Fallout radio playlists. I work best (music wise) with songs that either don’t have “normal lyrics” and are repetitive. Best to work when you don’t have to pay too much attention to what you’re listening to. Although will Fallout it was more that I had heard those songs so much while exploring the Wasteland that they’re now perfect background ambience.&lt;/p&gt;
+
+&lt;p&gt;TV shows can sometimes be a good background source too. At least when I’ve seen whatever it is that’s playing. Lately I’ve been watching (re-watching technically) The Twilight Zone. My mom and I watched it all one summer when I was a kid, and with it on Netflix now, I’m loving re-watching the old episodes. I love oldies. I wish there were more black and white movies and TV shows on Netflix that I could just watch endlessly (not that my Watchlist isn’t long enough). Anyway, back to work!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 14 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/07/14/wolfpack-pt-7.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/07/14/wolfpack-pt-7.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pokemon Go!</title>
+        <description>&lt;h2&gt; pokemon-mon-mon-mon &lt;/h2&gt;
+
+&lt;p&gt;So Pokemon Go came out earlier this week and…that has taken up a bigger chunk of my time than I was planning on. I think the first day I got it I ended up walking around the neighborhood early in the morning to catch wild pokemon, went to work, and immediately went back outside. I probably looked like a weirdo, aiming my phone at random spots in front me me, but it was great. I felt like a kid again. Every time I caught a new pokemon or leveled up I felt a little more giddy.&lt;/p&gt;
+
+&lt;p&gt;I had been hearing about the release for months and wasn’t that huge on the idea, but it really surprised me. Especially how much walking I ended up doing that day. I’ve seen a lot of amateur reviews about how people actually want to go outside now, and how much more motivated everyone is going to be to get some exercise, and they’re all pretty on the mark. I’m not a big walker, I don’t like to run. I’ve been trying to be more active in my daily life whenever I can (you know, taking the stairs instead of the elevator, walking to work and HEB, small stuff). But now, every time I’m inside I’m wishing I was in the sun, collecting pokemon.&lt;/p&gt;
+
+&lt;p&gt;I’m amazed at the social aspect too. A few of us were exploring our neighborhood the other night, and we kept running into other people playing Go. I was able to catch a few people with their eyes glued to their phones that didn’t say hi, but the ones who did were super friendly. Not that that’s much of a surprise, but it’s kind of great seeing strangers just come up and join in the fun, sharing tips and swapping stories. It’s a fuzzy feeling covered in cheese. Pokemon Go has also swept through my workplace. I think every one of my co-workers at this point has played the app.&lt;/p&gt;
+
+&lt;p&gt;Not to mention the fact that we’re actually visiting some pretty cool places that we otherwise wouldn’t have given a second glance at. I feel like I’ve seen more of this neighborhood in three days than I did in three months. I’m so glad it’s summer. It makes for a perfect break from work to go outside and get some fresh air and exercise (even if it is in short bursts). It’s better then sitting inside all day and going stir crazy.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 Jul 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/07/08/pokemon.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/07/08/pokemon.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wolfpack pt 6</title>
+        <description>&lt;h2&gt; Back and forth and back and forth &lt;/h2&gt;
+
+&lt;p&gt;Since going back and reorganizing everything, it’s been mostly wireframes for the last few days. I’ve gone through a few iterations so far, tweaking bits here and there based on the teams feedback. We had our weekly agile meeting today and my next sprint is finishing up wireframes and (hopefully) starting on building some of the HTML. I’ve felt bad about my back-end and front-end teammates waiting on me to finish up my end of  the work.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt; Some pretty new wireframes to gaze upon &lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;double-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-wireframe1.png&quot; alt=&quot;fmf wireframes&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;double-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-wireframe2.png&quot; alt=&quot;fmf wireframes&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketch is so great. Not perfect, but close. Creating wireframes has made this project more conceptual in my mind, and I’m able to organize the navigation and pages much more easily. We’ve gone back and forth with a few features. The profile page is always a struggle for me. At least with side projects like this, I never know what information to add apart from contact information and an avatar. Luckily, consolidating means more information to add. I’ve thought up adding a sort of mini navigation on the bottom of the profile page for the account settings and messaging and such. I do better with a lot of information. It’s something to organize :3&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/28/wolfpack-pt-6.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/28/wolfpack-pt-6.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wolfpack pt 5</title>
+        <description>&lt;h2&gt; I learned something today &lt;/h2&gt;
+
+&lt;p&gt;The significance of user stories and use cases and user flows are becoming more and more clear to me. I’m a visual thinker, I need to be able to see something to work with it. As I was starting on wireframes, figuring out where components should go, and seeing what pages could be condenses and what pages we still needed based on layout, I realized I needed to do some backtracking and catch my bearings.&lt;/p&gt;
+
+&lt;p&gt;I ended up redoing the site map based on the changes that we were deciding for the wireframes. We were able to condense a few pages, and think up some neat features to add. Now it’s back to the wireframes, and getting more into Sketch. I have learned something cool with Sketch though. Apparently when you name an artboard and follow it with a “/“ it creates a folder when you export it (e.g. Artboard/Homepage will export to a folder called Artboard with a file called Homepage inside it). Fun facts of the day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/26/wolfpack-pt-5.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/26/wolfpack-pt-5.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sketch</title>
+        <description>&lt;h2&gt; It&#39;s so simple &lt;/h2&gt;
+
+&lt;p&gt;I’m finally learning &lt;a href=&quot;https://www.sketchapp.com&quot;&gt; Sketch &lt;/a&gt;. I had heard some good things about it during The Iron Yard, and have been wanting to try it out for a while. With the side project Find My Furball happening it seemed like perfect timing.&lt;/p&gt;
+
+&lt;p&gt;Before ever using Sketch, most of what I heard was that it was like Illustrator but more geared towards UI and UX design. Illustrator’s a personal favorite of mine, and there is no doubt it’s great for designing logos and vector art. But since getting into UI design, I’ve noticed the extent of which both Illustrator and Photoshop seem to have when it comes to their shortcomings. Sketch is specifically designed for web and UI/UX design, and it shows it. It’s so smooth to use, includes only the features you would want in designing an interface, and, best of all, it shares a lot of shortcut commands that Illustrator uses. Made getting started and learning the basics go along so much quicker.&lt;/p&gt;
+
+&lt;p&gt;I’ll always be an Adobe girl, but Sketch is quickly becoming one of my top favorites.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/23/sketch.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/23/sketch.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wolfpack pt 4</title>
+        <description>&lt;h2&gt; The wheels are turning &lt;/h2&gt;
+
+&lt;p&gt;Today was Wolfpack’s second “official” meeting. We got a lot done. Well, at least I felt like I did. I’m definitely feeling much more productive with my time. We were able to go over the site map I made as a group and make a few changes that really make it feel more concrete. I was also able to work on some user stories. I’m seeing now how the UX research side of things really plays into the overall concept of the design. It’s all starting to click! Of course now my mind won’t stop racing with different ideas we can try out. Different style, color schemes, logos, etc. Luckily this next sprint I’m starting wireframes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-sitemap2.png&quot; alt=&quot;fmf site map&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I forgot how nice it is to work in the same room as other people. It’s so convenient being able to just ask someone across the table a quick question, or ask the team as a whole about an idea and have everyone come to a decision face-to-face as opposed to just on Slack. (not that I don’t love Slack!) It reminds me of the good ol’ days in the design room~&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 21 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/21/wolfpack-pt-4.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/21/wolfpack-pt-4.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wolfpack pt 3</title>
+        <description>&lt;h2&gt; Boxes and arrows &lt;/h2&gt;
+
+&lt;p&gt;So full disclosure. I had to look up exactly what a user flow consisted of. It’s been a few months since I had made one, and that included first time practice. I did however find a &lt;a href=&quot;http://uxmovement.com/wireframes/site-flows-vs-user-flows-when-to-use-which/&quot;&gt; really neat site &lt;/a&gt; that helped re-educate me. I also learned what the difference between a user flow and a site map are, which became really helpful when working with my teammates and planning out how big we wanted the site to be. It also is a huge weight lifted to be able to visually see what each page leads to. I’ve started on the site map so far. Tomorrow we’ll all meet together again and I’ll be able to get some input.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;blog-image drop-shadow&quot;&gt;
+    &lt;img src=&quot;/images/blog-post-images/fmf-sitemap1.png&quot; alt=&quot;fmf site map&quot; /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried to organize the site map best I could by color coating it. I gave purple to the static pages that would just hold basic information or navigational links, green was given to pages which involved form and submit functions where a user would input information, and yellow to pages that were just made up of search results.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/19/wolfpack-pt-3.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/19/wolfpack-pt-3.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wolfpack pt 2</title>
+        <description>&lt;h2&gt; Find my Furball: A new side project &lt;/h2&gt;
+
+&lt;p&gt;We’ve started our brainstorming today. Our goal is to create an app for pet owners who have recently lost a pet. Let’s say a woman lost her dog, she’d be able to use the app, post what kind of dog she had, some physical information (size, weight, breed, color, etc) and in what location she lost it or last saw it. Other people in her area who also have the app would be able to check and see that that dog was lost, and be on the lookout for said pet. We’re thinking that the app would also be a good tool for veterinarians and animal shelters, where a lot of lost dogs and pets are taken to.&lt;/p&gt;
+
+&lt;p&gt;We’ve got a good idea where to start on it. Of course, being the only designer in a group of front and back enders, a lot of the early work will be on me and Jen (since it was her project idea). We’ve decided to organize our workflow using agile, like we did for the group project at The Iron Yard, so today was mostly just about planning out what each person should take care of in their first sprint. The first few sprints are going to be pretty heavy on my end, with me doing both UX and UI for the project. This week I’m focusing on creating a site map and, if I can, some user flow charts.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/14/wolfpack-pt-2.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/14/wolfpack-pt-2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wolfpack</title>
+        <description>&lt;h2&gt; Wolfpack is back! &lt;/h2&gt;
+
+&lt;p&gt;My old team from our group project during The Iron yard is back together. We’ve decided to start a brand new side project together. It’ll be nice to have a legitimate project to work on, and also to be part of a group (more pressure to get stuff done when you have other people counting on your work to be finished). We’ve been meeting a few times here and there since The Iron Yard ended, but that was mostly us trying to decide if we wanted to do something new or go back and revamp one of our old projects.&lt;/p&gt;
+
+&lt;p&gt;Since our group projects were so long ago, and we’ve learned so much since then, we all decided that a brand new project would be more challenging and fun. This week we decide on a new project to start. It was tossed around that we could attempt making a game of some sort, or a social app. I’m pretty indifferent with whatever we choose. I just want to have something to design for! The less in my hands the project is, I figure, the more realistic.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://janinahartleydesigns.com//2016/06/13/wolfpack.html</link>
+        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/13/wolfpack.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Fun with colors pt 2</title>
@@ -36,258 +247,6 @@
         <pubDate>Sun, 05 Jun 2016 00:00:00 -0500</pubDate>
         <link>http://janinahartleydesigns.com//2016/06/05/fun-with-colors-pt-2.html</link>
         <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/05/fun-with-colors-pt-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fun with colors</title>
-        <description>&lt;h2&gt; Color generators &lt;/h2&gt;
-
-&lt;p&gt;So the other day someone from Slack posted a link to one of those websites that generates color combinations. This one, Color Calculator, gives you the option to decide what kind of relationship you want the colors to have with each other (complementary, monochromatic, analogous, etc), and I’ve always wanted to try out one of those create-a-design-based-off-of-limited-colors challenges.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just for fun I tried it out. Using a dark red I generated an analogous color combination and opened a new file in Illustrator. Based off that colors I immediately thought of wine and vineyards. I ended up warming up with a little champagne (or rosé) icon.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;blog-image glass-image&quot;&gt;
-    &lt;img src=&quot;/images/blog-post-images/glass.jpg&quot; alt=&quot;Wine glass&quot; /&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Trying to think up a more flushed out design, I thought up a scenario where a local restaurant or wine bar was having a special event. I designed a promotional menu with some featured kinds of wine and snacks.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;blog-image drop-shadow&quot;&gt;
-    &lt;img src=&quot;/images/blog-post-images/wine-poster.jpg&quot; alt=&quot;Wine Poster&quot; /&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m not quite happy with it so far. Looks a little too boxy. I wouldn’t mind some more practice with informational posters and designs. Maybe I’ll make that one of my next side projects…&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 04 Jun 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/06/04/fun-with-colors.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/06/04/fun-with-colors.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Seattle Trip</title>
-        <description>&lt;h2&gt; Visiting the Bellevue office &lt;/h2&gt;
-
-&lt;p&gt;Today I got to take a brief, private tour of a local office in Bellevue. Thanks to family connections, I got to see real world UI and UX designers and PMs in action. I also got to see a few wireframes, flowcharts, and mockups of the teams current project.&lt;/p&gt;
-
-&lt;p&gt;It was nice being able to see exactly what a UX or UI job would entail in the “real world.” Thanks to The Iron Yard, I have a pretty good level of foundation knowledge for a junior UI or UX job (at this point I”m looking more for UI, possible UI - development). But it’s nice to get a realistic sense of what I might actually be doing in a UI/UX job. It also helps me better prepare for questions that I would want to ask in a interview.&lt;/p&gt;
-
-&lt;p&gt;The company, Agilysys, is a leading provider of hospitality software solutions (they design and market POS and PMS systems, as well as many others). The team I got to shadow was working on a new product for kiosk machines that would stand in Grab n Go outlets. Basically, they are creating an interaction that would happen when a customer wants to buy anything from a meal, to a quick snack.&lt;/p&gt;
-
-&lt;p&gt;I got to talk with one of the head UX designers, who talked about how one of their biggest challenges is creating a product that would work for a business that has one simple, strict menu, as well as for a business with multiple menus, multiple choices (a burger that has choices of lettuce, cheeses, etc), and combinations. It’s really interesting seeing a team work through different designs, different user stories, and workflows that lead to working prototypes and Beta systems.&lt;/p&gt;
-
-&lt;p&gt;I’m grateful for being able to see some real world offices, and meet some great designers and developers.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 31 May 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/05/31/seattle-trip.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/31/seattle-trip.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Merge Conflicts</title>
-        <description>&lt;h2&gt; It&#39;s like, 2am &lt;/h2&gt;
-
-&lt;p&gt;Alright. So this has happened enough times that I need to write this somewhere so I don’t have to go and keep finding it on the internet. Merge conflicts. You getting a bunch of .scssc file conflicts?&lt;/p&gt;
-
-&lt;p&gt;Delete them: 
-&lt;span class=&quot;sec-font bg-font&quot;&gt; git rm [file name] &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;( &lt;a href=&quot;http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch&quot;&gt; http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch &lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;How about those super fun DS_Store files? Remember the .gitignore stuff.&lt;/p&gt;
-
-&lt;p&gt;Show those hidden files: 
-&lt;span class=&quot;sec-font bg-font&quot;&gt; defaults write com.apple.finder AppleShowAllFiles YES &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;( &lt;a href=&quot;http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/&quot;&gt; http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/ &lt;/a&gt; )&lt;/p&gt;
-
-&lt;p&gt;Then delete the DS_Store files: &lt;br /&gt;
-&lt;span class=&quot;sec-font bg-font&quot;&gt; find . -name .DS_Store -print0 | xargs -0 git rm -f –ignore-unmatch &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;and type “.DS_Store” into the .gitignore file (you may have to create it*): 
-&lt;span class=&quot;sec-font bg-font&quot;&gt; git commit -m ‘.DS_Store banished! &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;*git add .gitignore ( &lt;a href=&quot;http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository&quot;&gt; http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository &lt;/a&gt; )&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 24 May 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/24/merge-conflicts.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>3D Painting!</title>
-        <description>&lt;h2&gt; Look at this! &lt;/h2&gt;
-
-&lt;p&gt;I saw this video on LinkedIn the other day. This is incredible to me.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;iframe class=&quot;blog-video&quot; src=&quot;https://www.youtube.com/embed/I8OuSJKSkwE?list=PLKfWL8IXgKBte4TfD53pLaHONfSYCX0RH&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m going to be honest, the rate of which technology has grown in my lifetime has sometimes been unnerving (I may, or may not, buy into the whole Skynet thing). But virtual reality is something I’m really excited for, now more than ever.&lt;/p&gt;
-
-&lt;p&gt;For me, growing up doodling in sketchbooks every night (without fail), the idea of being able to paint, in 3D is like a dream come true. As a kid, Harold and the Purple Crayon was one of those books that made me wish reality wasn’t so restricting. I thought the idea that drawing something and having it come to life, no strings attached, was incredible. This seems like the closest thing to it.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2&gt; VR filled future &lt;/h2&gt;
-
-&lt;p&gt;This sort of thing gets me excited for what kind of projects I could be a part of in the future. One of my personal projects is to create a “game” or interaction experience where a child could virtually live through historical events.&lt;/p&gt;
-
-&lt;p&gt;Throughout my research of different methods of teaching, one of the reoccurring ideas that’s stuck with me is that memory and experience are tied together. We are more likely to remember something when we have some sort of stimuli connected with that memory. The same way the smell of a certain dish may remind us of that vacation we took as a kid. Or the way the color purple always makes us think of that favorite dress we wore to a school dance.&lt;/p&gt;
-
-&lt;p&gt;To create an experience for children (students) that would help engage, and educate, through experience, is a dream come true.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 22 May 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/05/22/3D-painting.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/05/22/3D-painting.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Client Project</title>
-        <description>&lt;h2&gt; RedArena &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.redarena.org&quot;&gt; RedArena &lt;/a&gt; is a local Dripping Springs organization that offers physical therapy, and traditional therapy, to children and adults while riding horses. Horseback riding is a specialized therapy option that can be extremely beneficial for children.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2&gt; Creating an app for a real client &lt;/h2&gt;
-
-&lt;p&gt;It was nice working with a client for a change. Not that I don’t like personal projects and such, it’s just nice to have someone (who isn’t a designer) look at your work and show you a view you probably wouldn’t have ever saw. Working with another designer was also nice, but it definitely had it’s stresses. I like working with others, but I’m usually worried that I’ll fall behind, or end up having people waiting on me before they can continue. But when someone is better at one thing, and your better at another it makes it easy to split up the workload a bit.&lt;/p&gt;
-
-&lt;p&gt;I’ve had experience working with clients before, and it really is nice (maybe I’ve just been really lucky). You have (in my experience) enough set rules to start a project, but enough freedom to go off in all sorts of different directions. My hurtles usually come in reigning myself back enough so that I don’t go too far off in one direction just to have the client like an entirely different direction. But working on my portfolio and self brand again is kind of teaching me a little more of that, which is always good.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 26 Apr 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/04/26/client-project.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/04/26/client-project.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mobile App</title>
-        <description>&lt;h2&gt; Recreational sports app &lt;/h2&gt;
-
-&lt;p&gt;Our next project is to design a strictly mobile app for a recreational sports team. I chose to make an app specifically for a swim team (but one that could be used for any sport).&lt;/p&gt;
-
-&lt;p&gt;In researching different sports related apps, one thing I find fairly commonplace is the lack of heavy feedback from pressing buttons. Unlike with desktop, there isn’t a lot of place to have fancy effects happening when you click, hover, or swipe a button or page.&lt;/p&gt;
-
-&lt;p&gt;A lot of them (a lot of iPhone apps in general it seems) usually have nav bars of some sort on the bottom of the screen. But not all; most that don’t have a bottom nav bar will have some sort of drop down or list page that acts as their main navigation.&lt;/p&gt;
-
-&lt;p&gt;The main goal of the app seems to be to let the manager/coach or player get in and out as fast as possible (like most apps), without being distracted or delayed by fancy animations or unnecessary effects.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Apr 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/04/12/mobile-apps.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/04/12/mobile-apps.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Web App</title>
-        <description>&lt;h2&gt; Designing for an app, not a website &lt;/h2&gt;
-
-&lt;p&gt;So last week was my first time designing an app for the web…it was interesting. I had always looked at apps as primarily phone based, and found it interesting that web apps are so much more common then I thought.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2&gt; Redesigning LinkedIn &lt;/h2&gt;
-
-&lt;p&gt;For this project, we decided to focus on the LinkedIn Home page. A lot of people have trouble traversing through LinkedIn, or don’t care about what is displayed on the current home page. We each got to choose what kind of user we wanted to design for.&lt;/p&gt;
-
-&lt;p&gt;For my home page, I wanted to mostly simplify what was already there. I was focusing on a user that used LinkedIn as a sort of portal dedicated to aide them in their search for a new job. It wasn’t as highly focused on finding new connections, more about staying in the know with current news (which would be chosen by the user, depending on their personal or career interests), and easily finding new job postings and opportunities.&lt;/p&gt;
-
-&lt;p&gt;Thusly, I wanted the most “in your face” options to be about current job listings, instead of “People you may know.” I also wanted to implement the news side of LinkedIn. If someone is serious about the type of career they want, they need to know current events revolving around it. Lastly, their homepage would show how many people are viewing their profile. That’s, in my opinion, one of the best aspects of LinkedIn right now. You get to see how “popular” you are, and how many people are really looking at you, looking at your skills, and for someone who is looking for a job, that’s really useful.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Apr 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/04/05/web-app.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/04/05/web-app.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>jQuery</title>
-        <description>&lt;h2&gt; Re-learning jQuery &lt;/h2&gt;
-
-&lt;p&gt;This week I (re)learned some of the basics of jQuery. It’s a nice change from the Javascript of last week (although, when I have some more free time…, I’d like to do some more Javascript tutorials. See if I can get a better sense of it, and not have to rely on jQuery so much). Mostly been doing some practices, getting back into the flow of things. I’ve got some new CodePens (super hacky right now) of a few of them.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I also went back after a few weeks to redo some old CSS Animations on CodePen. I had lost a few of them (forgot I wasn’t in a program that I could “save as,” and forgot to Fork them…), and it’s been weighing over my shoulder to go back and redo them best I can. At least this time I managed to make them prettier!&lt;/p&gt;
-
-&lt;h3&gt; Getting back into jQuery CodePens; &lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 1) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/qZjvGK&quot;&gt; http://codepen.io/jhartley/pen/qZjvGK &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 2) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/eZRoWV&quot;&gt; http://codepen.io/jhartley/pen/eZRoWV &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 3) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/VaWogw &quot;&gt; http://codepen.io/jhartley/pen/VaWogw  &lt;/a&gt; 
-&lt;br /&gt;
-(really more of an extension of #2, but with some bonus content)&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3&gt; Redo CSS Animations; &lt;/h3&gt;
-
-&lt;p&gt;(the redos)&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 3) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/YqxKrp&quot;&gt; http://codepen.io/jhartley/pen/YqxKrp &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 4) &lt;/span&gt; = &lt;a href=&quot; http://codepen.io/jhartley/pen/JXyPZG&quot;&gt;  http://codepen.io/jhartley/pen/JXyPZG &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;(the original)&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 1) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/EKWdOm&quot;&gt; http://codepen.io/jhartley/pen/EKWdOm &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 2) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/oxZQqm&quot;&gt; http://codepen.io/jhartley/pen/oxZQqm &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;sec-font&quot;&gt; 5) &lt;/span&gt; = &lt;a href=&quot;http://codepen.io/jhartley/pen/aNJPoP&quot;&gt; http://codepen.io/jhartley/pen/aNJPoP &lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 28 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/03/28/jquery.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/28/jquery.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CSS Zen Garden pt 2</title>
-        <description>&lt;h2&gt; CSS Zen Garden &lt;/h2&gt;
-
-&lt;p&gt;Almost done for the weekend on my CSS Zen Garden project. I’m really liking how the header and CSS animations are looking, I’m just a little concerned that it’s all looking too “Dr. Suess-y.” The colors don’t look all that inviting (not that Futurism is necessarily the most “inviting” time in art history). Maybe I’m just worrying too much since I just now realized that my color scheme is exactly the same as my shower curtains (thought it looked familiar!). After this weekend I’m going to be focused on getting the middle sections looking the way I want them to on the largest breakpoint (desktop size). Minus that, I’m really happy with how responsive everything is (or seems to be so far on my screen)!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 27 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</link>
-        <guid isPermaLink="true">http://janinahartleydesigns.com//2016/03/27/css-zen-garden-pt-2.html</guid>
         
         
       </item>

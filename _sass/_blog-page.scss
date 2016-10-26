@@ -63,6 +63,7 @@
 
 	margin: 0 auto;
 	margin-bottom: 5em;
+	font-size: 1.1em;
 }
 
 .post-header{
@@ -102,10 +103,28 @@
 	}
 }
 
+.double-image{
+
+	img{
+		// margin and width in _breakpoints.scss
+		display: block;
+		float: left;
+		margin-bottom: 2em;
+	}
+}
+
 .glass-image{
 
 	img{
 		width: 300px;
+	}
+}
+
+.fmf-wireframe3{
+
+	img{
+
+		max-width: 500px;
 	}
 }
 

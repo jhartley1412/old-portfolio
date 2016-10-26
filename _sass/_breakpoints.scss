@@ -164,6 +164,14 @@
 		}
 	}
 
+	.double-image{
+
+		img{
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+
 }
 
 
@@ -364,6 +372,15 @@
 		li{
 			width: 25%;
     		margin: 0 3% 2em 3%;
+		}
+	}
+
+	.double-image{
+
+		img{
+			width: 45%;
+			margin: 0 2.5%;
+			margin-bottom: 2em;
 		}
 	}
 
